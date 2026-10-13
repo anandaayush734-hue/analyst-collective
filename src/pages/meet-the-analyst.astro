@@ -1,0 +1,101 @@
+---
+import Base from '../layouts/Base.astro';
+const highlights = [
+  'Best Research Paper Award, International Conference on Deep-Tech & Policy (ICSSR)',
+  'Published research on the aviation industry, IJNRD Journal',
+  'Winner, Finance Fest "Chakravyuh", CHRIST University (150+ participants)',
+  'Millennium Fellow, Millennium Campus Network (selected from 5,000+ candidates)',
+];
+const stack = [
+  { name: 'AI research', note: 'Claude scans public news and drafts the brief' },
+  { name: 'GitHub', note: 'Stores the site and runs the daily automation' },
+  { name: 'Cloudflare', note: 'Hosts the site and publishes every update' },
+  { name: 'Human review', note: 'Every brief is approved before it goes live' },
+];
+---
+<Base title="Meet the Analyst" description="Ayush Anand: finance graduate and Industrials analyst who built The Analyst Collective to cut through news noise with automation.">
+  <section class="hero">
+    <div class="intro">
+      <p class="kicker">Meet the Analyst</p>
+      <h1>Ayush Anand</h1>
+      <p class="role">Investment Banking Trainee · Industrials Coverage · Bengaluru</p>
+
+      <div class="prose">
+        <p>Ayush works in investment banking, covering the Industrials sector. Before that, he interned in M&amp;A with Deloitte's Strategy, Risk &amp; Transactions team, where he worked on valuation, transaction analysis and pitch books. He also interned in Global Treasury Operations at Aditya Birla Global Trading, where he worked on cross-border trade documentation and due diligence.</p>
+        <p>He holds a BBA in Finance and International Business from CHRIST (Deemed to be University), Bengaluru. His work spans DCF and comparable-company valuation, financial modelling and industry research.</p>
+      </div>
+
+      <div class="actions">
+        <a class="btn-primary" href="/files/Ayush_Anand_Resume.pdf" download="Ayush_Anand_Resume.pdf">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>
+          Download Resume
+        </a>
+        <a class="btn-ghost" href="https://www.linkedin.com/in/ayushfinance100/" target="_blank" rel="noopener">Connect on LinkedIn ↗</a>
+      </div>
+    </div>
+
+    <figure class="portrait">
+      <img src="/images/ayush-anand.jpg" alt="Portrait of Ayush Anand" width="413" height="531" loading="eager" />
+      <figcaption>Ayush Anand, founder of The Analyst Collective</figcaption>
+    </figure>
+  </section>
+
+  <section class="story">
+    <div class="section-title"><h2>Why he built this</h2></div>
+    <div class="prose">
+      <p class="lede">Finance by training, builder by instinct.</p>
+      <p>Although his degree is in finance, Ayush noticed a problem early in his career. Newspapers and business channels cover everything, so the handful of stories that matter to an Industrials banker get buried in noise. Reading more wasn't the answer; filtering better was.</p>
+      <p>So he combined his coding skills with AI tools and automation. Every morning a pipeline scans public news, keeps only what is relevant to <strong>EV, Automobiles, General Industrials and Aerospace &amp; Defence</strong>, and explains why each story matters. It runs on GitHub and Cloudflare, so the site updates itself daily without servers to manage.</p>
+      <p>The Analyst Collective started as a <strong>learning project</strong>: a way to sharpen his sector knowledge while building real tools with modern AI.</p>
+    </div>
+
+    <div class="stack">
+      {stack.map((s) => (
+        <div class="stack-item"><p class="stack-name">{s.name}</p><p class="stack-note">{s.note}</p></div>
+      ))}
+    </div>
+  </section>
+
+  <section>
+    <div class="section-title"><h2>Highlights</h2></div>
+    <ul class="hl">{highlights.map((h) => <li>{h}</li>)}</ul>
+  </section>
+
+  <aside class="note" role="note">
+    <p class="kicker">A note on accuracy</p>
+    <p>This website is a personal learning project. Briefs are drafted with the help of AI and reviewed before publishing, but <strong>AI can make mistakes</strong>. Always check figures against the linked original sources. Content is compiled only from public information, is not investment advice, and reflects personal views, not those of any employer.</p>
+  </aside>
+</Base>
+<style>
+  .hero { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 56px; align-items: start; padding-top: 32px; }
+  .hero h1 { font-size: clamp(38px, 6vw, 60px); margin-bottom: 6px; }
+  .role { font-size: 14px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--teal); margin: 0 0 20px; }
+  .prose { font-size: 19px; }
+  .prose p { margin: 0 0 16px; }
+  .lede { font-size: 24px; font-style: italic; color: var(--claret); }
+  .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 24px; }
+  .btn-primary, .btn-ghost { display: inline-flex; align-items: center; gap: 8px; font: 600 15px/1 var(--sans); padding: 13px 20px; border-radius: 2px; text-decoration: none; }
+  .btn-primary { background: var(--claret); color: #fff; border: 1px solid var(--claret); }
+  .btn-primary:hover { color: #fff; filter: brightness(1.1); }
+  .btn-primary svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+  .btn-ghost { border: 1px solid var(--ink); color: var(--ink); }
+  .btn-ghost:hover { background: var(--ink); color: var(--paper); }
+  .portrait { margin: 0; border-top: 4px solid var(--claret); background: var(--card); padding: 12px; }
+  .portrait img { display: block; width: 100%; height: auto; }
+  .portrait figcaption { font-size: 13px; color: var(--ink-2); margin-top: 10px; }
+  .stack { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--ink); margin: 28px 0 0; }
+  .stack-item { padding: 14px 16px; border-right: 1px solid var(--rule); }
+  .stack-item:last-child { border-right: 0; }
+  .stack-name { margin: 0; font-family: var(--serif); font-weight: 700; font-size: 19px; }
+  .stack-note { margin: 4px 0 0; font-size: 14px; color: var(--ink-2); }
+  .hl { padding-left: 20px; margin: 0; font-size: 16px; }
+  .hl li { margin-bottom: 8px; }
+  .note { margin-top: 40px; background: var(--card); border-left: 4px solid var(--teal); padding: 16px 20px; max-width: 820px; }
+  .note p { margin: 0; font-size: 15px; }
+  .note .kicker { color: var(--teal); margin-bottom: 6px; }
+  @media (max-width: 820px) {
+    .hero { grid-template-columns: 1fr; gap: 24px; }
+    .portrait { order: -1; max-width: 280px; }
+    .stack-item { border-right: 0; border-bottom: 1px solid var(--rule); }
+  }
+</style>
