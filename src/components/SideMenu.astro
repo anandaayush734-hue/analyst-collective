@@ -1,0 +1,124 @@
+---
+import { getCollection } from 'astro:content';
+import { briefs, sectors, fmtDate } from '../lib';
+import snapshot from '../data/market-snapshot.json';
+const cases = (await getCollection('case-studies')).sort((a, b) => b.data.date.localeCompare(a.data.date));
+const recent = briefs.slice(0, 5);
+const snap: any = snapshot;
+const dayChange = (slug: string) => snap.sectors?.[slug]?.ranges?.['1D']?.sectorChange as number | undefined;
+const fmt = (v?: number) => (v == null ? '' : `${v > 0 ? '▲ +' : v < 0 ? '▼ ' : ''}${v.toFixed(2)}%`);
+const path = Astro.url.pathname;
+const on = (href: string) => (href === '/' ? path === '/' : path.startsWith(href)) ? 'on' : undefined;
+---
+<button type="button" class="menu-btn" aria-label="Open menu" aria-controls="side-menu" aria-expanded="false" data-menu-open>
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" /></svg>
+</button>
+
+<div class="scrim" data-menu-scrim hidden></div>
+
+<aside id="side-menu" class="drawer" aria-label="Site menu" aria-hidden="true" inert data-menu>
+  <div class="d-head">
+    <a href="/" class="d-logo">The Analyst Collective</a>
+    <button type="button" class="d-close" aria-label="Close menu" data-menu-close>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" /></svg>
+    </button>
+  </div>
+
+  <nav class="d-body" aria-label="All sections">
+    <div class="grp">
+      <p class="grp-t">Start here</p>
+      <a href="/" class={on('/')}>Today's brief</a>
+      <a href="/meet-the-analyst/" class={on('/meet-the-analyst/')}>Meet the Analyst</a>
+    </div>
+
+    <div class="grp">
+      <p class="grp-t">Sectors <span class="grp-note">1D vs prev. close</span></p>
+      {sectors.map((s) => (
+        <a href={`/sectors/${s.slug}/`} class={on(`/sectors/${s.slug}/`)}>
+          <span>{s.name}</span>
+          {dayChange(s.slug) != null && <span class="chg">{fmt(dayChange(s.slug))}</span>}
+        </a>
+      ))}
+    </div>
+
+    <div class="grp">
+      <p class="grp-t">Deals &amp; learning</p>
+      <a href="/deals/" class={on('/deals/')}>Public Deal Tracker</a>
+      <a href="/case-studies/" class={on('/case-studies/')}>Case Studies</a>
+      {cases.map((c) => <a href={`/case-studies/${c.id}/`} class="sub">{c.data.title.split(':')[0]}</a>)}
+      <a href="/case-studies/#further-learning" class="sub">Further learning: The Valuation School</a>
+      <a href="/glossary/" class={on('/glossary/')}>Glossary &amp; KPIs</a>
+    </div>
+
+    <div class="grp">
+      <p class="grp-t">Recent briefs</p>
+      {recent.map((b) => <a href={`/briefs/${b.date}/`} class="sub">{fmtDate(b.date, { weekday: 'short', day: 'numeric', month: 'short' })}</a>)}
+      <a href="/briefs/" class={on('/briefs/')}>Full archive</a>
+    </div>
+
+    <div class="grp">
+      <p class="grp-t">About</p>
+      <a href="/about/" class={on('/about/')}>About &amp; methodology</a>
+    </div>
+    <p class="d-foot">Public sources only · Not investment advice</p>
+  </nav>
+</aside>
+
+<style>
+  .menu-btn { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; padding: 0; border: 2px solid var(--ink); background: var(--card); color: var(--ink); border-radius: 2px; cursor: pointer; flex: none; }
+  .menu-btn svg, .d-close svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
+  .menu-btn:hover { background: var(--ink); color: var(--paper); }
+  .scrim { position: fixed; inset: 0; background: rgba(20, 16, 14, .45); z-index: 90; opacity: 0; transition: opacity .25s; }
+  .scrim.show { opacity: 1; }
+  .drawer { position: fixed; top: 0; left: 0; bottom: 0; width: min(340px, 86vw); background: var(--paper); border-right: 1px solid var(--rule); box-shadow: 4px 0 24px rgba(0,0,0,.18); z-index: 100; display: flex; flex-direction: column; transform: translateX(-102%); transition: transform .28s ease; }
+  .drawer.open { transform: translateX(0); }
+  .d-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 14px 16px; border-bottom: 4px solid var(--ink); }
+  .d-logo { font-family: var(--serif); font-weight: 700; font-size: 21px; color: var(--claret); text-decoration: none; line-height: 1.1; }
+  .d-close { width: 36px; height: 36px; display: inline-flex; align-items: center; justify-content: center; border: 1px solid var(--rule); background: transparent; color: var(--ink); border-radius: 2px; cursor: pointer; }
+  .d-close:hover { border-color: var(--ink); }
+  .d-body { flex: 1; overflow-y: auto; overscroll-behavior: contain; padding: 4px 0 24px; -webkit-overflow-scrolling: touch; }
+  .grp { padding: 12px 16px 10px; border-bottom: 1px solid var(--rule); }
+  .grp-t { margin: 0 0 6px; font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--claret); display: flex; justify-content: space-between; align-items: baseline; }
+  .grp-note { font-size: 10px; letter-spacing: .04em; text-transform: none; color: var(--ink-2); font-weight: 500; }
+  .grp a { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; padding: 8px 8px; margin: 0 -8px; font-size: 15px; font-weight: 600; text-decoration: none; border-left: 3px solid transparent; }
+  .grp a:hover { background: var(--card); }
+  .grp a.on { border-left-color: var(--claret); background: var(--card); }
+  .grp a.sub { font-weight: 400; font-size: 14px; color: var(--ink-2); padding-left: 20px; }
+  .grp a.sub:hover { color: var(--claret); }
+  .chg { font-family: var(--mono); font-size: 12px; font-weight: 500; color: var(--ink-2); white-space: nowrap; }
+  .d-foot { margin: 16px; font-size: 12px; color: var(--ink-2); }
+  @media (prefers-reduced-motion: reduce) { .drawer, .scrim { transition: none; } }
+</style>
+
+<script>
+  const btn = document.querySelector<HTMLButtonElement>('[data-menu-open]');
+  const drawer = document.querySelector<HTMLElement>('[data-menu]');
+  const scrim = document.querySelector<HTMLElement>('[data-menu-scrim]');
+  const closeBtn = document.querySelector<HTMLButtonElement>('[data-menu-close]');
+  if (btn && drawer && scrim && closeBtn) {
+    const open = () => {
+      scrim.hidden = false;
+      drawer.inert = false;
+      drawer.setAttribute('aria-hidden', 'false');
+      btn.setAttribute('aria-expanded', 'true');
+      document.body.style.overflow = 'hidden';
+      requestAnimationFrame(() => { drawer.classList.add('open'); scrim.classList.add('show'); });
+      closeBtn.focus();
+    };
+    const close = (returnFocus = true) => {
+      drawer.classList.remove('open');
+      scrim.classList.remove('show');
+      drawer.setAttribute('aria-hidden', 'true');
+      drawer.inert = true;
+      btn.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
+      setTimeout(() => { scrim.hidden = true; }, 280);
+      if (returnFocus) btn.focus();
+    };
+    btn.addEventListener('click', open);
+    closeBtn.addEventListener('click', () => close());
+    scrim.addEventListener('click', () => close());
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && drawer.classList.contains('open')) close(); });
+    drawer.querySelectorAll('a').forEach((a) => a.addEventListener('click', () => close(false)));
+  }
+</script>

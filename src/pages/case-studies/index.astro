@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import { getCollection } from 'astro:content';
 import { sectorName, fmtDate } from '../../lib';
+import ValuationSchool from '../../components/ValuationSchool.astro';
 const cases = (await getCollection('case-studies')).sort((a, b) => b.data.date.localeCompare(a.data.date));
 ---
 <Base title="Case Studies" description="Public-deal case studies across Industrials: structure, valuation logic and lessons for bankers.">
@@ -16,6 +17,7 @@ const cases = (await getCollection('case-studies')).sort((a, b) => b.data.date.l
       <div><h2>{c.data.title}</h2><p class="muted">{c.data.dek}</p></div>
     </a>
   ))}
+  <ValuationSchool />
 </Base>
 <style>
   .row { display: grid; grid-template-columns: 220px 1fr; gap: 24px; border-top: 1px solid var(--rule); padding: 20px 0; text-decoration: none; }

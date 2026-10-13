@@ -1,0 +1,33 @@
+---
+interface Props { compact?: boolean }
+const { compact = false } = Astro.props;
+---
+<section class={`tvs ${compact ? 'compact' : ''}`} id={compact ? undefined : 'further-learning'} aria-labelledby={compact ? 'tvs-h-c' : 'tvs-h'}>
+  <p class="kicker">Further learning</p>
+  <h2 id={compact ? 'tvs-h-c' : 'tvs-h'}>The Valuation School</h2>
+  <div class="body">
+    <p>Much of the thinking behind our case studies is inspired by <strong>The Valuation School</strong>, an Indian finance-education platform founded by <strong>Parth Verma</strong>, a Chartered Accountant and NYU Stern alum. It teaches valuation, financial modelling and equity research in a practical, step-by-step way, alongside free YouTube lessons and CFA Level 1 coaching.</p>
+    {!compact && <p>Its newsletter, <strong>TVS Weekly</strong>, breaks complex finance and economic topics into short, easy-to-understand updates. Reading it regularly is a useful habit for anyone learning finance or investment banking.</p>}
+  </div>
+  <div class="actions">
+    <a class="btn-primary" href="https://tvsweekly.substack.com/" target="_blank" rel="noopener">Read TVS Weekly ↗</a>
+    <a class="btn-ghost" href="https://thevaluationschool.com/" target="_blank" rel="noopener">Visit The Valuation School ↗</a>
+  </div>
+  <p class="disclaim"><strong>Please note:</strong> The Analyst Collective is not associated with The Valuation School. We have only taken inspiration from it, and we believe it is a good source of knowledge for learning finance and investment banking.</p>
+</section>
+<style>
+  .tvs { margin-top: 40px; border-top: 4px solid var(--ink); background: var(--card); padding: 18px 22px 20px; }
+  .tvs h2 { font-size: 28px; margin: 4px 0 10px; }
+  .tvs.compact { margin-top: 28px; border-top-width: 2px; }
+  .tvs.compact h2 { font-size: 22px; }
+  .body { max-width: 760px; }
+  .body p { font-family: var(--serif); font-size: 18px; line-height: 1.55; margin: 0 0 12px; }
+  .compact .body p { font-size: 16px; }
+  .actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 6px 0 14px; }
+  .btn-primary, .btn-ghost { display: inline-flex; align-items: center; font: 600 14px/1 var(--sans); padding: 11px 16px; border-radius: 2px; text-decoration: none; }
+  .btn-primary { background: var(--claret); color: #fff; border: 1px solid var(--claret); }
+  .btn-primary:hover { color: #fff; filter: brightness(1.1); }
+  .btn-ghost { border: 1px solid var(--ink); color: var(--ink); }
+  .btn-ghost:hover { background: var(--ink); color: var(--paper); }
+  .disclaim { margin: 0; font-size: 13px; color: var(--ink-2); border-left: 3px solid var(--teal); padding: 6px 10px; max-width: 760px; }
+</style>

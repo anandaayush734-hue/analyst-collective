@@ -4,6 +4,7 @@ import BriefBody from '../components/BriefBody.astro';
 import { latest, fmtDate, sectorName } from '../lib';
 import deals from '../data/deals.json';
 import { getCollection } from 'astro:content';
+import ValuationSchool from '../components/ValuationSchool.astro';
 const cases = (await getCollection('case-studies')).sort((a, b) => b.data.date.localeCompare(a.data.date));
 const recentDeals = [...deals].sort((a, b) => b.date.localeCompare(a.date)).slice(0, 4);
 ---
@@ -39,6 +40,8 @@ const recentDeals = [...deals].sort((a, b) => b.date.localeCompare(a.date)).slic
       </a>
     ))}
   </div>
+
+  <ValuationSchool compact />
 
   <div class="section-title"><h2>Meet the Analyst</h2><a href="/meet-the-analyst/">Full profile →</a></div>
   <a class="meet" href="/meet-the-analyst/">
