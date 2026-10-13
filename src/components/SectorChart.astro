@@ -8,6 +8,10 @@ const hasData = !!(data && data.ranges && Object.keys(data.ranges).length);
 const sessionLabel = snap.session
   ? new Date(snap.session + 'T00:00:00+05:30').toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'Asia/Kolkata' })
   : '';
+const gen = snap.generatedAt ? new Date(snap.generatedAt) : null;
+const genIST = gen ? gen.toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit', timeZone: 'Asia/Kolkata' }) : '';
+const closed = !!(gen && snap.session && (gen.toISOString().slice(0, 10) > snap.session || genIST >= '15:30'));
+const asOf = closed ? `Session close ${sessionLabel}` : `As of ${genIST} IST, ${sessionLabel}`;
 const payload = hasData ? JSON.stringify({ name: data.name, bench: snap.benchmark || 'Nifty 50', ranges: data.ranges }) : '';
 const fmt = (v: number | null | undefined) => (v == null ? '–' : `${v > 0 ? '+' : ''}${v.toFixed(2)}%`);
 ---
@@ -16,7 +20,7 @@ const fmt = (v: number | null | undefined) => (v == null ? '–' : `${v > 0 ? '+
     <div>
       <p class="kicker">Market performance</p>
       <h2>{hasData ? data.name : sectorName} vs {snap.benchmark || 'Nifty 50'}</h2>
-      {hasData && <p class="muted sub">Session close {sessionLabel} · updated after market close (4:00 PM IST)</p>}
+      {hasData && <p class="muted sub">{asOf} · refreshed every weekday at 4:00 PM IST</p>}
     </div>
     {hasData && (
       <div class="ranges" role="group" aria-label="Time range">

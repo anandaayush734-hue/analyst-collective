@@ -25,7 +25,7 @@ CONFIG = ROOT / "src" / "data" / "market-config.json"
 OUT = ROOT / "src" / "data" / "market-snapshot.json"
 IST = timezone(timedelta(hours=5, minutes=30))
 
-RANGES = {"1D": ("1d", "5m"), "1M": ("1mo", "1d"), "6M": ("6mo", "1d"), "1Y": ("1y", "1d")}
+RANGES = {"1D": ("5d", "5m"), "1M": ("1mo", "1d"), "6M": ("6mo", "1d"), "1Y": ("1y", "1d")}
 HOSTS = ["https://query1.finance.yahoo.com", "https://query2.finance.yahoo.com"]
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
 
@@ -53,16 +53,30 @@ def fetch_chart(symbol: str, rng: str, interval: str) -> dict | None:
     return None
 
 
-def to_series(res: dict, use_prev_close: bool) -> tuple[list[list], float | None]:
-    """Return [[unix_ts, pct], ...] and the last pct."""
+def to_series(res: dict, intraday: bool) -> tuple[list[list], float | None]:
+    """Return [[unix_ts, pct], ...] and the last pct.
+
+    intraday=True: data covers several sessions (5d, 5-minute bars). The base is the
+    last close of the previous session and only the latest session's bars are kept,
+    so the 1D change matches the usual "vs previous close" figure.
+    Otherwise the base is the first close in the range.
+    """
     ts = res.get("timestamp") or []
     closes = (((res.get("indicators") or {}).get("quote") or [{}])[0]).get("close") or []
     pts = [(t, c) for t, c in zip(ts, closes) if c is not None]
     if not pts:
         return [], None
-    meta = res.get("meta") or {}
-    base = (meta.get("chartPreviousClose") or meta.get("previousClose")) if use_prev_close else None
-    base = base or pts[0][1]
+    if intraday:
+        day = lambda t: datetime.fromtimestamp(t, IST).date()
+        last_day = day(pts[-1][0])
+        prev = [p for p in pts if day(p[0]) < last_day]
+        today = [p for p in pts if day(p[0]) == last_day]
+        if not prev or not today:
+            return [], None
+        base = prev[-1][1]
+        pts = today
+    else:
+        base = pts[0][1]
     series = [[int(t), round((c / base - 1) * 100, 3)] for t, c in pts]
     return series, series[-1][1]
 
@@ -93,7 +107,7 @@ def main() -> int:
     for label, (rng, iv) in RANGES.items():
         res = fetch_chart(bench_sym, rng, iv)
         if res:
-            bench[label] = to_series(res, use_prev_close=(label == "1D"))
+            bench[label] = to_series(res, label == "1D")
     if "1D" not in bench or not bench["1D"][0]:
         print("ERROR: could not fetch the Nifty 50; leaving snapshot unchanged.", errors, file=sys.stderr)
         return 1
@@ -154,7 +168,7 @@ def main() -> int:
             r["niftyChange"] = blast
         constituents.sort(key=lambda c: (c["dayChange"] is None, -(c["dayChange"] or 0)))
         snapshot["sectors"][slug] = {
-            "name": sec["name"],
+            "name": sec["name"] if source == "index" else sec.get("basketName", sec["name"]),
             "note": sec["note"],
             "source": source,
             "ranges": ranges,

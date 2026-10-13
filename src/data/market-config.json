@@ -1,18 +1,42 @@
 {
-  "benchmark": { "symbol": "^NSEI", "name": "Nifty 50" },
+  "benchmark": {
+    "symbol": "^NSEI",
+    "name": "Nifty 50"
+  },
   "sectors": {
     "ev": {
       "name": "EV basket",
       "note": "Equal-weighted basket of listed Indian EV, battery and EV-component companies.",
       "index": null,
       "basket": [
-        { "symbol": "OLAELEC.NS", "name": "Ola Electric" },
-        { "symbol": "ATHERENERG.NS", "name": "Ather Energy" },
-        { "symbol": "OLECTRA.NS", "name": "Olectra Greentech" },
-        { "symbol": "JBMA.NS", "name": "JBM Auto" },
-        { "symbol": "SONACOMS.NS", "name": "Sona BLW Precision" },
-        { "symbol": "EXIDEIND.NS", "name": "Exide Industries" },
-        { "symbol": "ARE&M.NS", "name": "Amara Raja Energy & Mobility" }
+        {
+          "symbol": "OLAELEC.NS",
+          "name": "Ola Electric"
+        },
+        {
+          "symbol": "ATHERENERG.NS",
+          "name": "Ather Energy"
+        },
+        {
+          "symbol": "OLECTRA.NS",
+          "name": "Olectra Greentech"
+        },
+        {
+          "symbol": "JBMA.NS",
+          "name": "JBM Auto"
+        },
+        {
+          "symbol": "SONACOMS.NS",
+          "name": "Sona BLW Precision"
+        },
+        {
+          "symbol": "EXIDEIND.NS",
+          "name": "Exide Industries"
+        },
+        {
+          "symbol": "ARE&M.NS",
+          "name": "Amara Raja Energy & Mobility"
+        }
       ]
     },
     "autos": {
@@ -20,30 +44,82 @@
       "note": "NSE's Nifty Auto index; falls back to an equal-weighted basket of leading OEMs if the index feed is unavailable.",
       "index": "^CNXAUTO",
       "basket": [
-        { "symbol": "MARUTI.NS", "name": "Maruti Suzuki" },
-        { "symbol": "M&M.NS", "name": "Mahindra & Mahindra" },
-        { "symbol": "BAJAJ-AUTO.NS", "name": "Bajaj Auto" },
-        { "symbol": "EICHERMOT.NS", "name": "Eicher Motors" },
-        { "symbol": "HEROMOTOCO.NS", "name": "Hero MotoCorp" },
-        { "symbol": "TVSMOTOR.NS", "name": "TVS Motor" },
-        { "symbol": "ASHOKLEY.NS", "name": "Ashok Leyland" },
-        { "symbol": "HYUNDAI.NS", "name": "Hyundai Motor India" }
-      ]
+        {
+          "symbol": "MARUTI.NS",
+          "name": "Maruti Suzuki"
+        },
+        {
+          "symbol": "M&M.NS",
+          "name": "Mahindra & Mahindra"
+        },
+        {
+          "symbol": "BAJAJ-AUTO.NS",
+          "name": "Bajaj Auto"
+        },
+        {
+          "symbol": "EICHERMOT.NS",
+          "name": "Eicher Motors"
+        },
+        {
+          "symbol": "HEROMOTOCO.NS",
+          "name": "Hero MotoCorp"
+        },
+        {
+          "symbol": "TVSMOTOR.NS",
+          "name": "TVS Motor"
+        },
+        {
+          "symbol": "ASHOKLEY.NS",
+          "name": "Ashok Leyland"
+        },
+        {
+          "symbol": "HYUNDAI.NS",
+          "name": "Hyundai Motor India"
+        }
+      ],
+      "basketName": "Auto OEM basket"
     },
     "industrials": {
       "name": "Capital goods basket",
       "note": "Equal-weighted basket of large listed Indian capital goods and power-equipment companies.",
       "index": null,
       "basket": [
-        { "symbol": "LT.NS", "name": "Larsen & Toubro" },
-        { "symbol": "SIEMENS.NS", "name": "Siemens" },
-        { "symbol": "ABB.NS", "name": "ABB India" },
-        { "symbol": "CGPOWER.NS", "name": "CG Power" },
-        { "symbol": "BHEL.NS", "name": "BHEL" },
-        { "symbol": "CUMMINSIND.NS", "name": "Cummins India" },
-        { "symbol": "THERMAX.NS", "name": "Thermax" },
-        { "symbol": "POWERINDIA.NS", "name": "Hitachi Energy India" },
-        { "symbol": "KEC.NS", "name": "KEC International" }
+        {
+          "symbol": "LT.NS",
+          "name": "Larsen & Toubro"
+        },
+        {
+          "symbol": "SIEMENS.NS",
+          "name": "Siemens"
+        },
+        {
+          "symbol": "ABB.NS",
+          "name": "ABB India"
+        },
+        {
+          "symbol": "CGPOWER.NS",
+          "name": "CG Power"
+        },
+        {
+          "symbol": "BHEL.NS",
+          "name": "BHEL"
+        },
+        {
+          "symbol": "CUMMINSIND.NS",
+          "name": "Cummins India"
+        },
+        {
+          "symbol": "THERMAX.NS",
+          "name": "Thermax"
+        },
+        {
+          "symbol": "POWERINDIA.NS",
+          "name": "Hitachi Energy India"
+        },
+        {
+          "symbol": "KEC.NS",
+          "name": "KEC International"
+        }
       ]
     },
     "aerospace-defence": {
@@ -51,15 +127,42 @@
       "note": "Equal-weighted basket of listed Indian defence and aerospace companies.",
       "index": null,
       "basket": [
-        { "symbol": "HAL.NS", "name": "Hindustan Aeronautics" },
-        { "symbol": "BEL.NS", "name": "Bharat Electronics" },
-        { "symbol": "BDL.NS", "name": "Bharat Dynamics" },
-        { "symbol": "MAZDOCK.NS", "name": "Mazagon Dock" },
-        { "symbol": "COCHINSHIP.NS", "name": "Cochin Shipyard" },
-        { "symbol": "GRSE.NS", "name": "Garden Reach Shipbuilders" },
-        { "symbol": "BEML.NS", "name": "BEML" },
-        { "symbol": "SOLARINDS.NS", "name": "Solar Industries" },
-        { "symbol": "DATAPATTNS.NS", "name": "Data Patterns" }
+        {
+          "symbol": "HAL.NS",
+          "name": "Hindustan Aeronautics"
+        },
+        {
+          "symbol": "BEL.NS",
+          "name": "Bharat Electronics"
+        },
+        {
+          "symbol": "BDL.NS",
+          "name": "Bharat Dynamics"
+        },
+        {
+          "symbol": "MAZDOCK.NS",
+          "name": "Mazagon Dock"
+        },
+        {
+          "symbol": "COCHINSHIP.NS",
+          "name": "Cochin Shipyard"
+        },
+        {
+          "symbol": "GRSE.NS",
+          "name": "Garden Reach Shipbuilders"
+        },
+        {
+          "symbol": "BEML.NS",
+          "name": "BEML"
+        },
+        {
+          "symbol": "SOLARINDS.NS",
+          "name": "Solar Industries"
+        },
+        {
+          "symbol": "DATAPATTNS.NS",
+          "name": "Data Patterns"
+        }
       ]
     }
   }
