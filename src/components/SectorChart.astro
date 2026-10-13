@@ -103,9 +103,9 @@ const fmt = (v: number | null | undefined) => (v == null ? '–' : `${v > 0 ? '+
 
 <script>
   type Pt = [number, number];
-  const root = document.querySelector<HTMLElement>('[data-sector-chart]');
-  const payloadEl = root?.querySelector('[data-payload]');
-  if (root && payloadEl) {
+  document.querySelectorAll<HTMLElement>('[data-sector-chart]').forEach((root) => {
+  const payloadEl = root.querySelector('[data-payload]');
+  if (payloadEl) {
     const P = JSON.parse(payloadEl.textContent || '{}');
     const plot = root.querySelector<HTMLElement>('[data-plot]')!;
     const tip = root.querySelector<HTMLElement>('[data-tip]')!;
@@ -139,6 +139,7 @@ const fmt = (v: number | null | undefined) => (v == null ? '–' : `${v > 0 ? '+
       stats(r);
       const S: Pt[] = r.sector || [], B: Pt[] = r.nifty || [];
       const W = plot.clientWidth, H = plot.clientHeight;
+      if (!W || !H) return;
       const m = { t: 10, r: W < 500 ? 70 : 110, b: 26, l: 44 };
       const all = [...S, ...B];
       const t0 = Math.min(...all.map((p) => p[0])), t1 = Math.max(...all.map((p) => p[0]));
@@ -209,8 +210,13 @@ const fmt = (v: number | null | undefined) => (v == null ? '–' : `${v > 0 ? '+
       btns.forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
       draw();
     }));
-    let raf = 0;
-    window.addEventListener('resize', () => { cancelAnimationFrame(raf); raf = requestAnimationFrame(draw); });
+    let raf = 0, lastW = 0;
+    new ResizeObserver(() => {
+      if (plot.clientWidth === lastW) return;
+      lastW = plot.clientWidth;
+      cancelAnimationFrame(raf); raf = requestAnimationFrame(draw);
+    }).observe(plot);
     draw();
   }
+  });
 </script>
