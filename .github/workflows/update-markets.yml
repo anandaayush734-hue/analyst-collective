@@ -1,0 +1,48 @@
+name: Market data (4:00 PM IST)
+
+# After NSE closes (3:30 PM IST), fetch each sector vs Nifty 50 and refresh the site.
+on:
+  schedule:
+    - cron: "30 10 * * 1-5"   # 10:30 UTC = 4:00 PM IST, Monday–Friday
+  workflow_dispatch:           # "Run workflow" button for a manual refresh
+  push:
+    branches: [main]
+    paths:
+      - scripts/update_markets.py
+      - src/data/market-config.json
+      - .github/workflows/update-markets.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: market-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch sector and Nifty data
+        run: python scripts/update_markets.py
+
+      - name: Commit the new snapshot (this triggers the Cloudflare rebuild)
+        run: |
+          git config user.name "analyst-collective-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/market-snapshot.json
+          if git diff --cached --quiet; then
+            echo "No change in market data."
+            exit 0
+          fi
+          SESSION=$(python -c "import json;print(json.load(open('src/data/market-snapshot.json'))['session'])")
+          git commit -m "Market data: session $SESSION"
+          git pull --rebase origin main
+          git push origin HEAD:main

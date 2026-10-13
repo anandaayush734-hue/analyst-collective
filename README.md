@@ -18,6 +18,17 @@ Cloudflare rebuilds the site → live about a minute later
 
 The editorial rules Claude follows live in `prompts/daily_brief.md`. Edit that file to change tone, sources or coverage.
 
+## Market charts (sector vs Nifty 50)
+
+Each sector page opens with a chart of that sector against the Nifty 50 (1D, 1M, 6M, 1Y).
+Every weekday at **4:00 PM IST** (after NSE closes at 3:30 PM) the GitHub Action
+`Market data (4:00 PM IST)` runs `scripts/update_markets.py`, saves `src/data/market-snapshot.json`
+and commits it; Cloudflare then rebuilds the site. GitHub's scheduler can start a few minutes late.
+
+- Sector definitions (index or equal-weighted basket of companies) live in `src/data/market-config.json`.
+- To refresh manually: GitHub → **Actions** → **Market data (4:00 PM IST)** → **Run workflow**.
+- Price data comes from Yahoo Finance's public chart feed and is for information only.
+
 ## One-time settings
 
 1. **Let GitHub open PRs:** repo **Settings → Actions → General → Workflow permissions** →
