@@ -3,7 +3,9 @@ name: Market data (4:00 PM IST)
 # After NSE closes (3:30 PM IST), fetch each sector vs Nifty 50 and refresh the site.
 on:
   schedule:
-    - cron: "30 10 * * 1-5"   # 10:30 UTC = 4:00 PM IST, Monday–Friday
+    - cron: "30 10 * * 1-5"   # 4:00 PM IST, Monday–Friday
+    - cron: "0 11 * * 1-5"    # 4:30 PM IST back-up (GitHub's scheduler can be late or skip a run)
+    - cron: "0 12 * * 1-5"    # 5:30 PM IST back-up
   workflow_dispatch:           # "Run workflow" button for a manual refresh
   push:
     branches: [main]
@@ -31,6 +33,8 @@ jobs:
           python-version: "3.12"
 
       - name: Fetch sector and Nifty data
+        env:
+          FORCE: ${{ github.event_name != 'schedule' && '1' || '0' }}
         run: python scripts/update_markets.py
 
       - name: Commit the new snapshot (this triggers the Cloudflare rebuild)

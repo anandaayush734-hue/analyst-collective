@@ -13,6 +13,7 @@ Uses only the Python standard library.
 from __future__ import annotations
 
 import json
+import os
 import sys
 import time
 import urllib.parse
@@ -113,6 +114,16 @@ def main() -> int:
         return 1
 
     session = datetime.fromtimestamp(bench["1D"][0][-1][0], IST).strftime("%Y-%m-%d")
+    # Several scheduled runs are configured as back-ups (GitHub cron can be late or skipped).
+    # If today's after-close snapshot already exists, do nothing unless FORCE=1.
+    if os.environ.get("FORCE") != "1" and OUT.exists():
+        try:
+            old = json.loads(OUT.read_text())
+            if old.get("session") == session and (old.get("generatedAt") or "")[11:16] >= "15:35":
+                print(f"Snapshot for {session} after close already exists; nothing to do.")
+                return 0
+        except Exception:
+            pass
     snapshot = {
         "generatedAt": datetime.now(IST).isoformat(timespec="minutes"),
         "session": session,
