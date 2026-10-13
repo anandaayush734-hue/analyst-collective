@@ -16,12 +16,6 @@
   --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
   --maxw: 1180px;
 }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --paper: #1a1817; --paper-2: #262220; --ink: #f2e9e1; --ink-2: #b8ada4;
-    --rule: #3d3733; --claret: #ff6f91; --teal: #4fc3cc; --oxford: #7fb2ff; --card: #211e1c;
-  }
-}
 :root[data-theme="dark"] {
   --paper: #1a1817; --paper-2: #262220; --ink: #f2e9e1; --ink-2: #b8ada4;
   --rule: #3d3733; --claret: #ff6f91; --teal: #4fc3cc; --oxford: #7fb2ff; --card: #211e1c;
