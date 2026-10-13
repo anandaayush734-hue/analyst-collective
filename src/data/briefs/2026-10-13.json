@@ -1,0 +1,159 @@
+{
+  "date": "2026-10-13",
+  "lead": {
+    "headline": "A record September for Indian auto retail, a rate hike, and a margin squeeze for capital goods",
+    "dek": "FADA's September print is the strongest ever but flattered by a GST-distorted base. EVs set fresh highs, the RBI turned hawkish, and Q2 previews flag soft ex-L&T order inflows with commodity costs biting."
+  },
+  "keyNumbers": [
+    {
+      "label": "Auto retail, Sep-26",
+      "value": "25.37 lakh",
+      "note": "+31.8% YoY (FADA)"
+    },
+    {
+      "label": "EV retail, Sep-26",
+      "value": "3.34 lakh",
+      "note": "All-time monthly high"
+    },
+    {
+      "label": "PV EV penetration",
+      "value": "8.45%",
+      "note": "Sep-26, FADA"
+    },
+    {
+      "label": "RBI repo rate",
+      "value": "5.50%",
+      "note": "+25 bps on 7 Oct"
+    },
+    {
+      "label": "Airbus deliveries YTD",
+      "value": "547",
+      "note": "~870 FY26 target"
+    },
+    {
+      "label": "Tesla Q3 deliveries",
+      "value": "486,532",
+      "note": "vs 461,974 consensus"
+    }
+  ],
+  "ticker": [
+    {
+      "tag": "REG",
+      "text": "RBI hikes repo 25 bps to 5.50%; stance shifts to 'calibrated tightening' (4–2 vote)"
+    },
+    {
+      "tag": "AUTO",
+      "text": "FADA: Sep-26 retail at record 25.37 lakh units, +31.8% YoY on a GST-distorted base"
+    },
+    {
+      "tag": "EV",
+      "text": "India EV retail hits all-time high of ~3.34 lakh units in September; e-4W record 36,010"
+    },
+    {
+      "tag": "A&D",
+      "text": "MoD signs ₹661.5 cr contract with BrahMos Aerospace for Navy fire-control systems and launchers"
+    },
+    {
+      "tag": "IND",
+      "text": "Q2FY27 preview: ex-L&T capital goods inflows seen ~₹35,000 cr, down ~10% YoY"
+    },
+    {
+      "tag": "A&D",
+      "text": "Airbus delivers 72 jets in September; needs 323 more in Q4 to hit ~870 target"
+    },
+    {
+      "tag": "EV",
+      "text": "Tesla Q3 deliveries 486,532 beat consensus; storage deployments miss at 13.7 GWh"
+    },
+    {
+      "tag": "AUTO",
+      "text": "Mahindra edges Tata by 89 units for #2 in September PV retail"
+    },
+    {
+      "tag": "REG",
+      "text": "SEBI: brokers to display investor-awareness messages on apps and websites from 1 Nov 2026"
+    }
+  ],
+  "sectors": {
+    "ev": [
+      {
+        "headline": "India EV retail sets an all-time monthly high in September",
+        "summary": "Vahan data shows 3,33,571 EVs registered in September, up from 3,02,746 in August. Electric four-wheelers hit a record 36,010 units, with penetration rising to 8.5% for cars and 11.6% for two-wheelers. Tata Motors still leads e-4W with over 41% share, ahead of Mahindra and JSW MG; TVS, Bajaj and Ather lead e-2W.",
+        "whyItMatters": "Double-digit 2W penetration and a fast-rising 4W share strengthen the case for cell, battery-pack and charging capex, and keep consolidation among sub-scale e-2W players on the agenda.",
+        "source": "EVreporter",
+        "url": "https://evreporter.com/indias-electric-vehicle-sales-trend-september-2026/"
+      },
+      {
+        "headline": "Tesla Q3 deliveries beat consensus, but energy storage disappoints",
+        "summary": "Tesla delivered 486,532 vehicles in Q3 2026 against a company-compiled consensus of 461,974, down 2.1% YoY but up 1.3% QoQ. Deliveries exceeded production by about 22,000 units, implying an inventory drawdown. Storage deployments of 13.7 GWh fell short of the ~15.9 GWh expected.",
+        "whyItMatters": "Flat global volumes from the category leader are a useful reference point when benchmarking growth assumptions and multiples for listed Indian EV names.",
+        "source": "Electrek",
+        "url": "https://electrek.co/2026/10/02/tesla-q3-2026-deliveries-486532/"
+      }
+    ],
+    "autos": [
+      {
+        "headline": "FADA: best-ever September for auto retail, but read the base effect",
+        "summary": "Retail sales reached 25,36,920 units, up 31.82% YoY and 4.69% MoM. Two-wheelers rose 33%, PVs 32% and CVs 38%, with CVs crossing one lakh in a September for the first time. H1 FY27 retail is up 20.77%. FADA cautions that September 2025 was depressed by buyers deferring purchases ahead of GST 2.0 and points to roughly 17% underlying growth.",
+        "whyItMatters": "Normalise for the base before using September in comps or run-rates. Dealer sentiment for Oct–Dec is constructive (78% expect growth), which supports festive-quarter volume estimates.",
+        "source": "ETV Bharat / FADA",
+        "url": "https://www.etvbharat.com/en/technology/indias-auto-retail-sales-jump-31-pc-in-september-2026-fada-enn26100602207"
+      },
+      {
+        "headline": "Mahindra overtakes Tata for #2 in PV retail by 89 units",
+        "summary": "Maruti Suzuki held 39.59% share (1,69,132 units). Mahindra (57,343) edged Tata (57,254) for second, with Hyundai fourth at 11.75%. Kia posted the fastest YoY growth in the top ten on the new Seltos. Petrol regained a slim lead (41.27%) over CNG, hybrid and EV combined (~41%).",
+        "whyItMatters": "The fuel mix is now roughly half alternative, which reshapes powertrain capex, supplier exposure and how strategic buyers assess component targets.",
+        "source": "Autocar India",
+        "url": "https://www.autocarindia.com/car-news/september-2026-car-retail-sales-mahindra-beats-tata-to-second-place-440946"
+      }
+    ],
+    "industrials": [
+      {
+        "headline": "Q2FY27 preview: soft order inflows and commodity inflation weigh on capital goods",
+        "summary": "Ex-L&T inflows for major capital goods firms are estimated at about ₹35,000 crore, roughly 10% lower YoY, while L&T reported about ₹1 trillion including West Asia hydrocarbon wins. Copper, zinc, aluminium and pig iron each rose by double digits QoQ, and EBITDA margins are expected to compress, especially on fixed-price contracts without pass-through clauses.",
+        "whyItMatters": "Expect margin-led estimate cuts. In diligence, look closely at contract pass-through terms and order-book quality; a valuation premium relies on execution, not just order intake.",
+        "source": "Business Standard",
+        "url": "https://www.business-standard.com/markets/news/soft-q2-order-inflows-commodity-inflation-weigh-on-capital-goods-firms-126100601103_1.html"
+      },
+      {
+        "headline": "Power T&D and private capex remain the bright spots",
+        "summary": "The same analysis points to a sharply higher power transmission and distribution order book and a revival in private capex across manufacturing, oil & gas, data centres and renewables. GE Vernova's quarterly inflow depends on when a ~$1.5 billion HVDC order is booked.",
+        "whyItMatters": "Grid and data-centre themes are where strategic and financial-sponsor interest is likely to concentrate, from transformer and switchgear capacity to cable makers.",
+        "source": "Business Standard",
+        "url": "https://www.business-standard.com/markets/news/soft-q2-order-inflows-commodity-inflation-weigh-on-capital-goods-firms-126100601103_1.html"
+      }
+    ],
+    "aerospace-defence": [
+      {
+        "headline": "MoD signs ₹661.5 crore BrahMos fire-control and launcher contract for the Navy",
+        "summary": "The Ministry of Defence signed a ₹661.50 crore contract with BrahMos Aerospace for fire-control systems and launchers for Indian Navy warships, under the Buy (Indian-IDDM) category with at least 68% indigenous content and MSME participation.",
+        "whyItMatters": "Steady IDDM-category awards support the order visibility of listed defence electronics and tier-2 suppliers, which underpins their premium valuations.",
+        "source": "Business Today",
+        "url": "https://www.businesstoday.in/india/story/defence-ministry-signs-rs661-crore-contract-for-brahmos-fire-control-systems-launchers-for-navy-ships-559851-2026-10-06"
+      },
+      {
+        "headline": "Airbus delivers 72 jets in September; Q4 now carries the year",
+        "summary": "September deliveries rose to 72 from 57 in August, taking the year-to-date total to 547 (+8% YoY). With a full-year target of about 870, Airbus needs 323 deliveries in October–December. Gross orders were light at 17 and the backlog fell to 9,310 aircraft.",
+        "whyItMatters": "Delivery ramps drive aero-structures and component suppliers, including Indian offset and build-to-print vendors. Any Q4 miss tends to flow through to supplier guidance.",
+        "source": "AirData News",
+        "url": "https://www.airdatanews.com/airbus-delivers-72-jets-in-september-as-order-backlog-falls-by-58-aircraft/"
+      },
+      {
+        "headline": "Defence order inflows up 19% YoY, adjusted for HAL's high base",
+        "summary": "Q2FY27 defence inflows are estimated at about ₹8,600 crore, up 19% YoY excluding last year's ₹62,300 crore HAL LCA order. Delays persist on QRSAM, P-75I and the next-generation corvettes. HAL expects 12 more GE engines by December.",
+        "whyItMatters": "Programme timing, not demand, is the key swing factor. Watch P-75I and QRSAM finalisation as near-term catalysts for the sector.",
+        "source": "Business Standard",
+        "url": "https://www.business-standard.com/markets/news/soft-q2-order-inflows-commodity-inflation-weigh-on-capital-goods-firms-126100601103_1.html"
+      }
+    ]
+  },
+  "regulatory": [
+    {
+      "headline": "RBI raises repo rate 25 bps to 5.50%, moves to 'calibrated tightening'",
+      "summary": "The MPC voted unanimously to hike on 7 October; the stance change passed 4–2. FY27 projections are 7.1% real GDP growth and 5.2% CPI inflation, with inflation expected to peak near 6% in Q3 FY27.",
+      "whyItMatters": "Higher rates raise the cost of acquisition finance and vehicle loans. Factor this into LBO debt capacity and into volume sensitivities for auto names.",
+      "source": "CorpLawUpdates (verify against RBI policy statement)",
+      "url": "https://www.corplawupdates.in/updates/rbi-repo-rate-hike-5-50-percent-october-2026"
+    }
+  ]
+}

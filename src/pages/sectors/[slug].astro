@@ -1,0 +1,52 @@
+---
+import Base from '../../layouts/Base.astro';
+import Story from '../../components/Story.astro';
+import { briefs, sectors, fmtDate } from '../../lib';
+import glossary from '../../data/glossary.json';
+import deals from '../../data/deals.json';
+export function getStaticPaths() {
+  return sectors.map((s) => ({ params: { slug: s.slug }, props: { sector: s } }));
+}
+const { sector } = Astro.props;
+const days = briefs.map((b) => ({ date: b.date, items: b.sectors[sector.slug] ?? [] })).filter((d) => d.items.length).slice(0, 30);
+const terms = glossary.filter((g) => g.sector === sector.slug);
+const sectorDeals = deals.filter((d) => d.sector === sector.slug).sort((a, b) => b.date.localeCompare(a.date));
+---
+<Base title={sector.name} description={sector.blurb}>
+  <header class="sh">
+    <p class="kicker">Sector coverage</p>
+    <h1>{sector.name}</h1>
+    <p class="dek">{sector.blurb}</p>
+  </header>
+  <div class="layout">
+    <div>
+      {days.map((d) => (
+        <section>
+          <div class="section-title"><h2 style="font-size:20px">{fmtDate(d.date)}</h2></div>
+          {d.items.map((it) => <Story item={it} />)}
+        </section>
+      ))}
+      {days.length === 0 && <p class="muted">No stories yet.</p>}
+    </div>
+    <aside>
+      <div class="section-title"><h2 style="font-size:20px">Deals</h2><a href="/deals/">All →</a></div>
+      {sectorDeals.length ? sectorDeals.map((d) => (
+        <p class="side-item"><span class="pill">{d.type}</span><br /><a href={d.url} target="_blank" rel="noopener"><strong>{d.target}</strong></a><br /><span class="muted">{d.value} · {d.status}</span></p>
+      )) : <p class="muted">None tracked yet.</p>}
+      <div class="section-title"><h2 style="font-size:20px">Key terms</h2><a href="/glossary/">Glossary →</a></div>
+      <dl>
+        {terms.map((t) => (<><dt>{t.term}</dt><dd>{t.definition}</dd></>))}
+      </dl>
+    </aside>
+  </div>
+</Base>
+<style>
+  .sh { padding: 28px 0 0; max-width: 760px; }
+  .sh h1 { font-size: clamp(32px, 5vw, 52px); }
+  .dek { font-family: var(--serif); font-size: 20px; color: var(--ink-2); }
+  .layout { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 48px; }
+  .side-item { font-size: 14px; margin: 0 0 14px; }
+  dt { font-weight: 700; font-size: 14px; margin-top: 10px; }
+  dd { margin: 2px 0 0; font-size: 14px; color: var(--ink-2); }
+  @media (max-width: 860px) { .layout { grid-template-columns: 1fr; gap: 0; } }
+</style>

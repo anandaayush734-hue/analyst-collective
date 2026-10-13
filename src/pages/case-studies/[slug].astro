@@ -1,0 +1,43 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection, render } from 'astro:content';
+import { sectorName, fmtDate } from '../../lib';
+export async function getStaticPaths() {
+  const cases = await getCollection('case-studies');
+  return cases.map((c) => ({ params: { slug: c.id }, props: { c } }));
+}
+const { c } = Astro.props;
+const { Content } = await render(c);
+---
+<Base title={c.data.title} description={c.data.dek}>
+  <article>
+    <header class="h">
+      <p class="kicker">Case study · {sectorName(c.data.sector)} · {c.data.dealType}</p>
+      <h1>{c.data.title}</h1>
+      <p class="dek">{c.data.dek}</p>
+    </header>
+    <div class="layout">
+      <div class="prose"><Content /></div>
+      <aside>
+        <div class="terms">
+          <p class="kicker" style="color:var(--ink)">Key terms</p>
+          <dl>{c.data.keyTerms.map((k) => (<><dt>{k.label}</dt><dd>{k.value}</dd></>))}</dl>
+        </div>
+        <p class="kicker" style="margin-top:24px;color:var(--ink)">Sources</p>
+        <ul class="src">{c.data.sources.map((s) => <li><a href={s.url} target="_blank" rel="noopener">{s.title}</a></li>)}</ul>
+      </aside>
+    </div>
+  </article>
+</Base>
+<style>
+  .h { padding: 28px 0 8px; max-width: 860px; border-bottom: 1px solid var(--rule); margin-bottom: 24px; }
+  .h h1 { font-size: clamp(30px, 4.6vw, 46px); }
+  .dek { font-family: var(--serif); font-size: 21px; color: var(--ink-2); }
+  .layout { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 48px; }
+  .terms { border-top: 4px solid var(--ink); background: var(--card); padding: 12px 16px; }
+  dt { font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: var(--ink-2); font-weight: 600; margin-top: 12px; }
+  dd { margin: 2px 0 0; font-family: var(--mono); font-size: 14px; }
+  .src { padding-left: 18px; font-size: 14px; }
+  .src li { margin-bottom: 6px; }
+  @media (max-width: 900px) { .layout { grid-template-columns: 1fr; } aside { order: -1; } }
+</style>

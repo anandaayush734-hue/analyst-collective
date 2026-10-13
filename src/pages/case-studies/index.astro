@@ -1,0 +1,27 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { sectorName, fmtDate } from '../../lib';
+const cases = (await getCollection('case-studies')).sort((a, b) => b.data.date.localeCompare(a.data.date));
+---
+<Base title="Case Studies" description="Public-deal case studies across Industrials: structure, valuation logic and lessons for bankers.">
+  <header style="padding:28px 0 0;max-width:780px">
+    <p class="kicker">Learning</p>
+    <h1 style="font-size:clamp(32px,5vw,48px)">Case Studies</h1>
+    <p class="muted" style="font-family:var(--serif);font-size:19px">Completed, public transactions: how each was structured, how it was valued, and what to take into the next pitch.</p>
+  </header>
+  {cases.map((c) => (
+    <a class="row" href={`/case-studies/${c.id}/`}>
+      <div><p class="kicker">{sectorName(c.data.sector)}</p><p class="muted mono">{c.data.dealType}<br />{fmtDate(c.data.date, { month: 'short', year: 'numeric' })}</p></div>
+      <div><h2>{c.data.title}</h2><p class="muted">{c.data.dek}</p></div>
+    </a>
+  ))}
+</Base>
+<style>
+  .row { display: grid; grid-template-columns: 220px 1fr; gap: 24px; border-top: 1px solid var(--rule); padding: 20px 0; text-decoration: none; }
+  .row:first-of-type { margin-top: 24px; border-top: 4px solid var(--ink); }
+  .row h2 { font-size: 26px; }
+  .row:hover h2 { color: var(--claret); }
+  .mono { font-family: var(--mono); font-size: 13px; }
+  @media (max-width: 640px) { .row { grid-template-columns: 1fr; gap: 4px; } }
+</style>

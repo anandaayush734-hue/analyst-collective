@@ -1,0 +1,23 @@
+---
+import type { Item } from '../lib';
+interface Props { item: Item; size?: 'lg' | 'md'; label?: string }
+const { item, size = 'md', label } = Astro.props;
+---
+<article class={`story ${size}`}>
+  {label && <p class="kicker">{label}</p>}
+  <h3><a href={item.url} target="_blank" rel="noopener">{item.headline}</a></h3>
+  <p class="sum">{item.summary}</p>
+  <p class="why"><span>Why it matters</span>{item.whyItMatters}</p>
+  <p class="src muted">Source: <a href={item.url} target="_blank" rel="noopener">{item.source}</a></p>
+</article>
+<style>
+  .story { padding: 14px 0 16px; border-bottom: 1px solid var(--rule); }
+  .story:last-child { border-bottom: 0; }
+  h3 { font-size: 20px; margin-bottom: 6px; }
+  .lg h3 { font-size: 26px; }
+  h3 a { text-decoration: none; }
+  .sum { margin: 0 0 10px; font-size: 15px; }
+  .why { margin: 0 0 8px; font-size: 14px; background: var(--card); border-left: 3px solid var(--teal); padding: 8px 10px; }
+  .why span { display: block; font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--teal); margin-bottom: 2px; }
+  .src { font-size: 12px; margin: 0; }
+</style>

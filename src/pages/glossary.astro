@@ -1,0 +1,51 @@
+---
+import Base from '../layouts/Base.astro';
+import glossary from '../data/glossary.json';
+import { sectors, sectorName } from '../lib';
+const terms = [...glossary].sort((a, b) => a.term.localeCompare(b.term));
+---
+<Base title="Glossary" description="Sector KPIs and deal terminology for EV, Autos, General Industrials and Aerospace & Defence.">
+  <header style="padding:28px 0 0;max-width:780px">
+    <p class="kicker">Reference</p>
+    <h1 style="font-size:clamp(32px,5vw,48px)">Glossary &amp; KPIs</h1>
+    <p class="muted" style="font-family:var(--serif);font-size:19px">The metrics and terms that come up in coverage conversations, defined in plain English.</p>
+  </header>
+  <div class="bar">
+    <input id="gloss-q" type="search" placeholder="Search terms…" aria-label="Search glossary" />
+    <div class="filters" id="gloss-filters">
+      <button class="btn active" data-f="all">All</button>
+      {sectors.map((s) => <button class="btn" data-f={s.slug}>{s.short}</button>)}
+      <button class="btn" data-f="general">Deal terms</button>
+    </div>
+  </div>
+  <dl class="gl">
+    {terms.map((t) => (
+      <div class="row" data-s={t.sector} data-t={(t.term + ' ' + t.definition).toLowerCase()}>
+        <dt>{t.term} <span class="pill">{sectorName(t.sector)}</span></dt>
+        <dd>{t.definition}</dd>
+      </div>
+    ))}
+  </dl>
+</Base>
+<style>
+  .bar { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin: 20px 0; }
+  .filters { display: flex; gap: 8px; flex-wrap: wrap; }
+  input[type=search] { font: inherit; padding: 8px 12px; border: 1px solid var(--ink); background: var(--card); color: var(--ink); min-width: 0; width: 280px; max-width: 100%; border-radius: 2px; }
+  .row { display: grid; grid-template-columns: 300px 1fr; gap: 20px; border-top: 1px solid var(--rule); padding: 14px 0; }
+  dt { font-family: var(--serif); font-weight: 700; font-size: 19px; }
+  dt .pill { margin-top: 6px; font-family: var(--sans); }
+  dd { margin: 0; }
+  @media (max-width: 700px) { .row { grid-template-columns: 1fr; gap: 6px; } }
+</style>
+<script>
+  let f = 'all';
+  const q = document.getElementById('gloss-q') as HTMLInputElement;
+  const rows = document.querySelectorAll<HTMLElement>('.gl .row');
+  const apply = () => {
+    const s = q.value.trim().toLowerCase();
+    rows.forEach((r) => { r.style.display = (f === 'all' || r.dataset.s === f) && (!s || r.dataset.t!.includes(s)) ? '' : 'none'; });
+  };
+  q.addEventListener('input', apply);
+  const btns = document.querySelectorAll<HTMLButtonElement>('#gloss-filters .btn');
+  btns.forEach((b) => b.addEventListener('click', () => { btns.forEach((x) => x.classList.toggle('active', x === b)); f = b.dataset.f!; apply(); }));
+</script>

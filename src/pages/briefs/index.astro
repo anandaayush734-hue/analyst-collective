@@ -1,0 +1,20 @@
+---
+import Base from '../../layouts/Base.astro';
+import { briefs, fmtDate } from '../../lib';
+---
+<Base title="Archive">
+  <div class="section-title"><h2>Brief Archive</h2></div>
+  <ul class="arch">
+    {briefs.map((b) => (
+      <li><a href={`/briefs/${b.date}/`}><span class="d">{fmtDate(b.date)}</span><span class="h">{b.lead.headline}</span></a></li>
+    ))}
+  </ul>
+</Base>
+<style>
+  .arch { list-style: none; padding: 0; margin: 0; }
+  .arch li { border-bottom: 1px solid var(--rule); }
+  .arch a { display: grid; grid-template-columns: 240px 1fr; gap: 16px; padding: 14px 0; text-decoration: none; }
+  .d { font-family: var(--mono); font-size: 13px; color: var(--ink-2); padding-top: 4px; }
+  .h { font-family: var(--serif); font-size: 20px; font-weight: 600; }
+  @media (max-width: 600px) { .arch a { grid-template-columns: 1fr; gap: 2px; } }
+</style>

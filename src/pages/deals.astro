@@ -1,0 +1,49 @@
+---
+import Base from '../layouts/Base.astro';
+import deals from '../data/deals.json';
+import { sectors, sectorName, fmtDate } from '../lib';
+const rows = [...deals].sort((a, b) => b.date.localeCompare(a.date));
+---
+<Base title="Public Deal Tracker" description="Announced M&A, IPOs, demergers, QIPs and major contracts across Industrials, compiled from public sources only.">
+  <header style="padding:28px 0 0;max-width:780px">
+    <p class="kicker">Transactions</p>
+    <h1 style="font-size:clamp(32px,5vw,48px)">Public Deal Tracker</h1>
+    <p class="muted" style="font-family:var(--serif);font-size:19px">Announced and completed transactions in our four sectors. Only publicly disclosed information is included; every entry links to its source.</p>
+  </header>
+  <div class="filters" id="deal-filters" role="group" aria-label="Filter by sector">
+    <button class="btn active" data-f="all">All</button>
+    {sectors.map((s) => <button class="btn" data-f={s.slug}>{s.short}</button>)}
+  </div>
+  <div class="table-scroll">
+    <table class="data" id="deals">
+      <thead><tr><th>Date</th><th>Sector</th><th>Type</th><th>Target / Issuer</th><th>Counterparty</th><th>Value</th><th>Status</th><th>Notes</th></tr></thead>
+      <tbody>
+        {rows.map((d) => (
+          <tr data-s={d.sector}>
+            <td style="white-space:nowrap;font-family:var(--mono);font-size:13px">{fmtDate(d.date, { day: '2-digit', month: 'short', year: 'numeric' })}</td>
+            <td>{sectorName(d.sector)}</td>
+            <td><span class="pill">{d.type}</span></td>
+            <td><a href={d.url} target="_blank" rel="noopener"><strong>{d.target}</strong></a></td>
+            <td>{d.acquirer}</td>
+            <td style="white-space:nowrap">{d.value}</td>
+            <td>{d.status}</td>
+            <td style="min-width:260px">{d.note}{d.caseStudy && <> <a href={`/case-studies/${d.caseStudy}/`}>Case study →</a></>}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</Base>
+<style>
+  .filters { display: flex; gap: 8px; flex-wrap: wrap; margin: 20px 0; }
+</style>
+<script>
+  const btns = document.querySelectorAll<HTMLButtonElement>('#deal-filters .btn');
+  btns.forEach((b) => b.addEventListener('click', () => {
+    btns.forEach((x) => x.classList.toggle('active', x === b));
+    const f = b.dataset.f;
+    document.querySelectorAll<HTMLTableRowElement>('#deals tbody tr').forEach((r) => {
+      r.style.display = f === 'all' || r.dataset.s === f ? '' : 'none';
+    });
+  }));
+</script>

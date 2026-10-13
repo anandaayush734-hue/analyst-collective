@@ -1,0 +1,60 @@
+name: Daily brief via Claude API (optional, paid)
+
+# OFF by default. The daily brief is produced by a Claude scheduled task (Cowork).
+# To switch to the paid Claude API route instead: add the ANTHROPIC_API_KEY secret
+# and uncomment the two schedule lines below.
+on:
+  # schedule:
+  #   - cron: "30 0 * * *"   # 06:00 IST every day (GitHub cron runs in UTC)
+  workflow_dispatch:        # "Run workflow" button for a manual run
+    inputs:
+      date:
+        description: "Brief date (YYYY-MM-DD). Leave blank for today."
+        required: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Anthropic SDK
+        run: pip install anthropic
+
+      - name: Draft today's brief with Claude
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL || 'claude-sonnet-5-5' }}
+          BRIEF_DATE: ${{ github.event.inputs.date }}
+          PR_BODY_PATH: ${{ runner.temp }}/pr_body.md
+        run: python scripts/daily_brief.py
+
+      - name: Check the site still builds
+        run: |
+          npm ci
+          npm run build
+
+      - name: Get date
+        id: d
+        run: echo "date=$(TZ=Asia/Kolkata date +%F)" >> "$GITHUB_OUTPUT"
+
+      - name: Open pull request for review
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: brief/${{ steps.d.outputs.date }}
+          commit-message: "Daily brief ${{ steps.d.outputs.date }}"
+          title: "📰 Daily brief: ${{ steps.d.outputs.date }}"
+          body-path: ${{ runner.temp }}/pr_body.md
+          add-paths: |
+            src/data/briefs/*.json
+            src/data/deals.json
+          delete-branch: true

@@ -1,0 +1,49 @@
+---
+import Base from '../layouts/Base.astro';
+import BriefBody from '../components/BriefBody.astro';
+import { latest, fmtDate, sectorName } from '../lib';
+import deals from '../data/deals.json';
+import { getCollection } from 'astro:content';
+const cases = (await getCollection('case-studies')).sort((a, b) => b.data.date.localeCompare(a.data.date));
+const recentDeals = [...deals].sort((a, b) => b.date.localeCompare(a.date)).slice(0, 4);
+---
+<Base>
+  {latest ? <BriefBody brief={latest} /> : <p>No brief published yet.</p>}
+
+  <div class="section-title"><h2>Public Deal Tracker</h2><a href="/deals/">All transactions →</a></div>
+  <div class="table-scroll">
+    <table class="data">
+      <thead><tr><th>Date</th><th>Sector</th><th>Type</th><th>Target / Issuer</th><th>Value</th><th>Status</th></tr></thead>
+      <tbody>
+        {recentDeals.map((d) => (
+          <tr>
+            <td style="white-space:nowrap">{fmtDate(d.date, { day: '2-digit', month: 'short', year: 'numeric' })}</td>
+            <td>{sectorName(d.sector)}</td>
+            <td><span class="pill">{d.type}</span></td>
+            <td><a href={d.url} target="_blank" rel="noopener">{d.target}</a></td>
+            <td>{d.value}</td>
+            <td>{d.status}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section-title"><h2>Case Studies</h2><a href="/case-studies/">All case studies →</a></div>
+  <div class="cases">
+    {cases.map((c) => (
+      <a class="case" href={`/case-studies/${c.id}/`}>
+        <p class="kicker">{sectorName(c.data.sector)} · {c.data.dealType}</p>
+        <h3>{c.data.title}</h3>
+        <p class="muted">{c.data.dek}</p>
+      </a>
+    ))}
+  </div>
+</Base>
+<style>
+  .cases { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; }
+  .case { text-decoration: none; display: block; padding-top: 4px; }
+  .case h3 { font-size: 21px; }
+  .case:hover h3 { color: var(--claret); }
+  .case p.muted { font-size: 15px; margin: 0; }
+</style>

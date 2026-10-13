@@ -1,0 +1,13 @@
+---
+import Base from '../../layouts/Base.astro';
+import BriefBody from '../../components/BriefBody.astro';
+import { briefs, fmtDate, type Brief } from '../../lib';
+export function getStaticPaths() {
+  return briefs.map((b) => ({ params: { date: b.date }, props: { brief: b } }));
+}
+const { brief } = Astro.props as { brief: Brief };
+---
+<Base title={`Brief: ${fmtDate(brief.date)}`} description={brief.lead.dek}>
+  <p class="muted" style="margin:20px 0 0;font-family:var(--mono);font-size:13px">Edition of {fmtDate(brief.date)} · <a href="/briefs/">Archive</a></p>
+  <BriefBody brief={brief} />
+</Base>

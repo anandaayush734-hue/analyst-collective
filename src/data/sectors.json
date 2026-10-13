@@ -1,0 +1,6 @@
+[
+  { "slug": "ev", "name": "Electric Vehicles", "short": "EV", "blurb": "Penetration, batteries, charging, policy and the OEMs and suppliers riding the transition." },
+  { "slug": "autos", "name": "Automobiles", "short": "Autos", "blurb": "Volumes, market share, pricing, inventory and the ICE/hybrid/CNG mix across 2W, PV, CV and tractors." },
+  { "slug": "industrials", "name": "General Industrials", "short": "Industrials", "blurb": "Capital goods, engineering, T&D, rail, EPC and the private and public capex cycle." },
+  { "slug": "aerospace-defence", "name": "Aerospace & Defence", "short": "A&D", "blurb": "Defence procurement, indigenisation, order books, aircraft deliveries and the aero supply chain." }
+]
