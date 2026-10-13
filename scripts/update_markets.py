@@ -117,7 +117,7 @@ def main() -> int:
             for label, (rng, iv) in RANGES.items():
                 res = fetch_chart(sec["index"], rng, iv)
                 s, last = to_series(res, label == "1D") if res else ([], None)
-                if not s:
+                if len(s) < (10 if label == "1D" else 5):  # feed incomplete -> use the basket instead
                     idx_ok = False
                     break
                 ranges[label] = {"sector": s, "sectorChange": last}
