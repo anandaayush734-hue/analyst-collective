@@ -7,13 +7,13 @@ const { title, description = 'Daily intelligence on EV, Automobiles, General Ind
 const fullTitle = title ? `${title} | The Analyst Collective` : 'The Analyst Collective';
 const path = Astro.url.pathname;
 const nav = [
+  { href: '/meet-the-analyst/', label: 'Meet the Analyst' },
   { href: '/', label: 'Today' },
   ...sectors.map((s) => ({ href: `/sectors/${s.slug}/`, label: s.short })),
   { href: '/deals/', label: 'Deal Tracker' },
   { href: '/case-studies/', label: 'Case Studies' },
   { href: '/glossary/', label: 'Glossary' },
   { href: '/briefs/', label: 'Archive' },
-  { href: '/meet-the-analyst/', label: 'Meet the Analyst' },
 ];
 ---
 <!doctype html>
