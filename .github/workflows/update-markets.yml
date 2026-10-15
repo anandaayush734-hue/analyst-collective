@@ -13,6 +13,7 @@ on:
       - scripts/update_markets.py
       - src/data/market-config.json
       - .github/workflows/update-markets.yml
+      - market-refresh.txt   # the 4:05 PM Claude task touches this file to start the job on time
 
 permissions:
   contents: write

@@ -1,0 +1,191 @@
+{
+  "date": "2026-10-14",
+  "lead": {
+    "headline": "CPI hits 5.54% as three industrial IPOs price and Hyundai pledges $15.5 billion to India",
+    "dek": "September inflation came in above consensus and brokers now pencil in more RBI hikes. Primary markets are busy regardless: Zetwerk, Bonfiglioli and Tonbo all open on 15 October, while Hyundai and Honda commit fresh capacity to India."
+  },
+  "keyNumbers": [
+    {
+      "label": "CPI inflation, Sep-26",
+      "value": "5.54%",
+      "note": "vs 4.83% in Aug; poll 5.4%"
+    },
+    {
+      "label": "Zetwerk IPO size",
+      "value": "₹5,012 cr",
+      "note": "~₹25,583 cr valuation at top of band"
+    },
+    {
+      "label": "Hyundai India commitment",
+      "value": "$15.5 bn",
+      "note": "2026–2032"
+    },
+    {
+      "label": "e-PV retail, H1 FY27",
+      "value": "1,92,012",
+      "note": "+89% YoY (Autocar Pro)"
+    },
+    {
+      "label": "China NEV penetration",
+      "value": "67.0%",
+      "note": "Sep-26 record (CPCA)"
+    },
+    {
+      "label": "Boeing Q3 deliveries",
+      "value": "161",
+      "note": "Commercial; 475 YTD"
+    }
+  ],
+  "ticker": [
+    {
+      "tag": "MACRO",
+      "text": "September CPI rises to 5.54% from 4.83%, above the 5.4% poll; food inflation at 7.74%"
+    },
+    {
+      "tag": "IND",
+      "text": "Zetwerk sets IPO band at ₹143–151 for a ~₹5,012 cr issue; subscription 15–19 Oct"
+    },
+    {
+      "tag": "IND",
+      "text": "Bonfiglioli Transmissions prices ₹2,533.6 cr pure-OFS IPO at ₹558–586"
+    },
+    {
+      "tag": "A&D",
+      "text": "Tonbo Imaging fixes IPO band at ₹665–700 after ~₹413 cr pre-IPO secondary at ₹700"
+    },
+    {
+      "tag": "AUTO",
+      "text": "Hyundai Motor Group commits $15.5 bn to India through 2032, incl. ~$700 mn for R&D"
+    },
+    {
+      "tag": "AUTO",
+      "text": "Tata Motors PV and Stellantis sign definitive agreement building on February MoU"
+    },
+    {
+      "tag": "EV",
+      "text": "India e-PV retail up 89% to 1,92,012 units in H1 FY27; Tata holds 40% share"
+    },
+    {
+      "tag": "IND",
+      "text": "IRCON receives ₹862.46 cr letter of acceptance from East Central Railway"
+    },
+    {
+      "tag": "A&D",
+      "text": "Boeing delivers 161 commercial jets in Q3, 475 year to date"
+    },
+    {
+      "tag": "EV",
+      "text": "GreenCell Mobility raises ₹330 cr from Impact Fund Denmark for e-bus expansion"
+    }
+  ],
+  "sectors": {
+    "ev": [
+      {
+        "headline": "Electric car and SUV retail up 89% in H1 FY27; Tata keeps 40% share",
+        "summary": "Electric passenger-vehicle retail reached 1,92,012 units in April–September 2026, up 89% from 1,01,398, with Q2 at 1,04,009 units (+84%) and a record September of 36,904. Tata Motors led with 76,745 units (40% share), followed by Mahindra at 44,051 and JSW MG at 33,456, whose share fell to 17% from 29%. In luxury EVs, Tesla sold 646 Model Ys in the half and outsold Mercedes in September after a ₹9 lakh price cut.",
+        "whyItMatters": "Half-year e-PV volumes are already close to the full FY26 total of 1,95,804, which supports more aggressive penetration assumptions in valuations of OEMs, cell makers and charging operators. The share shift away from JSW MG is relevant for any review of that business's strategic options.",
+        "source": "Autocar Professional",
+        "url": "https://www.autocarpro.in/analysis-sales/q2-surge-powers-electric-car-suv-sales-past-192000-units-in-first-half-fy2027-135192"
+      },
+      {
+        "headline": "GreenCell Mobility raises ₹330 crore from Impact Fund Denmark",
+        "summary": "Electric-bus operator GreenCell Mobility, an Eversource Capital portfolio company, has raised ₹330 crore in equity from Impact Fund Denmark. The funds will support the planned deployment of about 4,500 e-buses, which the company says will take its fleet past 5,000 buses across 105 cities under its bus-plus-charging service model.",
+        "whyItMatters": "Development-finance and climate funds remain active backers of e-bus platforms, a reference point for the equity raises other fleet operators will need as government e-bus tenders scale up.",
+        "source": "Autocar Professional",
+        "url": "https://www.autocarpro.in/news/greencell-mobility-raises-rs-330-crore-from-impact-fund-denmark-for-e-bus-expansion-135196"
+      },
+      {
+        "headline": "China NEV retail falls 16.7% in September as penetration hits a record 67%",
+        "summary": "CPCA data show China's new-energy passenger-vehicle retail fell 16.7% YoY to 1.084 million in September, the ninth consecutive monthly decline, while the overall market fell 28% to 1.618 million. BYD led with 2,46,816 units (22.8% share, down 28.9% YoY). Exports moved the other way: BYD shipped 1,74,277 NEVs abroad in September, up 151.6%.",
+        "whyItMatters": "A shrinking home market is pushing Chinese OEMs harder into exports, which raises the competitive threat for Indian EV makers and is a factor in tariff and local-assembly decisions.",
+        "source": "CnEVPost",
+        "url": "https://cnevpost.com/2026/10/13/china-nev-market-share-sept-2026-byd-tesla/"
+      }
+    ],
+    "autos": [
+      {
+        "headline": "Hyundai Motor Group commits $15.5 billion to India through 2032",
+        "summary": "Following a meeting between PM Modi and Executive Chair Euisun Chung on 13 October, Hyundai Motor Group committed $15.5 billion to India over 2026–2032 for R&D, manufacturing expansion, local sourcing and new mobility businesses. About $700 million is earmarked for the Indian R&D centre, including a test track. Group capacity in India is already above 1.4 million units a year across Chennai, Pune and Kia's Anantapur plant; a third plant has been reported but not confirmed.",
+        "whyItMatters": "The plan to explore auto financing, EV charging and recycling, and to set up a dedicated India investment entity, points to possible partnerships or acquisitions. Higher localisation also benefits component suppliers.",
+        "source": "Autocar Professional",
+        "url": "https://www.autocarpro.in/news/hyundai-motor-group-commits-$155-billion-to-india-through-2032-135209"
+      },
+      {
+        "headline": "Tata Motors PV and Stellantis sign definitive collaboration agreement",
+        "summary": "Tata Motors' passenger-vehicle business, including Tata Passenger Electric Mobility, has signed a definitive agreement with Stellantis that builds on their February 2026 MoU and targets more than 50 global markets. Production will be at FIAPL, the 50:50 joint venture, with Tata keeping ownership of the vehicle architecture and licensing it to Stellantis. Reports point to a Sierra-based Jeep midsize SUV in ICE and EV versions, but this is not in the official release.",
+        "whyItMatters": "Licensing its platform to a global OEM opens a capital-light revenue stream for Tata, and is a template for monetising Indian vehicle architectures through partnerships.",
+        "source": "Rushlane",
+        "url": "https://www.rushlane.com/sierra-based-jeep-suv-planned-tata-stellantis-sign-agreement-12558199.html"
+      },
+      {
+        "headline": "Honda to raise India two-wheeler capacity to 80 lakh units by 2028",
+        "summary": "Honda Motorcycle & Scooter India will lift annual capacity from 62.5 lakh to 80 lakh units across its four plants over 18–24 months, adding more than 2,000 jobs, with plants currently at full utilisation. It has started shipping India-made CB350s to Europe and is evaluating the CB500 for export, with Africa and Latin America named as key markets.",
+        "whyItMatters": "A roughly 28% capacity increase from a market leader points to sustained 2W capex and export ambitions, which matter for supplier order books and for competitive intensity in the listed 2W space.",
+        "source": "Autocar India",
+        "url": "https://www.autocarindia.com/industry/honda-to-scale-two-wheeler-production-to-80-lakh-units-by-2028-441009"
+      }
+    ],
+    "industrials": [
+      {
+        "headline": "Zetwerk sets IPO band at ₹143–151 for an issue of about ₹5,012 crore",
+        "summary": "The manufacturing-services company's issue comprises a ₹2,830 crore fresh issue, raised from ₹2,600 crore in the August UDRHP, and an offer for sale of 14.45 crore shares, 49% more than first proposed. Lightspeed, Peak XV, Accel and the two founders are selling. The top of the band implies a valuation of about ₹25,583 crore. FY26 revenue from continuing operations was ₹15,913 crore (FY25: ₹11,332 crore). The book opens 15–19 October, with listing expected on 23 October.",
+        "whyItMatters": "This is the week's largest industrial IPO and a test of public-market appetite for asset-light manufacturing platforms. The enlarged OFS signals that venture investors want liquidity at this valuation.",
+        "source": "Entrackr",
+        "url": "https://entrackr.com/news/zetwerk-sets-ipo-price-band-at-rs-143-151-eyes-rs-5012-cr-from-issue-12667441"
+      },
+      {
+        "headline": "Bonfiglioli Transmissions launches ₹2,533.6 crore pure-OFS IPO",
+        "summary": "The gear-motor and drives maker has set a band of ₹558–586 for 4.32 crore shares, all sold by its Italian promoter Bonfiglioli SPA, which values the company at ₹11,016 crore at the top end. Revenue for the six months to June 2026 rose 17.9% to ₹1,131.9 crore and profit grew 29.2% to ₹148.6 crore. Subscription runs 15–19 October.",
+        "whyItMatters": "A foreign parent partly monetising its Indian subsidiary through the public market is a template other MNC industrial groups could follow, and adds a new listed comparable for motion-control and power-transmission businesses.",
+        "source": "Business Today",
+        "url": "https://www.businesstoday.in/markets/ipo-corner/story/bonfiglioli-transmissions-ipo-opens-on-oct-15-check-price-band-issue-size-other-key-details-560953-2026-10-12"
+      },
+      {
+        "headline": "Cable stocks fall up to 5% on Ultravolt competition concerns",
+        "summary": "Polycab, KEI, R R Kabel and Quadrant Future Tek fell 3–5% intraday on 13 October and are down as much as 24% from their September highs. The trigger was renewed concern over Aditya Birla's Ultravolt, backed by ₹1,800 crore under UltraTech and targeting a top-two position within five years. Brokers expect pressure mainly in house wires and low-voltage cables, with limited near-term impact as new entrants need 3–4 years to scale.",
+        "whyItMatters": "A well-funded conglomerate entrant is pushing down sector multiples, which affects valuations for any cable-sector IPO or M&A and may encourage smaller players to consolidate.",
+        "source": "Business Standard",
+        "url": "https://www.business-standard.com/amp/markets/news/cable-wire-stocks-polycab-kei-r-r-kabel-quadrant-future-slip-up-to-5-126101300557_1.html"
+      }
+    ],
+    "aerospace-defence": [
+      {
+        "headline": "Tonbo Imaging sets IPO band at ₹665–700 after ₹413 crore pre-IPO round",
+        "summary": "The defence electro-optics company's IPO is a pure offer for sale of up to 1.22 crore shares, with subscription from 15 to 19 October. Ahead of the issue, about ₹413 crore of shares changed hands at ₹700, the top of the band, with Amansa, SBI funds, HDFC Life and the 360 ONE Defence & Space Fund among the buyers. FY26 revenue fell 22.69% to ₹362.65 crore and PAT to ₹50.88 crore, which the company attributes to West Asia-related order delays.",
+        "whyItMatters": "Strong pre-IPO demand despite falling earnings shows the premium investors place on private defence electronics. The final pricing will be a useful reference for other defence-tech companies preparing listings.",
+        "source": "Business Standard",
+        "url": "https://www.business-standard.com/markets/news/defence-startup-tonbo-imaging-fixes-ipo-price-band-at-665-700-a-share-126101201269_1.html"
+      },
+      {
+        "headline": "Aequs signs long-term supply agreements with Safran for Airbus and Boeing programmes",
+        "summary": "Aequs has signed long-term agreements with Safran Aerosystems and Safran Electronics & Defense, taking it to six Safran entities, covering superalloy machining, complex machined parts and landing-gear component work for the A320, A330, A350 and Boeing 787. A significant share of the work will go to its upcoming engine-components facility in Hosur. Contract values were not disclosed.",
+        "whyItMatters": "Deeper OEM-tier-1 relationships give Indian aero-structures suppliers multi-year revenue visibility, which supports valuations and capacity-expansion funding in the sector.",
+        "source": "MRO Business Today",
+        "url": "https://mrobusinesstoday.com/aequs-safran-sign-long-term-supply-agreements-for-airbus-a320-a330-a350-and-boeing-787-programmes/"
+      },
+      {
+        "headline": "Boeing delivers 161 commercial jets in Q3, 475 year to date",
+        "summary": "Boeing reported preliminary Q3 2026 commercial deliveries of 161 aircraft, including 124 737s and 22 787s, taking the year-to-date total to 475. Its defense, space and security unit delivered 33 aircraft in the quarter. Final figures come with results on 27 October.",
+        "whyItMatters": "A steadier 737 production rate supports volumes for global aero suppliers, including Indian build-to-print and machining vendors.",
+        "source": "Boeing",
+        "url": "https://investors.boeing.com/investors/news/press-release-details/2026/Boeing-Announces-Third-Quarter-Deliveries/default.aspx"
+      }
+    ]
+  },
+  "regulatory": [
+    {
+      "headline": "September CPI jumps to 5.54%, strengthening the case for more RBI hikes",
+      "summary": "Retail inflation rose to 5.54% in September from 4.83% in August, above the 5.4% Reuters poll and the fourth straight month above the RBI's 4% target. Food inflation reached 7.74%, and rural inflation (6.08%) ran well ahead of urban (4.88%). Several brokerages now expect a further 25 bps hike in December, and some see a cumulative 50 bps more in this cycle.",
+      "whyItMatters": "Further tightening would raise acquisition-finance and vehicle-loan costs, so stress-test leverage assumptions and auto volume sensitivities for a higher-for-longer rate path.",
+      "source": "Reuters (via Investing.com)",
+      "url": "https://www.investing.com/news/economy-news/india-inflation-jumps-to-554-in-september-strengthening-case-for-further-rate-hikes-4943948"
+    },
+    {
+      "headline": "Union Bank projects September WPI at 10.6%, driven by fuel and crude",
+      "summary": "Ahead of the official release, Union Bank of India estimates September wholesale inflation at 10.60%, up from 9.92% in August, with fuel WPI at 24.45% and core WPI at 9%. It expects WPI to average about 10% in FY27. These figures are bank projections, not official data.",
+      "whyItMatters": "Double-digit wholesale inflation feeds directly into input costs for capital goods and auto makers, so check margin assumptions and contract pass-through clauses.",
+      "source": "ANI",
+      "url": "https://www.aninews.in/news/business/ubi-projects-wholesale-inflation-at-106-in-september-sees-double-digit-wpi-in-near-term20261013130008/"
+    }
+  ]
+}

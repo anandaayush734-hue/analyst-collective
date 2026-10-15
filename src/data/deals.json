@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-10-13",
+    "sector": "ev",
+    "type": "PE",
+    "target": "GreenCell Mobility",
+    "acquirer": "Impact Fund Denmark",
+    "value": "₹330 cr",
+    "status": "Announced",
+    "note": "Equity raise to fund deployment of about 4,500 e-buses.",
+    "url": "https://www.autocarpro.in/news/greencell-mobility-raises-rs-330-crore-from-impact-fund-denmark-for-e-bus-expansion-135196"
+  },
+  {
+    "date": "2026-10-12",
+    "sector": "industrials",
+    "type": "IPO",
+    "target": "Zetwerk",
+    "acquirer": "—",
+    "value": "~₹5,012 cr",
+    "status": "Announced",
+    "note": "Price band ₹143–151; ₹2,830 cr fresh issue plus OFS by Lightspeed, Peak XV, Accel and founders; opens 15 Oct.",
+    "url": "https://entrackr.com/news/zetwerk-sets-ipo-price-band-at-rs-143-151-eyes-rs-5012-cr-from-issue-12667441"
+  },
+  {
+    "date": "2026-10-12",
+    "sector": "industrials",
+    "type": "IPO",
+    "target": "Bonfiglioli Transmissions",
+    "acquirer": "—",
+    "value": "₹2,533.6 cr",
+    "status": "Announced",
+    "note": "Pure OFS by promoter Bonfiglioli SPA at ₹558–586; implied valuation ₹11,016 cr.",
+    "url": "https://www.businesstoday.in/markets/ipo-corner/story/bonfiglioli-transmissions-ipo-opens-on-oct-15-check-price-band-issue-size-other-key-details-560953-2026-10-12"
+  },
+  {
+    "date": "2026-10-12",
+    "sector": "aerospace-defence",
+    "type": "IPO",
+    "target": "Tonbo Imaging",
+    "acquirer": "—",
+    "value": "Up to 1.22 cr shares (OFS)",
+    "status": "Announced",
+    "note": "Price band ₹665–700; pure offer for sale, subscription 15–19 Oct.",
+    "url": "https://www.business-standard.com/markets/news/defence-startup-tonbo-imaging-fixes-ipo-price-band-at-665-700-a-share-126101201269_1.html"
+  },
+  {
+    "date": "2026-10-12",
+    "sector": "industrials",
+    "type": "QIP",
+    "target": "TD Power Systems",
+    "acquirer": "—",
+    "value": "₹600 cr",
+    "status": "Completed",
+    "note": "77,41,935 shares allotted at ₹775 apiece.",
+    "url": "https://www.sahi.com/news/td-power-systems-collects-600-crore-via-qip-at-775-per-share"
+  },
+  {
     "date": "2026-10-06",
     "sector": "aerospace-defence",
     "type": "Govt contract",

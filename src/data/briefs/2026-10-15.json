@@ -1,0 +1,191 @@
+{
+  "date": "2026-10-15",
+  "lead": {
+    "headline": "WPI hits a series high as MoRTH sets a 2029 BS-VII date; BHEL profit doubles",
+    "dek": "September wholesale inflation rose to 11.39%, and brokers expect commodity costs to compress Q2 auto margins even as revenue grows by up to 28%. A draft BS-VII deadline of April 2029 surprised carmakers, while BHEL's Q2 and fresh T&D wins point to a firm capex cycle."
+  },
+  "keyNumbers": [
+    {
+      "label": "WPI inflation, Sep-26",
+      "value": "11.39%",
+      "note": "vs 9.92% in Aug; series high"
+    },
+    {
+      "label": "BHEL Q2FY27 net profit",
+      "value": "₹820.94 cr",
+      "note": "+119% YoY (consolidated)"
+    },
+    {
+      "label": "e-PV retail, H1 FY27",
+      "value": "1,92,012",
+      "note": "+89% YoY (Vahan)"
+    },
+    {
+      "label": "Q2 auto revenue est.",
+      "value": "+26–28%",
+      "note": "YoY; EBITDA seen +14–16%"
+    },
+    {
+      "label": "Boeing Q3 deliveries",
+      "value": "161",
+      "note": "475 YTD; 124 737s in Q3"
+    },
+    {
+      "label": "BEL new orders",
+      "value": "₹533 cr",
+      "note": "Since 17 Sep disclosure"
+    }
+  ],
+  "ticker": [
+    {
+      "tag": "MACRO",
+      "text": "WPI inflation rises to a series-high 11.39% in September; fuel & power at 25.85%"
+    },
+    {
+      "tag": "REG",
+      "text": "MoRTH draft sets BS-VII norms for cars and SUVs from 1 April 2029; industry prefers 2032"
+    },
+    {
+      "tag": "IND",
+      "text": "BHEL Q2FY27 consolidated profit up 119% to ₹820.94 cr; revenue up 24% to ₹9,300 cr"
+    },
+    {
+      "tag": "IND",
+      "text": "Kalpataru Projects wins ~₹2,225 cr of orders; FY27 YTD inflows ~₹20,000 cr"
+    },
+    {
+      "tag": "AUTO",
+      "text": "Brokers see Q2 auto revenue up 26–28% YoY, with copper and rubber costs pressuring margins"
+    },
+    {
+      "tag": "AUTO",
+      "text": "CEAT Q2 revenue up 26% to ₹4,762 cr; net profit down 40% to ₹112 cr"
+    },
+    {
+      "tag": "EV",
+      "text": "Electric car retail tops 1.92 lakh units in H1 FY27, up 89% YoY; Tata holds 40% share"
+    },
+    {
+      "tag": "EV",
+      "text": "GreenCell Mobility raises ₹330 cr equity from Impact Fund Denmark for ~4,500 e-buses"
+    },
+    {
+      "tag": "A&D",
+      "text": "BEL reports ₹533 cr of new orders since 17 Sep across avionics, jammers, drones and cyber"
+    },
+    {
+      "tag": "A&D",
+      "text": "Boeing delivers 161 commercial jets in Q3, taking 2026 YTD deliveries to 475"
+    }
+  ],
+  "sectors": {
+    "ev": [
+      {
+        "headline": "Electric car retail crosses 1.92 lakh units in H1 FY27, up 89% YoY",
+        "summary": "Vahan data compiled by Autocar Professional shows 1,92,012 electric passenger vehicles registered in April–September, up from 1,01,398 a year earlier. Q2 alone accounted for 1,04,009 units, up 84% YoY. Tata Motors leads with 76,745 units (40% share), followed by Mahindra (44,051; 23%) and JSW MG Motor (33,456; 17%), whose share has fallen from 29% a year ago.",
+        "whyItMatters": "Share is concentrating in the two domestic leaders while JSW MG's lead erodes, a shift that matters for valuation benchmarks and for any strategic or capital-raising discussions involving the smaller e-PV players.",
+        "source": "Autocar Professional",
+        "url": "https://www.autocarpro.in/analysis-sales/q2-surge-powers-electric-car-suv-sales-past-192000-units-in-first-half-fy2027-135192"
+      },
+      {
+        "headline": "GreenCell Mobility raises ₹330 crore from Impact Fund Denmark for e-bus rollout",
+        "summary": "The Eversource Capital-backed electric bus operator has secured ₹330 crore in equity from Impact Fund Denmark. The capital will fund execution of its existing order book of about 4,500 new e-buses, which would take its fleet past 5,000 buses across 105 cities. Existing investors include IFC, British International Investment and Tata Capital.",
+        "whyItMatters": "Development-finance and impact capital continues to anchor India's e-bus operating platforms, which are building scale ahead of potential consolidation or a listing.",
+        "source": "EVreporter",
+        "url": "https://evreporter.com/greencell-mobility-secures-%e2%82%b9330-crore-from-impact-fund-denmark-to-deploy-4500-e-buses/"
+      },
+      {
+        "headline": "Changan and CATL to add 25 GWh of joint battery capacity",
+        "summary": "Changan and CATL plan a new 5 billion yuan (about US$750 million) battery facility that will add 25 GWh within three years of starting operations in 2027, taking joint capacity to 75 GWh. The partners will also work on solid-state and sodium-ion cells; Changan targets 400 Wh/kg solid-state cells with commercial production in 2027.",
+        "whyItMatters": "Chinese OEM-cell maker tie-ups keep pushing down cell costs and raising the scale threshold that India's PLI-ACC entrants must meet.",
+        "source": "CarNewsChina",
+        "url": "https://carnewschina.com/2026/10/14/changan-and-catl-to-collaborate-on-1500-km-solid-state-cells-establish-75-gwh-battery-lines/"
+      }
+    ],
+    "autos": [
+      {
+        "headline": "Q2 auto revenue seen up as much as 28%, but input costs squeeze margins",
+        "summary": "Brokerage previews peg sector revenue growth at 26–28% YoY for Q2 FY27, with EBITDA up only 14–16% and PAT up 12–13%. Maruti Suzuki's revenue is seen rising 28–30% while its profit is estimated to fall 8–15%; TVS Motor stands out with expected PAT growth of 45–49%. Elara Securities notes copper up 6% and rubber up 9% QoQ.",
+        "whyItMatters": "Volume growth is not translating into proportional earnings, so margin assumptions, not unit forecasts, are likely to drive estimate revisions this season.",
+        "source": "Business Standard",
+        "url": "https://www.business-standard.com/industry/auto/auto-revenue-seen-rising-up-to-28-in-q2-input-costs-may-squeeze-margins-126101301017_1.html"
+      },
+      {
+        "headline": "CEAT Q2: revenue up 26% but net profit falls 40% on raw-material costs",
+        "summary": "CEAT's consolidated revenue rose to ₹4,762 crore from ₹3,773 crore a year earlier, but EBITDA fell 9% to ₹457 crore and the margin narrowed to about 9.6% from 13.3%. Net profit dropped to ₹112 crore from ₹186 crore. Standalone revenue grew 23% to ₹4,548 crore.",
+        "whyItMatters": "A clear early read on commodity pressure across auto ancillaries; pricing power and pass-through terms will separate component names in Q2.",
+        "source": "Upstox News",
+        "url": "https://upstox.com/news/market-news/earnings/ceat-q2-fy-27-result-net-profit-drops-40-revenue-from-operation-rises-to-4-762-crore-yo-y/article-201864/"
+      },
+      {
+        "headline": "Average car loan size up 49% to ₹8.2 lakh in seven years: TransUnion CIBIL",
+        "summary": "The average passenger-vehicle loan rose to ₹8.2 lakh in H1 2026 from H1 2019, with a 62-month average tenure. Two-wheeler loan balances have grown 3.2 times to ₹1.76 trillion. PV loans more than 90 days overdue fell to 0.5% from 1.45%.",
+        "whyItMatters": "Larger tickets and better asset quality support premiumisation, but a rising-rate environment makes financing costs a sensitivity to watch in volume forecasts.",
+        "source": "Business Standard (PTI)",
+        "url": "https://www.business-standard.com/industry/auto/average-loan-size-for-pvs-rises-49-to-8-2-lakh-in-7-years-report-126101300734_1.html"
+      }
+    ],
+    "industrials": [
+      {
+        "headline": "BHEL Q2FY27 profit more than doubles; board approves Haridwar capacity capex",
+        "summary": "Consolidated net profit rose 119% YoY to ₹820.94 crore and revenue from operations grew 24% to ₹9,300.35 crore. Power segment revenue was ₹6,637.90 crore and Industry ₹2,662.45 crore. H1 profit was ₹1,197.65 crore against a loss a year earlier, and the board approved about ₹500 crore of capex for additional thermal and nuclear manufacturing facilities at Haridwar.",
+        "whyItMatters": "Execution on the thermal order book is now reaching the P&L, and fresh capacity capex signals management confidence in a multi-year power equipment cycle.",
+        "source": "Free Press Journal",
+        "url": "https://www.freepressjournal.in/business/bhel-q2-fy27-results-net-profit-jumps-119-to-821-crore-revenue-rises-24-to-9300-crore"
+      },
+      {
+        "headline": "Kalpataru Projects adds ~₹2,225 crore of orders; FY27 inflows up over 30%",
+        "summary": "Kalpataru Projects International disclosed new orders and a letter of comfort worth about ₹2,225 crore, including roughly ₹2,031 crore of domestic and international T&D work. Its Swedish subsidiary won a ₹194 crore (SEK 200 million) substation contract from Ellevio. FY27 year-to-date inflows stand at about ₹20,000 crore, up more than 30% YoY.",
+        "whyItMatters": "Continued T&D order momentum, including in Europe, reinforces the grid theme that is drawing strategic and sponsor interest across EPC, transformers and cables.",
+        "source": "Kalkine Media",
+        "url": "https://www.kalkine.co.in/article/announcements/kalpataru-projects-nsekpil-what-drove-its-rs-2225-crore-order-win-in-october-2026"
+      },
+      {
+        "headline": "NCLAT stays insolvency admission against Polycab over ₹2.79 crore dues",
+        "summary": "NCLT Ahmedabad had admitted an operational-creditor petition by Asier Metals over alleged dues of ₹2.79 crore on 7 October; the NCLAT stayed that order on 9 October and listed the appeal for 26 October. Polycab says it is debt-free, with net cash above ₹4,000 crore and net worth of ₹11,682 crore, and expects no material impact.",
+        "whyItMatters": "Largely a procedural matter for a cash-rich company, but it shows how small operational disputes can trigger IBC proceedings, which is relevant for diligence on supplier disputes.",
+        "source": "CNBC-TV18 via TradingView",
+        "url": "https://www.tradingview.com/news/cnbctv:0a74754d2094b:0/"
+      }
+    ],
+    "aerospace-defence": [
+      {
+        "headline": "BEL discloses ₹533 crore of new orders since mid-September",
+        "summary": "Bharat Electronics has received orders worth about ₹533 crore since its 17 September disclosure of ₹648 crore. The orders cover communication equipment, avionics, cyber products, unmanned aerial systems, electronic jammers, software, upgrades, spares and services.",
+        "whyItMatters": "Steady flow of smaller orders between large platform awards supports order-book visibility for defence electronics, a key input to the sector's valuation.",
+        "source": "Business Today",
+        "url": "https://www.businesstoday.in/markets/stocks/story/bel-order-book-gets-rs-533-crore-boost-from-defence-and-technology-contracts-561335-2026-10-13"
+      },
+      {
+        "headline": "Army inducts 450 Nagastra-1R loitering munitions from Solar Defence",
+        "summary": "Solar Defence and Aerospace has supplied 450 Nagastra-1R loitering munitions to the Indian Army, its largest single-batch delivery, under emergency procurement after trials in which it was the only one of four bidders to meet all parameters. The system has more than 80% indigenous content and a stated accuracy of 2 metres CEP. The contract value was not disclosed.",
+        "whyItMatters": "Emergency procurement is accelerating scale orders for private-sector drone and munitions makers, strengthening the case for capacity investment and capital raising in the segment.",
+        "source": "The Week",
+        "url": "https://www.theweek.in/news/defence/2026/10/13/indian-army-adds-450-nagastra-1r-drones-to-strengthen-short-range-precision-strike-capability-how-deadly-are-these-drones.html"
+      },
+      {
+        "headline": "Boeing delivers 161 commercial jets in Q3, 475 so far in 2026",
+        "summary": "Boeing delivered 161 commercial aircraft in Q3 2026, including 124 737s and 22 787s, bringing year-to-date deliveries to 475. Its defence, space and security unit delivered 33 units in the quarter and 98 year to date.",
+        "whyItMatters": "A steadier 737 cadence supports the aero-structures and component supply chain, including Indian build-to-print suppliers, as both OEMs head into a heavy Q4.",
+        "source": "Boeing (company release)",
+        "url": "https://investors.boeing.com/investors/news/press-release-details/2026/Boeing-Announces-Third-Quarter-Deliveries/default.aspx"
+      }
+    ]
+  },
+  "regulatory": [
+    {
+      "headline": "MoRTH draft sets BS-VII emission norms for cars and SUVs from April 2029",
+      "summary": "A draft notification dated 12 October applies BS-VII to M1 passenger vehicles from 1 April 2029, in phases running to 2035. Tailpipe limits stay at BS-VI levels, but the draft adds brake particulate limits from April 2031 (3 mg/km for pure EVs, 7 mg/km for others), a real-driving conformity factor of 1.0 from April 2030 and tighter onboard monitoring. Carmakers would prefer a 2032 start; commercial-vehicle rules are expected separately.",
+      "whyItMatters": "Compliance spend on testing, software and engineering competes with EV programmes for capital, and may reshape product timelines and supplier opportunities in emissions and braking technology.",
+      "source": "Business Standard",
+      "url": "https://www.business-standard.com/industry/auto/bs-vii-clock-starts-ticking-as-centre-sets-2029-target-for-emission-norms-126101401423_1.html"
+    },
+    {
+      "headline": "WPI inflation climbs to a series-high 11.39% in September",
+      "summary": "Wholesale inflation rose to 11.39% from 9.92% in August. Fuel and power inflation reached 25.85% and manufactured products 9.76%, also a series high, while food articles rose to a 21-month high of 8.14%.",
+      "whyItMatters": "Broad input-cost inflation strengthens the case for the RBI's tightening stance and points to margin pressure for industrials and autos lacking pass-through clauses.",
+      "source": "Business Standard",
+      "url": "https://www.business-standard.com/economy/news/wholesale-inflation-september-wpi-ppi-food-fuel-manufacturing-126101400599_1.html"
+    }
+  ]
+}
