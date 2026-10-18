@@ -1,5 +1,38 @@
 [
   {
+    "date": "2026-10-16",
+    "sector": "autos",
+    "type": "M&A",
+    "target": "Iveco Group (commercial vehicles)",
+    "acquirer": "Tata Motors (TML CV Holdings)",
+    "value": "~€3.91 bn",
+    "status": "Announced",
+    "note": "Iveco shareholders approved takeover proposals at an EGM; €14.40/share tender closes 26 Oct, minimum acceptance cut to 80%.",
+    "url": "https://www.business-standard.com/industry/auto/iveco-group-shareholders-approve-tata-motors-takeover-proposals-126101600938_1.html"
+  },
+  {
+    "date": "2026-10-15",
+    "sector": "aerospace-defence",
+    "type": "Govt contract",
+    "target": "Bharat Dynamics",
+    "acquirer": "Ministry of Defence",
+    "value": "₹1,543 cr",
+    "status": "Signed",
+    "note": "Supply of Varunastra heavyweight torpedoes to the Indian Navy.",
+    "url": "https://www.businesstoday.in/india/story/from-space-to-underwater-warfare-defence-ministry-signs-rs-4106-crore-deals-for-iaf-navy-561916-2026-10-15"
+  },
+  {
+    "date": "2026-10-15",
+    "sector": "aerospace-defence",
+    "type": "Govt contract",
+    "target": "NewSpace India Ltd (NSIL)",
+    "acquirer": "Ministry of Defence",
+    "value": "₹2,563 cr",
+    "status": "Signed",
+    "note": "Indigenous GSAT-7C communication satellite for the Indian Air Force.",
+    "url": "https://www.businesstoday.in/india/story/from-space-to-underwater-warfare-defence-ministry-signs-rs-4106-crore-deals-for-iaf-navy-561916-2026-10-15"
+  },
+  {
     "date": "2026-10-13",
     "sector": "ev",
     "type": "PE",

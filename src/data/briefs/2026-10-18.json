@@ -1,0 +1,170 @@
+{
+  "date": "2026-10-18",
+  "lead": {
+    "headline": "Iveco investors back Tata Motors' €3.9bn bid as MoD signs ₹4,106 cr and PV dispatches jump 22%",
+    "dek": "Iveco shareholders cleared the governance steps for Tata Motors' takeover, with the tender now due to close on 26 October. The defence ministry signed satellite and torpedo contracts with NSIL and BDL, while SIAM data showed Q2 passenger-vehicle wholesales up 31% and the Centre cut sugar out of the ethanol programme for 2026-27."
+  },
+  "keyNumbers": [
+    {
+      "label": "Tata–Iveco deal value",
+      "value": "~€3.91 bn",
+      "note": "€14.40/share; tender closes 26 Oct"
+    },
+    {
+      "label": "MoD contracts signed",
+      "value": "₹4,106 cr",
+      "note": "GSAT-7C (NSIL) + Varunastra (BDL)"
+    },
+    {
+      "label": "PV dispatches, Sep-26",
+      "value": "4,54,574",
+      "note": "+21.8% YoY (SIAM)"
+    },
+    {
+      "label": "Tractor dispatches, Sep-26",
+      "value": "1,19,667",
+      "note": "−18.1% YoY; retail +13.8% (FADA)"
+    },
+    {
+      "label": "Global EV sales, Sep-26",
+      "value": "2.15 mn",
+      "note": "−2% MoM; Europe record ~6 lakh (BMI)"
+    },
+    {
+      "label": "Ethanol tender size, ESY 2026-27",
+      "value": "11 bn litres",
+      "note": "Sugar-based feedstock excluded"
+    }
+  ],
+  "ticker": [
+    {
+      "tag": "AUTO",
+      "text": "Iveco shareholders approve Tata Motors takeover proposals; €14.40/share tender closes 26 October"
+    },
+    {
+      "tag": "A&D",
+      "text": "MoD signs ₹2,563 cr GSAT-7C deal with NSIL and ₹1,543 cr Varunastra torpedo deal with BDL"
+    },
+    {
+      "tag": "AUTO",
+      "text": "SIAM: September PV dispatches up 21.8% to 4.55 lakh; Q2 PV wholesales up 30.7% to 13.6 lakh"
+    },
+    {
+      "tag": "AUTO",
+      "text": "Tractor dispatches fall 18.1% in September while retail registrations rise 13.8% (FADA)"
+    },
+    {
+      "tag": "EV",
+      "text": "Global EV sales slip 2% MoM to 2.15 mn in September; Europe posts a record month (BMI)"
+    },
+    {
+      "tag": "EV",
+      "text": "VinFast India crosses 14,600 EV retail units in 14 months, ranking fourth with a 4% e-PV share"
+    },
+    {
+      "tag": "IND",
+      "text": "Tata Steel commissions ₹9,067 cr of facilities at Kalinganagar and NINL in Odisha"
+    },
+    {
+      "tag": "IND",
+      "text": "GPT Infraprojects unit wins ₹149.5 cr Western Railway electronic-interlocking order"
+    },
+    {
+      "tag": "REG",
+      "text": "Centre sets sugar diversion for ethanol at zero for 2026-27; OMCs tender for 11 bn litres"
+    },
+    {
+      "tag": "A&D",
+      "text": "Tonbo Imaging's ₹852 cr IPO subscribed 7.78x by Day 2; bidding closes 19 October"
+    }
+  ],
+  "sectors": {
+    "ev": [
+      {
+        "headline": "Global EV sales dip 2% in September as US slumps and Europe hits a record",
+        "summary": "Benchmark Mineral Intelligence data show 2.15 million EVs sold worldwide in September, down 2% from August and ending six months of sequential growth; year-to-date sales are up 3% at 15.5 million. Europe sold almost 6 lakh EVs, its best month on record, while North America fell 44% against a year-earlier rush before US tax credits lapsed. China dropped 18% to 1.11 million units, with carmakers leaning more on exports.",
+        "whyItMatters": "Softer Chinese domestic demand and a growing export push add pricing pressure in markets such as India, relevant to the economics of local cell and EV programmes and to partner selection.",
+        "source": "Reuters via The Manila Times",
+        "url": "https://manilatimes.net/2026/10/17/business/foreign-business/global-ev-sales-fall-2-in-september/2447443/amp"
+      },
+      {
+        "headline": "VinFast India sells 14,600 EVs in 14 months, ranks fourth in e-PVs",
+        "summary": "Vahan data show VinFast retailed 14,637 EVs between September 2025 and 14 October 2026, about 4% of the 3,43,876 e-PVs sold in that period and fourth behind Tata Motors (40%), Mahindra (22%) and JSW MG (20%). September 2026 was its best month at 3,292 units. In H1 FY27 its Thoothukudi plant produced 14,116 units against wholesales of 13,307, with the Limo Green fleet model making up about 54% of volumes.",
+        "whyItMatters": "A new entrant building share largely through fleet sales points to fragmentation below the top three, which bears on competitive positioning and on any capital-raising or partnership talks among smaller e-PV players.",
+        "source": "Autocar Professional",
+        "url": "https://www.autocarpro.in/analysis-sales/vinfast-india-sells-14600-evs-since-market-entry-14-months-ago-135278"
+      }
+    ],
+    "autos": [
+      {
+        "headline": "Iveco shareholders approve Tata Motors' takeover; tender set to close 26 October",
+        "summary": "At an EGM in Amsterdam on 16 October, Iveco Group shareholders approved the proposals tied to Tata Motors' voluntary tender offer for its commercial-vehicle business, made through TML CV Holdings. Tata Motors raised the offer from €14.10 to €14.40 per share on 9 October, valuing the deal at about €3.91 billion, and cut the minimum acceptance threshold from 95% to 80%. Approvals include delisting, conversion to a private company and a possible post-offer demerger if 80% is reached; other conditions remain outstanding.",
+        "whyItMatters": "This is one of the largest outbound acquisitions by an Indian auto group; final acceptance levels will decide the post-offer structure and the scale of acquisition financing Tata Motors needs to put in place.",
+        "source": "Business Standard",
+        "url": "https://www.business-standard.com/industry/auto/iveco-group-shareholders-approve-tata-motors-takeover-proposals-126101600938_1.html"
+      },
+      {
+        "headline": "SIAM: Q2 PV wholesales up 31% as mini cars rebound 86% in H1",
+        "summary": "Passenger-vehicle dispatches rose 21.8% YoY to 4,54,574 units in September, taking Q2 FY27 wholesales up 30.7% to 1.36 million, with utility vehicles close to 68% of the mix. Mini-car (Alto, S-Presso) wholesales jumped 86.3% to 75,269 units in H1. Q2 commercial-vehicle wholesales grew 28.7% to 3,09,063 units and two-wheelers 15.2% to 6.43 million, led by scooters. SIAM expects growth in H2 to slow against a higher base, citing inflation and rate risk.",
+        "whyItMatters": "Broad-based volume strength into the festive season supports Q2 revenue but, given input-cost inflation, puts the focus on margins and on SIAM's caution for H2.",
+        "source": "Business Standard",
+        "url": "https://www.business-standard.com/industry/auto/mini-car-sales-h1-fy27-siam-entry-level-passenger-vehicles-126101500506_1.html"
+      },
+      {
+        "headline": "Tractor dispatches fall 18% in September even as retail rises 14%",
+        "summary": "FADA data show tractor dispatches fell 18.1% YoY to 1,19,667 units in September while retail registrations rose 13.8% to 76,906, though retail was down 12.6% from August. Mahindra's dispatches fell 22.7% to 50,208 units, accounting for over half of the industry decline, and TAFE fell 28.4%; Sonalika grew 6.2% and gained 3.66 percentage points of share. Weak monsoon conditions in Gujarat and Maharashtra are cited as a risk.",
+        "whyItMatters": "Dealer destocking ahead of a weaker rabi outlook is a near-term earnings risk for farm-equipment makers and a factor in sizing rural demand in the wider auto market.",
+        "source": "Autocar Professional",
+        "url": "https://www.autocarpro.in/analysis-sales/tractor-dispatches-fall-18-percent-as-retail-rises-14-percent-with-monsoon-risk-ahead-135313"
+      }
+    ],
+    "industrials": [
+      {
+        "headline": "Tata Steel commissions ₹9,067 crore of facilities in Odisha",
+        "summary": "Tata Steel commissioned facilities at Kalinganagar and the NINL expansion involving a total investment of about ₹9,067 crore. These include two continuous galvanising lines with 1 mtpa combined capacity, a 0.9 mtpa continuous annealing line, phase I of a 7 mtpa slurry pipeline from its Kalamang mines and a Linde India air-separation unit. The company has separately approved ₹33,873 crore of capex to add 4.8 mtpa of crude steel capacity.",
+        "whyItMatters": "Downstream coated and annealed capacity targets auto and appliance demand, and the larger crude-steel programme sustains orders for metallurgical EPC, gases and heavy-equipment suppliers.",
+        "source": "Business Standard",
+        "url": "https://www.business-standard.com/industry/news/tata-steel-commissions-9-067-crore-facilities-at-kalinganagar-plant-126101601179_1.html"
+      },
+      {
+        "headline": "GPT Infraprojects wins ₹149.5 crore Western Railway signalling order",
+        "summary": "GPT Infraprojects' subsidiary Alcon Builders and Engineers won a ₹149.5 crore order (₹126.70 crore excluding tax) from Western Railway's Bhavnagar division to replace panel interlocking with electronic interlocking at 18 stations over 730 days. The company puts its net outstanding order book at ₹5,538 crore and FY27 order inflow at ₹1,364 crore.",
+        "whyItMatters": "Railway signalling modernisation is producing a steady stream of mid-sized awards that are widening the base of listed rail-EPC contractors beyond the large incumbents.",
+        "source": "Angel One",
+        "url": "https://www.angelone.in/news/stocks/gpt-infraprojects-share-price-in-focus-bags-149-5-crore-western-railway-order"
+      }
+    ],
+    "aerospace-defence": [
+      {
+        "headline": "MoD signs ₹4,106 crore contracts for IAF satellite and Navy torpedoes",
+        "summary": "The defence ministry signed two contracts on 15 October worth ₹4,106 crore in total. NSIL will supply the indigenous GSAT-7C communication satellite to the IAF for ₹2,563 crore, and Bharat Dynamics will supply ship-launched Varunastra heavyweight torpedoes, designed by DRDO's NSTL, to the Navy for ₹1,543 crore.",
+        "whyItMatters": "Contract conversion from earlier approvals adds to BDL's order book and shows space-based military communications becoming a growing procurement line.",
+        "source": "Business Today",
+        "url": "https://www.businesstoday.in/india/story/from-space-to-underwater-warfare-defence-ministry-signs-rs-4106-crore-deals-for-iaf-navy-561916-2026-10-15"
+      },
+      {
+        "headline": "Tonbo Imaging IPO subscribed 7.78x by Day 2, led by non-institutional bids",
+        "summary": "The ₹852.2 crore IPO of defence electro-optics maker Tonbo Imaging, priced at ₹665–700 per share, was subscribed 7.78 times overall by the end of Day 2, with non-institutional investors at 14.35x, retail at 7.14x and QIBs at 3.95x. Bidding opened on 15 October and closes on 19 October; listing on BSE and NSE is expected on 23 October.",
+        "whyItMatters": "Investor demand for private defence-technology issues is a read-across for the pipeline of A&D companies preparing to list.",
+        "source": "IPO Watch",
+        "url": "https://ipowatch.in/tonbo-imaging-india-ipo-subscription-status/"
+      }
+    ]
+  },
+  "regulatory": [
+    {
+      "headline": "Centre sets sugar diversion for ethanol at zero for 2026-27; corn incentive cut",
+      "summary": "The government told oil marketing companies to reduce sugar diversion for ethanol to zero for the 2026-27 supply year, so ethanol made from cane juice, sugar syrup and B-heavy molasses is barred from the new tender. IOC, BPCL and HPCL are seeking 11 billion litres from grain feedstocks such as corn and FCI rice. The corn-ethanol incentive was cut from ₹5.79 to ₹2.79 per litre, lowering the procurement price to ₹68.86 per litre, as weak rainfall pushes sugar prices to records.",
+      "whyItMatters": "With E20 now mandatory, a grain-only supply base and lower prices test the ethanol programme that underpins OEM flex-fuel plans and distillery capex.",
+      "source": "Business Standard",
+      "url": "https://www.business-standard.com/industry/news/centre-sets-sugar-diversion-for-ethanol-at-zero-in-2026-27-tender-126101601377_1.html"
+    },
+    {
+      "headline": "Rupee posts best weekly gain among EM currencies after RBI curbs; Brent near $110",
+      "summary": "RBI steps to curb spot dollar demand helped the rupee rise for a sixth straight session and gain about 2% over the week, the best performance among emerging-market currencies. Brent crude was near $110 a barrel, and US CPI inflation rose to 3.7% in September from 3.4%. FIIs sold a net ₹15,440 crore of equities during the week while DIIs bought ₹14,792 crore.",
+      "whyItMatters": "Currency and crude moves feed directly into import-heavy input costs for autos and industrials and into the cost of foreign-currency funding for overseas acquisitions.",
+      "source": "Business Today",
+      "url": "https://businesstoday.in/markets/stocks/story/markets-next-week-jio-platforms-ipo-high-crude-oil-prices-and-q2-earnings-in-focus-562260-2026-10-18"
+    }
+  ]
+}
