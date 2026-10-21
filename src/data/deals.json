@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-10-19",
+    "sector": "autos",
+    "type": "JV",
+    "target": "Faurecia Anand Seating India (seating JV)",
+    "acquirer": "Forvia (Faurecia Automotive Seating) with Gabriel India",
+    "value": "₹20 cr initial equity",
+    "status": "Completed",
+    "note": "JV entity incorporated; Forvia holds 50% plus one share, Gabriel 50% minus one share; targets ~10% seating market share in five years.",
+    "url": "https://www.autocarpro.in/news/gabriel-india-and-forvia-formally-incorporate-seating-jv-entity-named-faurecia-anand-seating-india-135348"
+  },
+  {
     "date": "2026-10-16",
     "sector": "autos",
     "type": "M&A",

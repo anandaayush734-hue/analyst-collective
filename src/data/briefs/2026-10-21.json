@@ -1,0 +1,184 @@
+{
+  "date": "2026-10-21",
+  "lead": {
+    "headline": "Tonbo IPO closes 136x subscribed as e-scooter share hits 20% and RTX, GM lift 2026 outlooks",
+    "dek": "Defence electronics drew outsized institutional demand on the final day of Tonbo Imaging's IPO, electric scooters doubled in H1 FY27, and US Q3 results from RTX, GE Aerospace and GM pointed to firm aerospace and auto earnings. At home, Haryana granted its first parallel power distribution licence."
+  },
+  "keyNumbers": [
+    {
+      "label": "Tonbo IPO subscription",
+      "value": "~135.9x",
+      "note": "QIB 293.6x; closed 19 Oct"
+    },
+    {
+      "label": "E-scooter sales, H1 FY27",
+      "value": "9.78 lakh",
+      "note": "+103% YoY; 20% of all scooters"
+    },
+    {
+      "label": "Car dealer inventory",
+      "value": "43–45 days",
+      "note": "End-Sept vs ~60 days a year ago"
+    },
+    {
+      "label": "RTX backlog",
+      "value": "$340 bn",
+      "note": "$176 bn commercial, $164 bn defence"
+    },
+    {
+      "label": "Eleven Power capex plan",
+      "value": "₹4,717 cr",
+      "note": "Over five years, Gurugram–Nuh"
+    },
+    {
+      "label": "RBI 7-day VRR",
+      "value": "₹1 trn",
+      "note": "Bids above ₹1.5 trn; first infusion in 3 months"
+    }
+  ],
+  "ticker": [
+    {
+      "tag": "A&D",
+      "text": "Tonbo Imaging IPO subscribed ~136x on final day; QIB book 293.56x, NII 170.94x, retail 31.07x"
+    },
+    {
+      "tag": "EV",
+      "text": "H1 FY27 e-scooter sales up 103% to 9.78 lakh; TVS leads with 31% share, Bajaj 27%, Ather 18%"
+    },
+    {
+      "tag": "AUTO",
+      "text": "Car dealer stock at 43–45 days end-September vs ~60 days a year ago; Maruti has 2 lakh+ pending bookings"
+    },
+    {
+      "tag": "AUTO",
+      "text": "Schaeffler India MD & CEO taken into police custody over June CO₂ accident at Talegaon plant"
+    },
+    {
+      "tag": "AUTO",
+      "text": "Gabriel India and Forvia incorporate Faurecia Anand Seating India JV; Forvia holds 50% plus one share"
+    },
+    {
+      "tag": "A&D",
+      "text": "GE Aerospace Q3 orders up 49% to $19.0 bn; raises 2026 guidance for commercial engines"
+    },
+    {
+      "tag": "A&D",
+      "text": "US set to certify Boeing 737 MAX 10; first deliveries expected in 2027"
+    },
+    {
+      "tag": "IND",
+      "text": "HERC grants Eleven Power 25-year parallel distribution licence for Gurugram and Nuh"
+    },
+    {
+      "tag": "AUTO",
+      "text": "GM Q3 EBIT-adjusted up 21.6% to $4.1 bn; new $20 bn buyback authorised"
+    },
+    {
+      "tag": "MACRO",
+      "text": "RBI injects ₹1 trn via 7-day repo as call rate tops MSF; repo at 5.50%"
+    }
+  ],
+  "sectors": {
+    "ev": [
+      {
+        "headline": "E-scooter sales double to 9.78 lakh in H1 FY27, taking 20% of the scooter market",
+        "summary": "Scooter sales rose 29% YoY to about 48.65 lakh units in April–September 2026, with September a record month at 9.96 lakh. Electric scooters grew 103% to 9.78 lakh units, lifting their share to 20% from 13%. TVS led e-scooters with 3.06 lakh units (31% share), followed by Bajaj Auto at 2.61 lakh (27%), Ather at 1.72 lakh (18%, down from 23%) and Hero MotoCorp at 1.34 lakh (14%).",
+        "whyItMatters": "Incumbent ICE makers are taking share from EV-native players such as Ather, which bears on valuation and on the funding and consolidation prospects of smaller pure-play e-2W companies.",
+        "source": "Autocar Professional",
+        "url": "https://www.autocarpro.in/analysis-sales/scooter-sales-jump-29-percent-to-486-million-units-in-h1-fy2027-ev-share-grows-to-20-percent-135326"
+      },
+      {
+        "headline": "JLR India plans three EV launches early next year and an all-electric Jaguar return",
+        "summary": "JLR India will launch three electric models early next year, including the Range Rover Electric and Range Rover Sport Electric, and reintroduce Jaguar as an all-electric brand in the second half. Retail volumes fell 2% in FY26 while revenue rose about 14%, with an average transaction price of roughly ₹1.4 crore. The India–UK trade deal cuts duties on British-built petrol and diesel cars, but EVs and hybrids get no concession for five years.",
+        "whyItMatters": "With no duty relief on imported EVs, luxury electric volumes depend on pricing and possible local assembly, a consideration for the group's India investment plans for the brand.",
+        "source": "Autocar Professional",
+        "url": "https://www.autocarpro.in/news/jlr-india-to-launch-three-electric-range-rovers-reintroduce-jaguar-next-year-135357"
+      },
+      {
+        "headline": "Switch Mobility starts Purple Bus's 50-unit electric intercity coach order in Vidarbha",
+        "summary": "Switch Mobility and operator Purple Bus flagged off the first six of 50 EiV12m intercity electric coaches on the Nagpur–Chandrapur route. The 45-seat coaches have a 350 km range per charge and support fast charging. The two companies already run electric coaches on the Mumbai–Pune and Dombivli–Pune corridors.",
+        "whyItMatters": "Private intercity operators adopting e-coaches widen the e-bus market beyond state tenders, which supports financing and leasing structures for fleet operators.",
+        "source": "Autocar Professional",
+        "url": "https://www.autocarpro.in/news/switch-mobility-and-purple-bus-flag-off-first-electric-intercity-coaches-in-vidarbha-135359"
+      }
+    ],
+    "autos": [
+      {
+        "headline": "Car dealer inventory falls to 43–45 days ahead of Diwali as retail outpaces dispatches",
+        "summary": "Dealer stock stood at about 43–45 days at the end of September, against roughly 60 days a year earlier. September retail registrations rose 32.1% YoY to 4.27 lakh units while wholesale dispatches rose 21.8% to 4.55 lakh, narrowing the gap by 45%. Maruti Suzuki had over 2 lakh pending bookings and 17 days of inventory on 1 October, and 75.57% of dealers surveyed by FADA expect October growth.",
+        "whyItMatters": "Leaner channel stock reduces the risk of heavy post-festive discounting and supports OEM margins into Q3 FY27, with Diwali falling on 8 November this year.",
+        "source": "Business Standard",
+        "url": "https://www.business-standard.com/industry/auto/car-inventory-levels-lower-this-festival-season-amid-rising-demand-126101800626_1.html"
+      },
+      {
+        "headline": "ZF expects India sourcing to grow 10–15% a year, citing a 20% cost advantage",
+        "summary": "ZF board member Andreas Moser said the group's sourcing from India should grow 10–15% annually over the next three to four years, after about 20% growth over the past three. ZF buys about €600 million a year in India for commercial vehicles and €500–600 million for passenger vehicles, and says Indian suppliers are about 20% cheaper even after shipping. Its Coimbatore plant makes about 60% of ZF's global wind turbine transmissions.",
+        "whyItMatters": "Rising export sourcing by global Tier-1s supports order books and valuations of Indian component makers and adds to the case for capacity-led fundraising in the sector.",
+        "source": "Business Standard",
+        "url": "https://www.business-standard.com/companies/news/zf-group-india-sourcing-growth-10-15-per-cent-annually-126101900593_1.html"
+      },
+      {
+        "headline": "GM raises midpoint of 2026 free cash flow outlook after Q3 EBIT-adjusted rises 21.6%",
+        "summary": "General Motors reported Q3 2026 revenue of $50.0 billion, up 2.9%, and EBIT-adjusted of $4.1 billion, up 21.6%, with a margin of 8.2%. Adjusted EPS rose 32.2% to $3.70 and adjusted automotive free cash flow rose 40% to $5.9 billion. GM narrowed its 2026 EBIT-adjusted range to $14.5–15.5 billion, raised its free cash flow outlook to $11.5–12.5 billion and approved a new $20 billion buyback.",
+        "whyItMatters": "Strong North American cash generation and much smaller EV restructuring charges ($238 million vs $1.6 billion a year ago) point to global OEMs favouring buybacks over new EV capacity, which affects the outlook for supplier capex and partnerships.",
+        "source": "General Motors (SEC Form 8-K)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001467858/000146785826000056/gmq32026pressreleaseandfin.htm"
+      }
+    ],
+    "industrials": [
+      {
+        "headline": "HERC grants Eleven Power Haryana's first parallel distribution licence, with ₹4,717 cr capex plan",
+        "summary": "The Haryana Electricity Regulatory Commission granted Eleven Power a 25-year parallel distribution licence covering the Gurugram and Nuh districts, which have over 8.3 lakh consumers. The company plans ₹4,717 crore of capital spending over five years, with supply to begin in 2027-28. About 80% of its power is to come from renewable sources under firm and dispatchable contracts.",
+        "whyItMatters": "A rare private entry into discom-dominated distribution could open a template for other states, creating demand for T&D equipment, smart metering and project finance.",
+        "source": "Business Standard",
+        "url": "https://www.business-standard.com/industry/news/eleven-power-gets-25-year-parallel-distribution-licence-in-gurugram-nuh-126101901074_1.html"
+      },
+      {
+        "headline": "Power Mech wins ₹327 crore O&M contract from Vedanta Aluminium in Odisha",
+        "summary": "Power Mech Projects won a ₹327.35 crore (ex-GST) contract from Vedanta Aluminium Metal for end-to-end operation and maintenance of a 130 MW captive plant at Lanjigarh, Odisha, over 48 months. It follows a ₹970 crore O&M order from Vedanta Power in September for the 2x600 MW Sakti thermal plant in Chhattisgarh.",
+        "whyItMatters": "Recurring O&M contracts give EPC players steadier, annuity-like revenue, which can support valuation multiples as thermal capacity additions pick up.",
+        "source": "CNBC-TV18 via TradingView",
+        "url": "https://www.tradingview.com/news/cnbctv:3d8153e31094b:0/"
+      }
+    ],
+    "aerospace-defence": [
+      {
+        "headline": "Tonbo Imaging IPO closes ~136x subscribed, with QIB portion at 293.6x",
+        "summary": "Bengaluru-based defence electronics maker Tonbo Imaging's IPO was subscribed about 135.9 times when bidding closed on 19 October. Qualified institutional buyers bid 293.56 times their quota, non-institutional investors 170.94 times and retail 31.07 times, across about 55.2 lakh applications. The company had raised ₹255.36 crore from anchor investors; its FY26 revenue fell about 23% to ₹362.65 crore.",
+        "whyItMatters": "Very strong institutional demand despite falling revenue shows the depth of investor appetite for defence technology, which supports the pipeline of private A&D listings.",
+        "source": "Business Standard",
+        "url": "https://www.business-standard.com/markets/news/tonbo-imaging-india-ipo-subscribed-nearly-136-times-led-by-qib-demand-126101901284_1.html"
+      },
+      {
+        "headline": "DRDO picks SSS Defence and Kalyani to develop 20 mm gun for HAL's Rudra and LCH",
+        "summary": "DRDO's Armament Research and Development Establishment has shortlisted SSS Defence and the Kalyani Group as development-cum-production partners for an indigenous 20 mm aviation gun and turret for HAL's ALH Mk-IV Rudra and the Light Combat Helicopter. Development is expected to take about two years, with production orders reportedly split 60:40 between the L1 bidder and the other firm. The LCH currently uses a 20 mm turret gun from Europe's KNDS.",
+        "whyItMatters": "Replacing imported subsystems on HAL helicopters adds to the order pipeline for private Indian defence firms and supports Kalyani's defence vertical.",
+        "source": "ThePrint",
+        "url": "https://theprint.in/defence/drdo-shortlists-sss-defence-kalyani-group-to-develop-indigenous-aviation-gun-for-rudra-lch-helicopters/3075974/"
+      },
+      {
+        "headline": "RTX lifts 2026 outlook as Q3 sales rise 11% and backlog reaches $340 bn",
+        "summary": "RTX reported Q3 2026 sales of $25.0 billion, up 11% (12% organic), and adjusted EPS of $2.26, up 33%. Backlog reached $340 billion, of which $176 billion is commercial and $164 billion defence, after over $81 billion of new awards in the quarter. It raised its 2026 adjusted sales outlook to $97.0–97.5 billion and adjusted EPS to $7.65–7.75. GE Aerospace, also reporting on 20 October, posted a 49% rise in orders.",
+        "whyItMatters": "Record OEM backlogs at the large engine and systems makers support capacity additions in the global aero supply chain, including Indian precision-component and MRO suppliers.",
+        "source": "RTX (PR Newswire)",
+        "url": "http://www.prnewswire.com/news-releases/rtx-reports-q3-2026-results-302913803.html"
+      }
+    ]
+  },
+  "regulatory": [
+    {
+      "headline": "RBI injects ₹1 trillion via 7-day repo as call money rate climbs above MSF",
+      "summary": "The RBI conducted a ₹1 trillion seven-day variable rate repo on 19 October, its first liquidity infusion in over three months, drawing bids above ₹1.5 trillion. The weighted average call rate closed above the 5.75% MSF rate on 16 October for the first time this fiscal year, with system surplus liquidity falling below ₹2 trillion. The RBI raised rates earlier in October; the repo rate is 5.50%.",
+      "whyItMatters": "Tighter money-market conditions raise short-term borrowing costs for working-capital-heavy EPC and auto-component companies and affect the pricing of CP and short-tenor bond issuance.",
+      "source": "Business Standard",
+      "url": "https://www.business-standard.com/markets/news/banks-tap-rbi-s-first-cash-auction-in-3-months-as-market-rates-spike-126101900379_1.html"
+    },
+    {
+      "headline": "Power ministry issues five-year framework for discom digitalisation, targets AT&C losses below 10%",
+      "summary": "The Power Ministry launched a unified framework, prepared by the CEA, setting a five-year sequence for discoms to digitalise operations. Early steps cover GIS mapping and advanced metering, followed by AI-based outage management with predictive fault location and auto-restoration. The framework aims to cut AT&C losses below 10% and support integration of renewables, EVs and storage.",
+      "whyItMatters": "A phased roadmap gives visibility to smart-meter, SCADA and grid-software vendors and to the financing of discom upgrade programmes.",
+      "source": "Business Standard",
+      "url": "https://www.business-standard.com/industry/news/power-ministry-launches-framework-for-digitalisation-of-distribution-sector-126101901108_1.html"
+    }
+  ]
+}
