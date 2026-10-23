@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-10-21",
+    "sector": "aerospace-defence",
+    "type": "Govt contract",
+    "target": "Bharat Electronics (LLLR-I radars for Indian Army)",
+    "acquirer": "Ministry of Defence",
+    "value": "₹770 cr",
+    "status": "Signed",
+    "note": "Contract for improved low-level lightweight radars that detect fighter aircraft and mini/micro drones.",
+    "url": "https://bharatshakti.in/mod-signs-rs-770-crore-contract-with-bel-for-improved-lightweight-radars-for-army/"
+  },
+  {
+    "date": "2026-10-21",
+    "sector": "industrials",
+    "type": "Govt contract",
+    "target": "Larsen & Toubro (CCS buildings, New Delhi; office towers, Amaravati)",
+    "acquirer": "CPWD and Government of Andhra Pradesh",
+    "value": "Undisclosed (L&T 'large' category)",
+    "status": "Announced",
+    "note": "Common Central Secretariat buildings 4 and 5 on Kartavya Path (32.8 lakh sq ft) and two 47-floor towers beside the Amaravati Quantum Computing Centre (37.5 lakh sq ft).",
+    "url": "https://www.angelone.in/news/stocks/larsen-toubro-share-price-in-focus-after-winning-large-orders-in-delhi-and-andhra-pradesh"
+  },
+  {
     "date": "2026-10-19",
     "sector": "autos",
     "type": "JV",

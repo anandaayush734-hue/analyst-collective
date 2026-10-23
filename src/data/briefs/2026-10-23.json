@@ -1,0 +1,180 @@
+{
+  "date": "2026-10-23",
+  "lead": {
+    "headline": "Lockheed backlog hits record $292 bn as Adani Energy profit more than doubles and festive car bookings swell",
+    "dek": "US defence primes lifted 2026 outlooks on record order books, while Tesla's Q3 showed margins recovering even as profit fell 43%. At home, Adani Energy Solutions and Havells posted strong September-quarter growth, Maruti's pending bookings climbed to 2.7 lakh after Dussehra, and the government readied a ₹12,000 crore PLI for battery-cell materials."
+  },
+  "keyNumbers": [
+    {
+      "label": "Lockheed Martin backlog",
+      "value": "$292 bn",
+      "note": "Record; +27% QoQ, incl. $52.5 bn PAC-3 award"
+    },
+    {
+      "label": "Adani Energy Q2 PAT",
+      "value": "₹1,364 cr",
+      "note": "vs ₹557 cr in Q2 FY26; income +51%"
+    },
+    {
+      "label": "Maruti pending bookings",
+      "value": "2.7 lakh",
+      "note": "After Dussehra, up from ~2 lakh in early October"
+    },
+    {
+      "label": "Tesla Q3 net income",
+      "value": "$787 mn",
+      "note": "−43% YoY; revenue flat at $28.05 bn"
+    },
+    {
+      "label": "Battery-materials PLI",
+      "value": "₹12,000 cr",
+      "note": "Proposed; cathode, anode, electrolyte, separators"
+    },
+    {
+      "label": "Havells cables & wires revenue",
+      "value": "₹2,999 cr",
+      "note": "Q2 FY27, +47.9% YoY"
+    }
+  ],
+  "ticker": [
+    {
+      "tag": "A&D",
+      "text": "Lockheed Q3 sales up 11% to $20.7 bn; raises 2026 free cash flow outlook to $7.8–8.0 bn"
+    },
+    {
+      "tag": "A&D",
+      "text": "Northrop Grumman Q3 sales up 7% to $11.1 bn; backlog $109.6 bn, 2026 EPS guidance raised"
+    },
+    {
+      "tag": "A&D",
+      "text": "Tonbo Imaging, whose ₹852 cr OFS-only IPO drew ~136x demand, is tentatively due to list on 23 October"
+    },
+    {
+      "tag": "EV",
+      "text": "Ola Electric's ₹999.74 cr rights issue at ₹27 a share opened 22 October and closes 30 October"
+    },
+    {
+      "tag": "EV",
+      "text": "Tata.ev crosses 1,000 fast-charging points in 200 cities, with 40 MW of installed capacity"
+    },
+    {
+      "tag": "AUTO",
+      "text": "Mahindra Finance: Q2 tractor disbursements up 13%, slowest segment, as drought risk weighs on festive demand"
+    },
+    {
+      "tag": "IND",
+      "text": "L&T wins 'large' building orders from CPWD in New Delhi and the Andhra Pradesh government in Amaravati"
+    },
+    {
+      "tag": "REG",
+      "text": "Blue Energy Motors signs MoU with MoRTH to supply electric heavy-duty trucks under the PARIVARTAN scheme"
+    },
+    {
+      "tag": "MACRO",
+      "text": "Banking liquidity surplus narrows to ₹542 cr; call rate at 5.69% against a 5.75% MSF ceiling"
+    }
+  ],
+  "sectors": {
+    "ev": [
+      {
+        "headline": "Tesla Q3 profit falls 43% to $787 mn on flat revenue, though gross margin recovers to 19.6%",
+        "summary": "Tesla reported Q3 2026 revenue of $28.05 bn, flat year on year, and GAAP net income of $787 mn, down 43%. Operating income fell 56% to $718 mn, a 2.6% margin, as R&D and AI spending rose, although total gross margin improved to 19.6% from 18.0% and automotive gross margin excluding credits rose to 18.1%. Free cash flow fell to $1.53 bn from $3.99 bn as quarterly capex more than doubled to $4.73 bn; the company holds $45.4 bn in cash and investments.",
+        "whyItMatters": "The world's largest EV maker is putting most of its cash flow into capex and AI rather than vehicle margins, a benchmark for how listed EV peers and suppliers are being valued on growth spending rather than near-term earnings.",
+        "source": "Electrek",
+        "url": "https://electrek.co/2026/10/21/tesla-tsla-q3-2026-financial-results/"
+      },
+      {
+        "headline": "Government plans ₹12,000 crore PLI for battery-cell materials as cell imports keep surging",
+        "summary": "The government is preparing a ₹12,000 crore PLI scheme for battery-cell inputs such as cathode and anode active materials, electrolytes and separators. The existing ₹18,100 crore ACC PLI from 2021 awarded 40 GWh, but only Ola Cell Technologies is producing, at 2.5 GWh against its 20 GWh allotment, and no incentive has yet been paid. Lithium-ion cell imports rose 64% to ₹41,667 crore in FY26, roughly 85% from China, and rose a further 94% in Q1 FY27.",
+        "whyItMatters": "A materials-focused PLI would open a new capex and partnership theme (Himadri, Epsilon, Amara Raja are already investing) and could spur technology JVs with foreign cathode and anode makers.",
+        "source": "Business Today",
+        "url": "https://www.businesstoday.in/auto/story/bt-big-story-india-has-failed-to-build-an-ecosystem-of-battery-cells-can-a-new-pli-change-this-562898-2026-10-22"
+      },
+      {
+        "headline": "Tata.ev crosses 1,000 fast-charging points across 200 cities and 180 highway corridors",
+        "summary": "Tata Passenger Electric Mobility said its OEM-led network now has more than 1,000 live fast-charging connectors in 200 cities and along 180 highway corridors, with 40 MW of installed capacity. The network has supplied energy for over 32 million EV kilometres. Maharashtra (52 sites), Karnataka (44) and Tamil Nadu (32) have the highest concentration.",
+        "whyItMatters": "OEM-owned charging is becoming a competitive moat in India's electric PV market and a potential carve-out or partnership asset for charge-point operators and infrastructure funds.",
+        "source": "Autocar Professional",
+        "url": "https://www.autocarpro.in/news/tata-passenger-electric-mobility-crosses-1000-fast-charging-points-across-india-135407"
+      }
+    ],
+    "autos": [
+      {
+        "headline": "Maruti's pending bookings rise to 2.7 lakh after Dussehra; Hyundai festive registrations up 30%",
+        "summary": "Maruti Suzuki said retail between Ganesh Chaturthi and Dussehra rose 35% YoY, with SUV retail roughly doubling, and pending bookings rose from about 2 lakh at the start of October to 2.7 lakh after Dussehra. Hyundai Motor India's registrations during Shradh and Navratri rose 30% to nearly 41,000 units, and Tata Motors PV delivered over 50,000 vehicles during Navratri. FADA data still showed Navratri PV retail down 22% to 1,82,728 units, which the dealer body described as largely a base effect from last year's longer festival and GST 2.0 rollout.",
+        "whyItMatters": "A large order backlog going into Diwali supports Q3 FY27 volume visibility for PV OEMs and their component suppliers, even as headline FADA comparisons stay noisy.",
+        "source": "Business Today",
+        "url": "https://www.businesstoday.in/auto/story/maruti-hyundai-tata-on-festive-ride-as-diwali-bookings-boom-562905-2026-10-21"
+      },
+      {
+        "headline": "Maruti's utility vehicle sales up 44% to 4.56 lakh in H1 FY27, now 42% of its PV volume",
+        "summary": "Maruti Suzuki sold 4,55,692 utility vehicles in April–September 2026, up 44% YoY, taking UVs to 42% of its passenger-vehicle sales from 23% in H1 FY22. Total wholesales rose 36% to 10,80,240 units. Maruti held about 26% of a 1.78 million-unit UV market, ahead of Mahindra (20%) and Tata Motors (18%).",
+        "whyItMatters": "The mix shift toward SUVs is lifting realisations across the PV value chain and keeps capacity additions and supplier capex tilted toward UV platforms.",
+        "source": "Autocar Professional",
+        "url": "https://www.autocarpro.in/analysis-sales/maruti-suzukis-suv-mpv-share-of-pv-sales-at-42-percent-in-h1-fy2027-with-455692-units-135363"
+      },
+      {
+        "headline": "CIE Automotive India September-quarter profit up 13.9% to ₹243.7 crore on 11% revenue growth",
+        "summary": "CIE Automotive India reported consolidated net profit of ₹243.69 crore for the quarter ended 30 September 2026, up 13.9% from ₹213.94 crore. Revenue from operations rose about 11% to ₹2,633.18 crore. Nine-month profit rose to ₹728.67 crore from ₹623.87 crore, and the company is awaiting NCLT approval to merge its subsidiary CIE Aluminium Casting India into itself.",
+        "whyItMatters": "Steady double-digit growth at a multi-technology component maker offers a read-across for the auto-ancillary earnings season and for valuations of diversified component platforms.",
+        "source": "Free Press Journal",
+        "url": "https://www.freepressjournal.in/business/cie-automotive-india-reports-strong-q2-consolidated-net-profit-climbs-to-24369-crore"
+      }
+    ],
+    "industrials": [
+      {
+        "headline": "Adani Energy Solutions Q2 profit rises to ₹1,364 crore from ₹557 crore as income grows 51%",
+        "summary": "Adani Energy Solutions reported Q2 FY27 net profit of ₹1,364 crore against ₹557 crore a year earlier, with total income up 51% to ₹10,239 crore and operating revenue up 51% to ₹7,167 crore. It has installed 14.8 million smart meters cumulatively, with a further 24.6 million under implementation across ten projects carrying revenue potential above ₹29,519 crore. Its transmission network stands at 29,802 ckm and 1,43,425 MVA across 16 states.",
+        "whyItMatters": "Profit growth at India's largest private transmission company reflects the T&D and smart-metering capex cycle, which keeps funding demand high for transmission platforms and their EPC and equipment suppliers.",
+        "source": "Business Standard",
+        "url": "https://www.business-standard.com/amp/companies/quarterly-results/adani-energy-solutions-reports-51-rise-in-q2-income-profit-at-1-364-cr-126102201163_1.html"
+      },
+      {
+        "headline": "Havells Q2 revenue up 34.6% to ₹6,432 crore, with cables and wires up 47.9%",
+        "summary": "Havells India's consolidated Q2 FY27 net profit rose 9.7% to ₹349.22 crore as revenue from operations grew 34.6% to ₹6,432 crore and EBITDA rose about 30%. Cables and wires revenue rose 47.9% to ₹2,999 crore on commodity-linked price increases and a shift to larger cables, while switchgear grew 31.3% to ₹782 crore. Management said demand stayed steady despite inflation.",
+        "whyItMatters": "Cable demand remains one of the strongest pockets of the electricals capex cycle, though slower profit growth than revenue shows commodity pass-through is squeezing margins.",
+        "source": "Business Standard",
+        "url": "https://www.business-standard.com/companies/quarterly-results/havells-q2-net-profit-rises-9-7-to-349-cr-as-revenue-grows-34-6-126102201111_1.html"
+      },
+      {
+        "headline": "Transrail Lighting wins ₹927 crore of T&D orders, taking FY27 inflows to ₹3,356 crore",
+        "summary": "Transrail Lighting secured new orders worth ₹927 crore, mainly domestic EPC work on 765 kV and 400 kV transmission lines plus conductor supply, including to the US. The win takes its FY27 order inflows so far to ₹3,356 crore, with more than ₹2,300 crore announced in the past three weeks.",
+        "whyItMatters": "Steady inflows for mid-cap transmission EPC players point to continued tendering of high-voltage lines, keeping the sector's order books and fundraising pipeline active.",
+        "source": "T&D India",
+        "url": "https://www.tndindia.com/transrail-secures-fresh-orders-worth-rs-927-crore-cumulative-fy27-inflows-cross-rs-3300-crore/"
+      }
+    ],
+    "aerospace-defence": [
+      {
+        "headline": "Lockheed Martin backlog hits record $292 bn; Q3 sales up 11% and 2026 outlook raised",
+        "summary": "Lockheed Martin's Q3 2026 sales rose 11% to $20.7 bn and net earnings rose 14% to $1.8 bn, or $7.97 a share. Backlog reached a record $292.0 bn, up 27% from Q2, including $52.5 bn from a multi-year PAC-3 MSE interceptor award. It raised 2026 guidance for sales to $80.0–82.0 bn and free cash flow to $7.8–8.0 bn, but warned that F-35 Lot 20 costs are running ahead of current contract funding.",
+        "whyItMatters": "Record missile-defence backlogs at US primes point to multi-year demand for propulsion, energetics and electronics suppliers, including Indian companies in global defence supply chains.",
+        "source": "Lockheed Martin (SEC filing)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0000936468/000162828026066780/ex991q32026.htm"
+      },
+      {
+        "headline": "MoD signs ₹770 crore contract with BEL for improved low-level lightweight radars for the Army",
+        "summary": "The Ministry of Defence signed a ₹770 crore contract with Bharat Electronics for Improved Low Level Light Weight Radars (LLLR-I) for the Indian Army. The radar can detect and track fighter-sized aircraft as well as mini and micro drones, and prioritises multiple aerial targets. The MoD said the order will also support MSMEs in BEL's supply chain.",
+        "whyItMatters": "Counter-drone and short-range air-defence sensors remain a priority procurement area, adding to defence PSU order books and work for their private and MSME vendors.",
+        "source": "Bharat Shakti",
+        "url": "https://bharatshakti.in/mod-signs-rs-770-crore-contract-with-bel-for-improved-lightweight-radars-for-army/"
+      },
+      {
+        "headline": "ePlane Company unveils full-scale e200X eVTOL prototype ahead of first flight",
+        "summary": "IIT Madras-incubated The ePlane Company showcased its full-scale e200X PT-01 electric air-taxi prototype, which is undergoing ground tests before its first flight. The 2.2-tonne lift-plus-cruise aircraft targets a 160 km/h cruise speed and up to 110 km of range, carrying a pilot and two passengers or 200 kg of cargo. The company holds DGCA Design Organisation Approval and the e200X has entered the DGCA type-certification process; backers include Speciale Invest, Antares Ventures and Naval Ravikant.",
+        "whyItMatters": "Entry into DGCA type certification is a key de-risking step for India's advanced air mobility start-ups and is likely to shape their next funding rounds.",
+        "source": "EVreporter",
+        "url": "https://evreporter.com/the-eplane-company-showcases-full-scale-e200x-pt-01-electric-air-taxi-prototype/"
+      }
+    ]
+  },
+  "regulatory": [
+    {
+      "headline": "Banking liquidity surplus shrinks to ₹542 crore on tax outflows; RBI VRR bids hit ₹1.62 trillion",
+      "summary": "India's banking system liquidity surplus narrowed to ₹542 crore on 21 October on GST and other tax outflows, and the weighted average call rate rose to 5.69%, close to the 5.75% MSF rate. Bids at the RBI's overnight variable rate repo totalled ₹1.62 trillion against a notified ₹50,000 crore, and the RBI rejected all bids at a ₹23,000 crore T-bill auction. Market participants expect a brief deficit before government spending adds funds in early November, and a persistent deficit from mid-November as core liquidity falls.",
+      "whyItMatters": "Tighter rupee liquidity and firmer overnight rates can lift short-term borrowing costs for issuers of CPs and NCDs, including capital-goods and auto-finance companies, during the busy H2 issuance window.",
+      "source": "Business Standard",
+      "url": "https://www.business-standard.com/industry/banking/banking-system-liquidity-surplus-shrinks-to-542-cr-amid-tax-outflows-126102201437_1.html"
+    }
+  ]
+}
