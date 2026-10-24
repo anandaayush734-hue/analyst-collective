@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-10-23",
+    "sector": "aerospace-defence",
+    "type": "IPO",
+    "target": "Tonbo Imaging",
+    "acquirer": "—",
+    "value": "₹852 cr (OFS)",
+    "status": "Listed",
+    "note": "Listed at ₹1,162 on BSE, 66% above the ₹700 issue price, after 135.9x subscription.",
+    "url": "https://inc42.com/buzz/tonbo-imaging-makes-strong-market-debut-lists-at-66-premium-to-ipo-price/"
+  },
+  {
+    "date": "2026-10-23",
+    "sector": "industrials",
+    "type": "IPO",
+    "target": "Zetwerk",
+    "acquirer": "—",
+    "value": "₹5,012 cr",
+    "status": "Listed",
+    "note": "Listed at ₹159.25 on NSE, 5.46% above the ₹151 issue price; issue subscribed 3.06x.",
+    "url": "https://www.freepressjournal.in/business/zetwerk-shares-list-at-55-premium-stock-makes-positive-market-debut-at-15925-on-nse"
+  },
+  {
     "date": "2026-10-21",
     "sector": "aerospace-defence",
     "type": "Govt contract",

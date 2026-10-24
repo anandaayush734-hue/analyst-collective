@@ -1,0 +1,191 @@
+{
+  "date": "2026-10-24",
+  "lead": {
+    "headline": "Tata Motors CV swings to profit and calls Iveco bid final; CG Power orders jump 90%, Tonbo lists 66% up",
+    "dek": "Tata Motors' commercial-vehicle business returned to profit on 36% revenue growth and said its €14.40 Iveco offer will not be raised, with tenders at 35% against an 80% threshold. CG Power's order intake nearly doubled, defence-electronics maker Tonbo Imaging listed at a 66% premium, and MoRTH proposed making emergency braking mandatory on cars, while commodity inflation cut JK Tyre's margin almost in half."
+  },
+  "keyNumbers": [
+    {
+      "label": "Tata Motors CV Q2 revenue",
+      "value": "₹25,338 cr",
+      "note": "+36% YoY; net profit ₹1,257 cr vs ₹867 cr loss"
+    },
+    {
+      "label": "CG Power Q2 order intake",
+      "value": "₹8,016 cr",
+      "note": "+90% YoY; EBITDA margin 14.2%"
+    },
+    {
+      "label": "Tonbo Imaging listing gain",
+      "value": "66%",
+      "note": "₹1,162 on BSE vs ₹700 issue price"
+    },
+    {
+      "label": "Green Energy Corridor-III outlay",
+      "value": "₹1.86 trn",
+      "note": "135 GW RE evacuation, 50 GWh BESS"
+    },
+    {
+      "label": "JK Tyre Q2 EBITDA margin",
+      "value": "7.1%",
+      "note": "vs 13.4%; PAT down 73% to ₹60 cr"
+    },
+    {
+      "label": "India flash composite PMI",
+      "value": "56.7",
+      "note": "October, up from 55.9; four-month high"
+    }
+  ],
+  "ticker": [
+    {
+      "tag": "AUTO",
+      "text": "Tata Motors says €14.40 Iveco offer is 'best and final'; tenders at 35% vs 80% needed, offer open till 26 Oct"
+    },
+    {
+      "tag": "AUTO",
+      "text": "Bosch to move its German Mobility arm into a separate subsidiary from August 2027; IPO or sale ruled out"
+    },
+    {
+      "tag": "AUTO",
+      "text": "Shriram Finance Q2 profit up 59% to ₹3,684 cr, citing post-GST 2.0 vehicle demand; AUM ₹3.29 lakh cr"
+    },
+    {
+      "tag": "EV",
+      "text": "Ultraviolette plans ₹800 cr Hosur plant with 2.5 lakh-unit capacity, targets 20–25% of sales from exports"
+    },
+    {
+      "tag": "IND",
+      "text": "Zetwerk lists at ₹159.25 on NSE, 5.5% above its ₹151 issue price, after a 3.06x subscribed ₹5,012 cr IPO"
+    },
+    {
+      "tag": "IND",
+      "text": "L&T dispatches eighth steam generator for 700 MWe PHWR fleet, three months ahead of schedule"
+    },
+    {
+      "tag": "A&D",
+      "text": "Solar Defence says Nagastra-2 loitering munition has cleared technical trials and been delivered to the Army"
+    },
+    {
+      "tag": "REG",
+      "text": "Tata Motors: draft BS7 schedule for CVs runs in three phases from April 2030 (LCVs) to April 2035"
+    },
+    {
+      "tag": "MACRO",
+      "text": "10-year G-sec yield at 7.47% after a tenth straight weekly rise, the longest losing streak in three decades"
+    },
+    {
+      "tag": "MACRO",
+      "text": "Goyal says India-EU FTA to be signed by end-2026 and operational probably in Q1 2027"
+    }
+  ],
+  "sectors": {
+    "ev": [
+      {
+        "headline": "Ultraviolette plans ₹800 crore Hosur plant and new 100V platform as it targets exports",
+        "summary": "Bengaluru-based electric motorcycle maker Ultraviolette plans a facility in Hosur, Tamil Nadu, with capacity of 2.5 lakh units and an investment of about ₹800 crore, including battery production lines, alongside its existing 50,000-unit plant near Bengaluru. It launched the VX-100 100V platform with the X-47 Venom at an introductory ₹2.65 lakh for the first 5,000 buyers, and plans four more launches over the next year. The company targets exports of 20–25% of sales within two to three years and aims for about 20,000 vehicles a month within two years.",
+        "whyItMatters": "A capacity build-out of this size at a privately held premium e-2W maker points to a sizeable funding requirement, making it a likely candidate for growth equity or eventual ECM activity.",
+        "source": "Business Standard",
+        "url": "https://www.business-standard.com/industry/auto/ultraviolette-automotive-bets-big-on-new-models-to-drive-global-expansion-126102201415_1.html"
+      },
+      {
+        "headline": "Tsuyo ties up with China's LvKON to make electric CV powertrains in India",
+        "summary": "Tsuyo Manufacturing has signed a technical partnership with Suzhou Lvkon Transmission (LvKON), a Chinese electric drive-system supplier it has worked with for five years, to produce electric drive systems for trucks, buses and off-road vehicles in India. Tsuyo is also progressing plans for a 24-acre greenfield campus covering e-powertrain engineering, assembly, testing and application development.",
+        "whyItMatters": "Technology tie-ups with Chinese suppliers are becoming the quickest route to localising e-CV drivetrains, and could grow into JV or minority-stake structures as truck and bus electrification picks up.",
+        "source": "Autocar Professional",
+        "url": "https://www.autocarpro.in/news/tsuyo-partners-with-chinas-lvkon-to-produce-electric-cv-powertrains-in-india-135425"
+      },
+      {
+        "headline": "Shakti Pumps puts another ₹12 crore into its EV-components subsidiary, taking total to ₹92 crore",
+        "summary": "Shakti Pumps has invested a further ₹12 crore in its wholly owned subsidiary Shakti EV Mobility through 1.2 crore equity shares, bringing its total investment to ₹92 crore. The unit makes EV motors, chargers and controllers, and its turnover rose to ₹24.25 crore in FY26 from ₹3.73 crore in FY25.",
+        "whyItMatters": "Diversified industrials are incubating EV-component businesses inside listed parents, which could later lead to carve-outs or strategic stake sales once these units reach scale.",
+        "source": "EVreporter",
+        "url": "https://evreporter.com/shakti-pumps-invests-%E2%82%B912-crore-in-shakti-ev-mobility-taking-total-investment-to-%E2%82%B992-crore"
+      }
+    ],
+    "autos": [
+      {
+        "headline": "Tata Motors CV posts ₹1,257 crore Q2 profit on 36% revenue growth; calls Iveco offer final",
+        "summary": "Tata Motors, the demerged commercial-vehicle company, reported Q2 FY27 consolidated net profit of ₹1,257 crore against a ₹867 crore loss a year earlier, with revenue up 36.3% to ₹25,338 crore and a net cash position of ₹15,900 crore. Wholesales rose 42% to about 1.35 lakh units, with exports up 177%, although management said commodity inflation hurt operating margins by about 540 bps YoY. It described its €14.40-a-share Iveco offer as 'best and final', with tenders at 35% against the 80% needed and settlement planned for 30 October.",
+        "whyItMatters": "The coming week decides India's largest outbound auto acquisition; whether the 80% threshold is met will determine the Dutch squeeze-out route, the financing structure and when Iveco is consolidated.",
+        "source": "Business Today",
+        "url": "https://www.businesstoday.in/markets/stocks/story/tata-motors-q2-net-profit-at-rs-1257-crore-revenue-up-36-shares-update-on-iveco-deal-563321-2026-10-23"
+      },
+      {
+        "headline": "JK Tyre's Q2 profit falls 73% as raw-material costs halve its margin; plans 4–5% Q3 price rise",
+        "summary": "JK Tyre & Industries' Q2 FY27 revenue rose 20.7% to ₹4,840.73 crore, with domestic sales up 32% (OEM up 65%), but net profit fell 73% to ₹59.99 crore. EBITDA fell 35.9% to ₹343.14 crore and margin narrowed to 7.1% from 13.4%, as the raw-material basket rose about 30% over six months. After 11–12% of price increases in H1, the company plans a further 4–5% in Q3.",
+        "whyItMatters": "Margin compression across tyre makers (CEAT reported a similar squeeze last week) is resetting FY27 earnings estimates for the segment and is a key valuation input for any auto-ancillary transactions.",
+        "source": "Autocar Professional",
+        "url": "https://www.autocarpro.in/news/jk-tyre-plans-further-4-5-percent-price-hike-in-q3-as-raw-material-freight-cost-pressures-persist-135427"
+      },
+      {
+        "headline": "Bosch to carve its German Mobility business into a separate subsidiary from August 2027",
+        "summary": "Bosch plans to move its German Mobility business and three central service units into four wholly owned subsidiaries from 1 August 2027, transferring about 62,500 Germany-based employees. Mobility generated €55.8 bn of sales in 2025 and €27.8 bn in H1 2026, while its operating margin reportedly fell to 1.8% from 3.8%. Bosch has ruled out an IPO, a sale or a merger of the unit, citing competition, especially from Asia.",
+        "whyItMatters": "The world's largest auto supplier ring-fencing its mobility arm signals deeper restructuring among European tier-1s, which could free up non-core assets and push more engineering and sourcing toward lower-cost bases such as India.",
+        "source": "Autocar Professional",
+        "url": "https://autocarpro.in/news/bosch-to-split-german-mobility-business-into-separate-company-quartz-135411"
+      }
+    ],
+    "industrials": [
+      {
+        "headline": "CG Power Q2 profit up 44% to ₹409 crore; order intake rises 90% to ₹8,016 crore",
+        "summary": "CG Power and Industrial Solutions reported Q2 FY27 consolidated net profit of ₹409.09 crore, up 44% from ₹284.44 crore, as revenue rose 30.1% to ₹3,802 crore. EBITDA rose 43.1% to ₹539.6 crore, with margin up 130 bps to 14.2%, and order intake rose 90% YoY to ₹8,016 crore. The board approved new capex, including a 10,000 MVA power-transformer expansion and a ₹300 crore bushings and instrument-transformer plant at Ambad.",
+        "whyItMatters": "Strong order inflows and margin gains at a leading transformer and switchgear maker support the T&D equipment capex cycle and the premium valuations for electrical-equipment companies.",
+        "source": "CNBC-TV18 (via TradingView)",
+        "url": "https://www.tradingview.com/news/cnbctv:ac79a644f094b:0/"
+      },
+      {
+        "headline": "Green Energy Corridor-III: ₹1.86 trillion plan for intra-state renewable transmission",
+        "summary": "The Centre has launched the third phase of the Green Energy Corridor scheme, with a total project outlay of ₹1.86 trillion and central financial assistance of ₹54,082 crore, 83% of it for transmission. The scheme targets evacuation of 135 GW of renewable capacity and 50 GWh of battery storage, and private transmission companies can bid under tariff-based competitive bidding. Officials expect ₹8–9 trillion of investment under GEC through 2035.",
+        "whyItMatters": "A large, centrally supported intra-state tendering pipeline adds to order visibility for transmission EPC, conductor, transformer and BESS suppliers, and to the asset base available to InvITs and private transmission platforms.",
+        "source": "Business Standard",
+        "url": "https://www.business-standard.com/industry/news/state-power-playbook-new-scheme-to-improve-renewable-energy-transmission-126102201745_1.html"
+      },
+      {
+        "headline": "Zetwerk lists 5.5% above issue price after ₹5,012 crore IPO subscribed 3.06x",
+        "summary": "Contract manufacturer Zetwerk listed at ₹159.25 on the NSE, 5.46% above its ₹151 issue price, and at ₹159 on the BSE. The ₹5,012 crore IPO, comprising a ₹2,830 crore fresh issue and a ₹2,182 crore offer for sale, was subscribed 3.06 times, with QIBs at 4.73x and retail at 0.73x. About ₹2,160 crore of the fresh proceeds will repay debt; FY26 revenue was ₹15,913 crore.",
+        "whyItMatters": "A modest debut after lukewarm retail demand shows investors are pricing new-age manufacturing platforms selectively, a useful read for the pipeline of industrial and contract-manufacturing IPOs.",
+        "source": "Free Press Journal",
+        "url": "https://www.freepressjournal.in/business/zetwerk-shares-list-at-55-premium-stock-makes-positive-market-debut-at-15925-on-nse"
+      }
+    ],
+    "aerospace-defence": [
+      {
+        "headline": "Tonbo Imaging lists at a 66% premium after a 136x subscribed IPO",
+        "summary": "Defence electro-optics maker Tonbo Imaging listed at ₹1,162 on the BSE and ₹1,160 on the NSE, about 66% above its ₹700 issue price, implying a market value of ₹6,656 crore at the BSE listing price. The ₹852 crore IPO was entirely an offer for sale of about 1.22 crore shares, so the company received no proceeds, and was subscribed 135.9 times. Anchor investors had taken ₹255.4 crore.",
+        "whyItMatters": "A strong debut for a private defence-tech company supports valuations for the pipeline of defence and electronics IPOs and gives existing PE and VC holders a clear exit route.",
+        "source": "Inc42",
+        "url": "https://inc42.com/buzz/tonbo-imaging-makes-strong-market-debut-lists-at-66-premium-to-ipo-price/"
+      },
+      {
+        "headline": "Solar Defence's Nagastra-2 loitering munition clears trials and is delivered to the Army",
+        "summary": "Nagpur-based Solar Defence & Aerospace said its Nagastra-2 loitering munition completed technical trials at the Mahajan field firing range in August and has been delivered to the Indian Army. The system carries a 4 kg tandem shaped-charge warhead, has a range of 25 km in recoverable mode and 50 km in fire-and-forget mode, and up to 60 minutes of endurance. Quantity and order value were not disclosed.",
+        "whyItMatters": "Repeat loitering-munition inductions from a private supplier show the Army's growing reliance on domestic drone makers, a theme drawing PE interest and possible consolidation in the unmanned-systems space.",
+        "source": "IDRW",
+        "url": "https://idrw.org/nagastra-2-loitering-munition-completes-technical-trials-delivered-to-indian-army/"
+      }
+    ]
+  },
+  "regulatory": [
+    {
+      "headline": "MoRTH proposes mandatory emergency braking on new car models from October 2030",
+      "summary": "MoRTH has issued a draft amendment to the Central Motor Vehicles Rules that would make Advanced Emergency Braking Systems mandatory on newly launched M1 passenger-vehicle models from 1 October 2030 and on all M1 models from 1 October 2032. The draft also proposes AEBS for new truck and bus models from January 2027, ESC and a revised braking standard for trucks from October 2027, and V2V communication on all new vehicles from October 2028. The draft is open for 30 days of public consultation.",
+      "whyItMatters": "Mandated ADAS content raises per-vehicle electronics and sensor spend, supporting radar, camera and braking suppliers and potentially prompting technology tie-ups and acquisitions by Indian component makers.",
+      "source": "Autocar Professional",
+      "url": "https://www.autocarpro.in/news/morth-proposes-mandatory-emergency-braking-for-all-cars-from-october-2032-135415"
+    },
+    {
+      "headline": "India's October flash composite PMI rises to a four-month high of 56.7; input cost inflation eases",
+      "summary": "The HSBC flash composite PMI rose to 56.7 in October from 55.9, as services rose to 56.2 from 55.2, while manufacturing eased to 54.9 from 55.1. Input-cost inflation slowed for a seventh straight month to its lowest in nearly a year, although firms cited higher steel and transport costs, and factory-gate price increases were the softest in almost four years.",
+      "whyItMatters": "Easing input-cost inflation could help margins at capital-goods and auto companies in H2, though weak pricing power suggests limited room to pass on costs.",
+      "source": "Business Standard",
+      "url": "https://www.business-standard.com/economy/news/india-flash-pmi-october-private-sector-growth-hsbc-services-manufacturing-126102300397_1.html"
+    },
+    {
+      "headline": "G-sec yields rise for a tenth straight week, the longest streak in three decades",
+      "summary": "The benchmark 10-year government bond yield closed at 7.47%, up about 10 bps over the week and marking a tenth consecutive weekly rise. Traders cited Brent crude reaching a five-month high near $116 a barrel after Houthi attacks in Saudi Arabia, along with higher US yields.",
+      "whyItMatters": "Rising sovereign yields increase benchmark borrowing costs for corporate bonds and infrastructure debt, affecting the pricing and timing of DCM issuance by capital-goods, power and auto-finance issuers.",
+      "source": "Business Standard",
+      "url": "https://www.business-standard.com/economy/news/govt-bonds-log-worst-losing-streak-in-30-years-as-crude-us-yields-rise-126102301399_1.html"
+    }
+  ]
+}
