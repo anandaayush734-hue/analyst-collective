@@ -1,0 +1,177 @@
+{
+  "date": "2026-10-25",
+  "lead": {
+    "headline": "KEC lands its largest India T&D order; motorcycle H1 sales near a record; Pentagon frames 850-jet F-35 deal",
+    "dek": "KEC International won ₹2,872 crore of 765 kV lines from PGCIL to evacuate 8.5 GW of Gujarat renewables, as Jyoti Structures added a ₹690 crore GETCO award. Motorcycle wholesales rose 10% to 6.92 million in H1 FY27, the second-best first half on record, while the Pentagon and Lockheed agreed a 10-year framework for at least 850 F-35s and FX reserves fell $5 bn to $721 bn."
+  },
+  "keyNumbers": [
+    {
+      "label": "KEC PGCIL order",
+      "value": "₹2,872 cr",
+      "note": "Largest-ever India T&D order; YTD intake >₹13,500 cr"
+    },
+    {
+      "label": "Motorcycle H1 FY27 wholesales",
+      "value": "6.92 mn",
+      "note": "+10% YoY; second only to H1 FY19's 7.37 mn"
+    },
+    {
+      "label": "F-35 framework",
+      "value": "850+ jets",
+      "note": "10 production lots; rate held at 156 a year"
+    },
+    {
+      "label": "CATL Q3 net profit",
+      "value": "RMB 21.25 bn",
+      "note": "+14.5% YoY on revenue +58.6%"
+    },
+    {
+      "label": "Lumax Auto Q2 revenue",
+      "value": "₹1,555.5 cr",
+      "note": "+35% YoY; PAT +50% to ₹116.7 cr"
+    },
+    {
+      "label": "India FX reserves",
+      "value": "$721.0 bn",
+      "note": "Week to 16 Oct, down $5.0 bn"
+    }
+  ],
+  "ticker": [
+    {
+      "tag": "IND",
+      "text": "KEC International wins ₹2,872 cr of PGCIL 765 kV line orders, its largest-ever India T&D award"
+    },
+    {
+      "tag": "IND",
+      "text": "Jyoti Structures gets ₹689.93 cr GETCO award for 765 kV Pachchham–Saykha line, 42-month timeline"
+    },
+    {
+      "tag": "AUTO",
+      "text": "Motorcycle wholesales up 10% to 6.92 mn in H1 FY27; Royal Enfield +23%, Bajaj Auto −7%"
+    },
+    {
+      "tag": "AUTO",
+      "text": "Castrol India Q3 CY26 profit down 23% to ₹176 cr as raw and packing material costs rise 71%"
+    },
+    {
+      "tag": "AUTO",
+      "text": "Setco Automotive board approves revised plan to merge wholly owned subsidiary Lava Cast"
+    },
+    {
+      "tag": "EV",
+      "text": "Paradeep Parivahan signs 10-year deal to run 100 electric heavy trucks for JSW Cement"
+    },
+    {
+      "tag": "EV",
+      "text": "CATL and BAIC target one million battery-swapping EVs; CATL network at 2,520 swap stations"
+    },
+    {
+      "tag": "A&D",
+      "text": "Pentagon and Lockheed agree 10-year framework for at least 850 F-35s; still needs Congress"
+    },
+    {
+      "tag": "A&D",
+      "text": "Indonesia assessing Astra Mk1 integration on its Su-30MK2 fleet; no contract value disclosed"
+    },
+    {
+      "tag": "MACRO",
+      "text": "IndiGo keeps Riyadh flights cancelled to 31 Oct after attacks on Saudi airports"
+    }
+  ],
+  "sectors": {
+    "ev": [
+      {
+        "headline": "Paradeep Parivahan wins 10-year JSW contract to run 100 electric heavy-duty trucks",
+        "summary": "Logistics firm Paradeep Parivahan has signed a tripartite agreement with JSW Cement and JSW Eco-Mobility to deploy 100 electric heavy-duty trucks for 10 years. The fleet will haul about 1.25 lakh tonnes a month of clinker and slag between Nandyal in Andhra Pradesh and Vijayanagar in Karnataka. The contract value was not disclosed, citing confidentiality.",
+        "whyItMatters": "Long-tenor, captive-volume contracts of this kind are what make e-truck fleets financeable, and they could support asset-backed or lease structures for electric CV operators.",
+        "source": "Autocar Professional",
+        "url": "https://www.autocarpro.in/news/paradeep-parivahan-secures-10-year-ev-heavy-haulage-contract-from-jsw-group-135444"
+      },
+      {
+        "headline": "CATL's Q3 revenue jumps 58.6% but net profit grows only 14.5% as margins compress",
+        "summary": "CATL reported Q3 2026 revenue of RMB 165.22 bn, up 58.6% YoY, and attributable net profit of RMB 21.25 bn, up 14.5% and about 5.8% lower than in Q2. For the first nine months revenue rose 56.2% to RMB 442.14 bn and net profit 31.6% to RMB 64.53 bn, while gross margin fell to 22.7% from 25.3%. Separately, it agreed with BAIC to target one million battery-swapping EVs on its 2,520-station network.",
+        "whyItMatters": "Margin pressure at the world's largest cell maker is a reference point for valuing Indian cell and pack projects, and for the pricing Indian OEMs can expect on imported cells.",
+        "source": "CnEVPost",
+        "url": "https://cnevpost.com/2026/10/20/catl-q3-2026-earnings/"
+      },
+      {
+        "headline": "Citroen weighs India as production base for its ~€15,000 2CV electric hatchback",
+        "summary": "Citroen is evaluating India as a manufacturing base for the production version of its 2CV electric hatchback concept, due in 2028, for both local sale and export, according to industry sources; the plan is not confirmed. Stellantis has committed ₹4,000 crore over three years in India, and expects Thiruvallur output to rise from about 16,000 units this year to over 43,000 by 2028, with the India-EU FTA cited as supporting exports.",
+        "whyItMatters": "An export-led EV programme would test India's cost case as a small-car EV hub for Europe and would raise localisation opportunities for component suppliers.",
+        "source": "Autocar Professional",
+        "url": "https://www.autocarpro.in/news/citroen-weighs-india-production-for-2cv-electric-hatchback-135436"
+      }
+    ],
+    "autos": [
+      {
+        "headline": "Motorcycle wholesales rise 10% to 6.92 million in H1 FY27, second-highest first half on record",
+        "summary": "Motorcycle dispatches were 6.92 million in April–September 2026, up 10% YoY and behind only the 7.37 million of H1 FY19; September set a monthly record of 1.41 million. Hero MotoCorp sold 2.94 million (up 12%), Honda 1.39 million (up 12%), TVS 7.74 lakh (up 13%) and Royal Enfield 6.42 lakh (up 23%), while Bajaj Auto fell 7% to 9.33 lakh. The 250–350cc band grew 41%, helped by the GST cut to 18% on engines up to 350cc.",
+        "whyItMatters": "Share shifts toward premium and sub-350cc mid-size bikes are reshaping relative valuations across 2W OEMs and their supplier bases going into the festive quarter.",
+        "source": "Autocar Professional",
+        "url": "https://www.autocarpro.in/analysis-sales/motorcycle-oems-clock-second-highest-h1-sales-of-6.92-million-hero-and-honda-up-12-percent-bajaj-down-7-percent-135410"
+      },
+      {
+        "headline": "Lumax Auto Technologies Q2 profit up 50% to ₹116.7 crore; plans ₹150 crore mechatronics plant",
+        "summary": "Lumax Auto Technologies reported Q2 FY27 consolidated revenue of ₹1,555.5 crore, up about 35% YoY, and profit of ₹116.7 crore against ₹77.6 crore. Its board also approved a mechatronics plant at Manesar costing about ₹150 crore, funded by debt and internal accruals, with peak annual turnover of about ₹500 crore and commissioning in two phases from Q3 FY28.",
+        "whyItMatters": "Supplier capex in vehicle electronics such as body control modules shows where content-per-vehicle growth is going, and is relevant for component M&A and technology tie-ups.",
+        "source": "Autocar Professional",
+        "url": "https://www.autocarpro.in/news/lumax-auto-technologies-q2-consolidated-profit-rises-50-percent-to-rs-11667-cr-135440"
+      },
+      {
+        "headline": "Stellantis may source future India Jeeps from its Dongfeng JV in China",
+        "summary": "Of the five Jeep launches Stellantis plans for India by 2030, the C- and D-segment SUVs are the most likely to be sourced from its Dongfeng Peugeot Citroen Automobile JV, which may act as contract manufacturer and supplier, with local build in India possible. A B-SUV is expected on Tata's ARGOS platform at Ranjangaon, aimed at the ₹20–30 lakh segment.",
+        "whyItMatters": "Using China-based platforms and suppliers for India-built models would test the regulatory stance on Chinese investment and widen the role of contract manufacturing in Indian PVs.",
+        "source": "Autocar Professional",
+        "url": "https://www.autocarpro.in/news/exclusive-future-jeeps-for-india-could-come-from-dongfeng-135437"
+      }
+    ],
+    "industrials": [
+      {
+        "headline": "KEC International wins ₹2,872 crore PGCIL order, its largest ever in India T&D",
+        "summary": "KEC International has won turnkey orders worth ₹2,872 crore from Power Grid Corporation for 765 kV transmission lines that will evacuate 8.5 GW of renewable power from Gujarat. Management described it as the largest-ever order for its India T&D business. Year-to-date order intake has crossed ₹13,500 crore, of which about ₹9,500 crore is T&D.",
+        "whyItMatters": "Large 765 kV awards confirm that the renewable-evacuation pipeline is turning into orders, which supports backlog-led valuations and working-capital financing needs across T&D EPC.",
+        "source": "EquityBulls",
+        "url": "https://www.equitybulls.com/news/377631/kec-international-ltd-wins-substantial-orders-of-rs-2-872-crores-from-pgcil"
+      },
+      {
+        "headline": "Jyoti Structures wins ₹689.93 crore GETCO award for a 765 kV line in Gujarat",
+        "summary": "Jyoti Structures has received a letter of award from Gujarat Energy Transmission Corporation for the 765 kV double-circuit Pachchham–Saykha line, worth ₹689.93 crore excluding GST, on a turnkey basis. The project is due for completion within 42 months, and the company has opened a project office in Ahmedabad.",
+        "whyItMatters": "State utilities joining PGCIL in placing 765 kV work widens the order pool for mid-sized transmission EPC firms, including those rebuilding balance sheets after restructuring.",
+        "source": "Electrical Mirror",
+        "url": "https://electricalmirror.net/jyoti-structures-secures-%E2%82%B9689-93-crore-getco-order-for-765-kv-transmission-line-project-in-gujarat/"
+      }
+    ],
+    "aerospace-defence": [
+      {
+        "headline": "Pentagon and Lockheed agree 10-year framework for at least 850 F-35s",
+        "summary": "The US Department of Defense and Lockheed Martin agreed a tentative framework covering at least 850 F-35s across 10 production lots, with initial spares and 10 years of sustainment and modification kits. Production stays at 156 aircraft a year, Lockheed is to invest $7 bn in programme initiatives, and the value was not disclosed. The deal still needs congressional authority and funding, and the Lot 20 agreement is expected next year.",
+        "whyItMatters": "Multi-year visibility on the largest fighter programme anchors volumes for the global aero-structures and engine supply chain, including Indian suppliers with F-35 work packages.",
+        "source": "Breaking Defense",
+        "url": "https://breakingdefense.com/2026/10/pentagon-lockheed-agree-to-decade-long-f-35-framework-deal-for-hundreds-of-jets/"
+      },
+      {
+        "headline": "Akasa Air fleet reaches 44 and expects its first 737 MAX 10 in 2027 after FAA certification",
+        "summary": "Akasa Air took delivery of another 737 MAX 8-200, taking its fleet to 44 aircraft. The FAA certified the 737 MAX 10 on 20 October, and Akasa, which has 90 MAX 10s among 226 737 MAX jets on order, expects its first delivery in 2027.",
+        "whyItMatters": "MAX 10 certification removes a long-standing delivery risk for Indian carriers' Boeing order books, which affects lessor financing, sale-and-leaseback and MRO demand.",
+        "source": "Indian Aviation News",
+        "url": "https://www.indianaviationnews.net/home/2026/10/akasa-air-expands-fleet-to-44-expects-first-b737-max-10-next-year.html"
+      }
+    ]
+  },
+  "regulatory": [
+    {
+      "headline": "India's FX reserves fall $5.0 bn to $721.0 bn in the week to 16 October",
+      "summary": "RBI data show total reserves fell by $5.01 bn to $721.02 bn in the week ended 16 October, after an $8.58 bn drop the previous week. Foreign currency assets fell $5.76 bn to $591.85 bn, while gold rose $706 mn to $105.8 bn.",
+      "whyItMatters": "Consecutive declines point to RBI intervention to support the rupee, which matters for importers of components and capital goods and for pricing dollar debt raised by Indian corporates.",
+      "source": "Daily Excelsior",
+      "url": "https://www.dailyexcelsior.com/indias-forex-reserves-decline-usd-5-bn-to-usd-721-bn"
+    },
+    {
+      "headline": "Indian airlines extend Saudi Arabia flight suspensions after attacks on airports",
+      "summary": "IndiGo has extended cancellations of Riyadh flights to 31 October and of Jeddah, Dammam and Madinah flights to 27 October, the Indian Embassy said, after drone and missile attacks on Saudi airports and energy sites. Air India and Air India Express suspended flights on all Saudi routes until 24 October and Akasa Air until 27 October.",
+      "whyItMatters": "Gulf disruption hits airline capacity and yields and keeps crude elevated, which feeds input costs and the rate outlook for Indian industrials.",
+      "source": "Business Standard",
+      "url": "https://www.business-standard.com/industry/aviation/indigo-extends-cancellation-of-flights-to-saudi-arabia-indian-embassy-126102300702_1.html"
+    }
+  ]
+}

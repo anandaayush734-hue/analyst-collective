@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-10-24",
+    "sector": "industrials",
+    "type": "Govt contract",
+    "target": "KEC International",
+    "acquirer": "Power Grid Corporation of India",
+    "value": "₹2,872 cr",
+    "status": "Announced",
+    "note": "765 kV lines to evacuate 8.5 GW of Gujarat renewables; KEC's largest-ever India T&D order.",
+    "url": "https://www.equitybulls.com/news/377631/kec-international-ltd-wins-substantial-orders-of-rs-2-872-crores-from-pgcil"
+  },
+  {
+    "date": "2026-10-24",
+    "sector": "industrials",
+    "type": "Govt contract",
+    "target": "Jyoti Structures",
+    "acquirer": "GETCO",
+    "value": "₹689.93 cr",
+    "status": "Announced",
+    "note": "Turnkey 765 kV Pachchham–Saykha line in Gujarat, to be completed in 42 months.",
+    "url": "https://electricalmirror.net/jyoti-structures-secures-%E2%82%B9689-93-crore-getco-order-for-765-kv-transmission-line-project-in-gujarat/"
+  },
+  {
     "date": "2026-10-23",
     "sector": "aerospace-defence",
     "type": "IPO",
@@ -20,6 +42,28 @@
     "status": "Listed",
     "note": "Listed at ₹159.25 on NSE, 5.46% above the ₹151 issue price; issue subscribed 3.06x.",
     "url": "https://www.freepressjournal.in/business/zetwerk-shares-list-at-55-premium-stock-makes-positive-market-debut-at-15925-on-nse"
+  },
+  {
+    "date": "2026-10-23",
+    "sector": "autos",
+    "type": "M&A",
+    "target": "Lava Cast (wholly owned subsidiary)",
+    "acquirer": "Setco Automotive",
+    "value": "Nil consideration",
+    "status": "Announced",
+    "note": "Revised merger scheme replaces one approved in March 2026; needs NCLT and exchange approvals.",
+    "url": "https://www.autocarpro.in/news/setco-automotive-board-approves-revised-plan-to-merge-subsidiary-lava-cast-135435"
+  },
+  {
+    "date": "2026-10-22",
+    "sector": "aerospace-defence",
+    "type": "Govt contract",
+    "target": "Lockheed Martin (F-35)",
+    "acquirer": "US Department of Defense",
+    "value": "Undisclosed",
+    "status": "Announced",
+    "note": "Tentative 10-year framework for at least 850 jets across 10 lots; subject to congressional authority.",
+    "url": "https://breakingdefense.com/2026/10/pentagon-lockheed-agree-to-decade-long-f-35-framework-deal-for-hundreds-of-jets/"
   },
   {
     "date": "2026-10-21",
