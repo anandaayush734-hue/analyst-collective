@@ -1,0 +1,177 @@
+{
+  "date": "2026-10-26",
+  "lead": {
+    "headline": "Welspun's ₹5,500 cr US pipe order lifts book to record; Tata Motors CV profitable as Iveco tender nears close",
+    "dek": "Welspun Corp won a ₹5,500 crore line-pipe order for a Permian gas pipeline feeding a hyperscaler data centre, taking its order book to a record $5.25 bn, while Bonfiglioli Transmissions listed flat at its ₹586 issue price despite 46x demand. Tata Motors' CV arm swung to a ₹1,254 crore Q2 profit and called its €14.40 Iveco offer best and final with 35% tendered, as input costs cut JK Tyre's margin by about 630 bp."
+  },
+  "keyNumbers": [
+    {
+      "label": "Welspun Corp order book",
+      "value": "$5.25 bn",
+      "note": "Record, after ₹5,500 cr US Permian pipe order"
+    },
+    {
+      "label": "Tata Motors CV Q2 profit",
+      "value": "₹1,254 cr",
+      "note": "vs ₹867 cr loss; revenue +36% to ₹25,338 cr"
+    },
+    {
+      "label": "Iveco tender acceptance",
+      "value": "35%",
+      "note": "vs 80% threshold; €14.40 called best and final"
+    },
+    {
+      "label": "Bonfiglioli IPO subscription",
+      "value": "46.06x",
+      "note": "QIB 120.78x; listed at par to ₹586 issue price"
+    },
+    {
+      "label": "JK Tyre Q2 EBITDA margin",
+      "value": "7.1%",
+      "note": "Down from 13.4%; PAT −73% to ₹60 cr"
+    },
+    {
+      "label": "PLI-ACC capacity operational",
+      "value": "6.4 GWh",
+      "note": "Of 50 GWh scheme; 28.6 GWh under construction (Mercom)"
+    }
+  ],
+  "ticker": [
+    {
+      "tag": "IND",
+      "text": "Welspun Corp's US arm wins ~₹5,500 cr coated-pipe order for Permian gas line; order book a record $5.25 bn"
+    },
+    {
+      "tag": "IND",
+      "text": "Bonfiglioli Transmissions lists at ₹586, flat to issue price, after ₹2,534 cr OFS drew 46x bids"
+    },
+    {
+      "tag": "AUTO",
+      "text": "Tata Motors CV Q2: profit ₹1,254 cr vs loss; volumes +42%, exports +177%; 540 bp commodity drag"
+    },
+    {
+      "tag": "AUTO",
+      "text": "Tata Motors says €14.40 Iveco offer is best and final; 35% tendered against 80% threshold"
+    },
+    {
+      "tag": "AUTO",
+      "text": "Steel Strips Wheels board approves ₹1,400 cr greenfield wheels plant in Chhatrapati Sambhajinagar"
+    },
+    {
+      "tag": "EV",
+      "text": "BYD seeks permits to double Brazil plant capacity to 600,000 vehicles a year"
+    },
+    {
+      "tag": "EV",
+      "text": "Tsuyo ties up with China's LvKON to make e-CV drive systems on a 24-acre India campus"
+    },
+    {
+      "tag": "A&D",
+      "text": "Apollo Micro Systems Q2 revenue +77% to ₹388 cr, PAT +114% to ₹46 cr; order book ₹1,765 cr"
+    },
+    {
+      "tag": "A&D",
+      "text": "Army Northern Command tenders 90 counter-UAS systems and 4 swarm drone sets, est. ₹16.92 cr"
+    },
+    {
+      "tag": "REG",
+      "text": "MoRTH to require rear-impact fuel and battery safety for new cars from April 2029"
+    }
+  ],
+  "sectors": {
+    "ev": [
+      {
+        "headline": "India's PLI-ACC cell programme has only 6.4 GWh operational out of 50 GWh, Mercom data show",
+        "summary": "Mercom India's energy storage manufacturing report, with data to 30 September 2026, puts India's downstream battery capacity (packs, containers and integrated systems) at 86 GWh, while cells make up just 8% of operational capacity. The identified cell pipeline totals 110 GWh, but only 21.6% of all tracked capacity is operational. Under the ₹18,100 crore PLI-ACC scheme for 50 GWh, 6.4 GWh of supported capacity is operational and 28.6 GWh is under construction; Gujarat hosts 51% of capacity under construction.",
+        "whyItMatters": "The gap between pack assembly and cell output keeps Indian EV and storage makers reliant on imported cells, and shapes the project-finance and strategic-partner needs of cell gigafactory developers.",
+        "source": "pv magazine India",
+        "url": "http://www.pv-magazine-india.com/2026/10/23/indias-downstream-battery-storage-manufacturing-capacity-reaches-86-gwh-mercom/"
+      },
+      {
+        "headline": "Tsuyo partners China's LvKON to make electric CV drive systems in India",
+        "summary": "Tsuyo Manufacturing has formed a technical partnership with Suzhou LvKON Transmission to produce electric drive systems for trucks, buses and off-road vehicles in India, building on a five-year working relationship. Tsuyo plans a 24-acre greenfield campus covering powertrain engineering, assembly and testing. The investment, capacity and start date were not disclosed.",
+        "whyItMatters": "Chinese technology tie-ups are becoming the fastest route to localising e-CV powertrains, which raises both licensing and JV opportunities and Press Note 3 scrutiny for any equity element.",
+        "source": "Autocar Professional",
+        "url": "https://www.autocarpro.in/news/tsuyo-partners-with-chinas-lvkon-to-produce-electric-cv-powertrains-in-india-135425"
+      },
+      {
+        "headline": "BYD seeks to double its Brazil plant to 600,000 vehicles a year",
+        "summary": "BYD is seeking permits to double annual capacity at its Camaçari plant in Bahia to 600,000 vehicles, with output due to reach 25,000 a month by end-2026 against demand of about 30,000. Spending has already exceeded the planned 5.5 bn reais ($1.09 bn), and BYD aims to source over 50% of components locally to qualify as a local producer. It registered 22,209 vehicles in Brazil in September, an 8.5% share.",
+        "whyItMatters": "BYD's build-local playbook in tariff-protected markets is a template for how Chinese OEMs could approach India if investment rules ease, with implications for incumbents' market share and supplier localisation.",
+        "source": "Reuters via MarketScreener",
+        "url": "https://marketscreener.com/news/china-s-byd-plans-to-double-capacity-at-brazilian-plant-ce785cdfd98cf124"
+      }
+    ],
+    "autos": [
+      {
+        "headline": "Tata Motors CV swings to ₹1,254 crore Q2 profit; calls €14.40 Iveco offer best and final",
+        "summary": "Tata Motors' CV business reported Q2 FY27 consolidated revenue of ₹25,338 crore, up 36% YoY, and net profit of ₹1,254 crore against a ₹867 crore loss a year ago, on wholesales of 135,100 units (up 42%; exports up 177%). Consolidated EBITDA margin was 10.9%, with commodity inflation cutting about 540 bp. Management said its €14.40-a-share Iveco offer is best and final; tenders stood at 35% against an 80% acceptance threshold, with settlement scheduled for 30 October and consolidation from Q3 FY27.",
+        "whyItMatters": "Whether the Iveco tender clears 80% decides whether Tata Motors CV can move to a squeeze-out and full ownership, and sets its acquisition financing and post-deal leverage against ₹15,900 crore of consolidated net cash.",
+        "source": "Autocar Professional",
+        "url": "https://www.autocarpro.in/news/tata-motors-cv-q2-consolidated-net-profit-rises-to-rs-1254-crore-135419"
+      },
+      {
+        "headline": "JK Tyre Q2 profit falls 73% as raw materials rise; plans further 4–5% price increase",
+        "summary": "JK Tyre & Industries reported Q2 FY27 consolidated revenue of ₹4,840.7 crore, up 20.7% YoY, but profit fell 73% to ₹60 crore and EBITDA margin narrowed to 7.1% from 13.4%. The raw material basket rose about 9% QoQ and about 30% over six months, despite cumulative price increases of 11–12% in H1. The company plans a further 4–5% increase in Q3; domestic sales rose 32%, with OEM volumes up 65%.",
+        "whyItMatters": "Commodity-driven margin compression across tyre and component makers is a key input for Q2 earnings revisions and for valuation multiples in auto-ancillary transactions.",
+        "source": "Autocar Professional",
+        "url": "https://www.autocarpro.in/news/jk-tyre-plans-further-4-5-percent-price-hike-in-q3-as-raw-material-freight-cost-pressures-persist-135427"
+      },
+      {
+        "headline": "Steel Strips Wheels approves ₹1,400 crore greenfield plant in Maharashtra",
+        "summary": "Steel Strips Wheels' board approved a ₹1,400 crore greenfield plant in Chhatrapati Sambhajinagar, to be built over 60 months and funded by debt and internal accruals. Planned capacity is 1.3 million alloy wheels and 2.5 million steel wheels a year, plus a hot-stamping line of 1.6 million strokes for PV structural parts. The site is close to OEMs including Skoda Auto Volkswagen India, Audi India and Bajaj Auto.",
+        "whyItMatters": "A large debt-part-funded supplier capex programme signals confidence in PV volume growth and may create debt-financing needs over the build period.",
+        "source": "Autocar Professional",
+        "url": "https://www.autocarpro.in/news/steel-strips-wheels-approves-rs-1400-crore-plant-in-chhatrapati-sambhajinagar-135421"
+      }
+    ],
+    "industrials": [
+      {
+        "headline": "Welspun Corp wins ~₹5,500 crore US pipe order, taking its order book to a record $5.25 bn",
+        "summary": "Welspun Corp's US subsidiary Welspun Tubular won an order worth about ₹5,500 crore from a major US midstream company for coated line pipes for a Permian natural gas pipeline, with an unnamed hyperscaler's data centre complex as anchor customer. The order will be executed from its US facility in FY29. It takes the global order book to a record $5.25 bn (about ₹50,000 crore), after a $1.8 bn order in August and a $412.5 mn order in September.",
+        "whyItMatters": "Data-centre-driven US gas infrastructure is becoming a sizeable export market for Indian pipe and engineering firms with US plants, which supports backlog-based valuations and onshore expansion capex.",
+        "source": "Business Standard",
+        "url": "https://www.business-standard.com/companies/news/welspun-corp-5500-crore-us-pipeline-order-record-order-book-126102300243_1.html"
+      },
+      {
+        "headline": "Bonfiglioli Transmissions lists flat at ₹586 despite 46x subscription",
+        "summary": "Bonfiglioli Transmissions, a maker of gearboxes, gearmotors and drive systems owned by Italy's Bonfiglioli, listed at ₹586 on BSE and NSE, in line with its issue price. The ₹2,534 crore IPO was entirely an offer for sale and was subscribed 46.06 times, with QIBs at 120.78x and retail at 5.91x. Pre-listing grey-market indications had pointed to about an 11% premium.",
+        "whyItMatters": "A flat debut despite heavy institutional demand shows that pricing is getting tighter for MNC-subsidiary capital goods listings, which is relevant for pipeline issuers and parent-company OFS plans.",
+        "source": "Business Standard",
+        "url": "https://www.business-standard.com/markets/news/bonfiglioli-transmissions-shares-list-at-par-to-ipo-price-despite-46x-bids-126102300255_1.html"
+      }
+    ],
+    "aerospace-defence": [
+      {
+        "headline": "Apollo Micro Systems Q2 revenue up 77% to ₹388 crore; order book at ₹1,765 crore",
+        "summary": "Defence electronics maker Apollo Micro Systems reported Q2 FY27 consolidated revenue of ₹388 crore, up 77% YoY and 55% QoQ, and profit of ₹46 crore, up 114%. EBITDA excluding other income rose 88% to ₹111 crore, and standalone EBITDA margin was 35%. H1 revenue rose 78% to ₹639 crore, and the order book stands at ₹1,765 crore.",
+        "whyItMatters": "Fast growth at smaller private defence electronics firms supports their capacity to raise growth capital and makes them potential targets for larger platform players.",
+        "source": "Multibagg",
+        "url": "https://www.multibagg.ai/market-pulse/articles/apollo-q2-fy27-d2478c55-0aa4-46f7-bc90-6d13cb6565c1"
+      },
+      {
+        "headline": "Indian 155mm ammunition makers gain ground in Europe on cost",
+        "summary": "Industry commentators cite some Indian 155mm shells at $300–400 against about $3,000 for some European rounds, though the comparison depends on configuration. Balu Forge Industries signed a five-year contract in February with a NATO-linked buyer for 155mm M107 and extended-range shells, at about $315 per shell in ready-to-fill form. India's defence exports were estimated at ₹38,424 crore in FY26, up 62.66%, with the private sector at 45.16%.",
+        "whyItMatters": "European demand for artillery shells is opening an export market for Indian forgers and ammunition makers, which could drive capacity capex and funding needs in the segment.",
+        "source": "IDRW",
+        "url": "https://idrw.org/indias-155mm-ammunition-gains-ground-in-european-market-due-to-cost-advantage/"
+      }
+    ]
+  },
+  "regulatory": [
+    {
+      "headline": "MoRTH mandates rear-impact fuel and battery safety for new cars from April 2029",
+      "summary": "New cars made in India from April 2029 must pass a rear-impact test with no fuel spillage in petrol and diesel models and no battery damage in EVs; the requirement appears to correspond to AIS-101 (Rev.1). Separately, offset frontal and side-impact, pedestrian protection and immobiliser standards become mandatory from April 2027, and event data recorders under AIS-192 from October 2029.",
+      "whyItMatters": "EV platforms with rear-mounted battery packs may need redesign, which adds to engineering and capex budgets and favours suppliers of structural and battery-protection systems.",
+      "source": "Autocar Professional",
+      "url": "https://www.autocarpro.in/news/india-makes-rear-crash-fuel-and-battery-safety-mandatory-for-new-cars-from-2029-135432"
+    },
+    {
+      "headline": "MoRTH proposes mandatory autonomous emergency braking for new car models from October 2030",
+      "summary": "MoRTH has proposed making AEBS mandatory for all new car models from 1 October 2030, and for models already in production from 1 October 2032. Electronic stability control would be required on medium and heavy-duty vehicles from 1 October 2027.",
+      "whyItMatters": "ADAS mandates raise electronic content per vehicle, which benefits radar, camera and braking suppliers and adds a demand driver for component technology tie-ups and M&A.",
+      "source": "Business Standard",
+      "url": "https://www.business-standard.com/industry/auto/what-is-aebs-the-auto-braking-system-govt-wants-in-all-new-cars-from-2030-126102300739_1.html"
+    }
+  ]
+}
