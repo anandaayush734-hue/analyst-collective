@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-10-26",
+    "sector": "industrials",
+    "type": "Govt contract",
+    "target": "Jyoti Structures",
+    "acquirer": "Power Grid Corporation of India",
+    "value": "₹949.35 cr",
+    "status": "Announced",
+    "note": "Two ±800 kV HVDC line packages for the Barmer-II–South Kalamb project, with 38-month completion.",
+    "url": "https://powerpeakdigest.com/jyoti-structures-power-grid-hvdc-rajasthan/"
+  },
+  {
+    "date": "2026-10-26",
+    "sector": "aerospace-defence",
+    "type": "Govt contract",
+    "target": "Indian defence industry (AoN)",
+    "acquirer": "Ministry of Defence (DAC)",
+    "value": "~₹2.12 lakh cr",
+    "status": "Announced",
+    "note": "Acceptance of Necessity for Army, Navy and IAF procurement, with ~82% to be sourced domestically; contracts to follow.",
+    "url": "https://www.defencestar.in/defence-news/dac-approves-usd-22-32-billion-rs-2-12-lakh-crore-defence-procurement-indian-military/13184/"
+  },
+  {
     "date": "2026-10-24",
     "sector": "industrials",
     "type": "Govt contract",

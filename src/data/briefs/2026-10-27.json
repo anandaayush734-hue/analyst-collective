@@ -1,0 +1,177 @@
+{
+  "date": "2026-10-27",
+  "lead": {
+    "headline": "DAC clears ₹2.12 lakh cr of defence buys; Ather turns profitable as Bajel lands record ₹1,500 cr order",
+    "dek": "The Defence Acquisition Council granted initial approval to about ₹2.12 lakh crore of procurement, with roughly 82% earmarked for Indian industry, while Ather Energy posted its first quarterly net profit on 63% revenue growth. In power T&D, Bajel Projects won its largest-ever ₹1,500 crore 765 kV line package and Jyoti Structures secured ₹949 crore of PGCIL HVDC work, as the rupee slipped to 95.22 per dollar."
+  },
+  "keyNumbers": [
+    {
+      "label": "DAC AoN approvals",
+      "value": "₹2.12 lakh cr",
+      "note": "~82% to be sourced from Indian industry"
+    },
+    {
+      "label": "Ather Q2 net profit",
+      "value": "₹1.26 cr",
+      "note": "vs ₹154 cr loss; revenue +63% to ₹1,464 cr"
+    },
+    {
+      "label": "Bajel Lakadia order",
+      "value": "₹1,500 cr",
+      "note": "Largest ever; ~270 km of 765 kV lines in Gujarat"
+    },
+    {
+      "label": "Sona BLW net order book",
+      "value": "₹25,100 cr",
+      "note": "BEV now 51% of auto revenue; Q2 revenue +35%"
+    },
+    {
+      "label": "Aequs aerospace order book",
+      "value": "$1,096 mn",
+      "note": "Q2 revenue +45%; net loss ₹52 cr"
+    },
+    {
+      "label": "Rupee vs US dollar",
+      "value": "95.22",
+      "note": "Third straight fall; Brent near $115"
+    }
+  ],
+  "ticker": [
+    {
+      "tag": "A&D",
+      "text": "DAC grants AoN for ~₹2.12 lakh cr of procurement incl. SP tracked guns, VSHORADS, helicopters and drones"
+    },
+    {
+      "tag": "EV",
+      "text": "Ather Energy posts first net profit of ₹1.26 cr in Q2; volumes up 42% to 93,211 units"
+    },
+    {
+      "tag": "IND",
+      "text": "Bajel Projects wins ₹1,500 cr Lakadia 765 kV transmission package, its biggest order to date"
+    },
+    {
+      "tag": "IND",
+      "text": "Jyoti Structures gets ₹949 cr of PGCIL ±800 kV HVDC line packages in Rajasthan"
+    },
+    {
+      "tag": "IND",
+      "text": "TARIL to invest ₹1,250 cr in three Gujarat plants for bushings, insulation and CTC"
+    },
+    {
+      "tag": "AUTO",
+      "text": "Sona BLW Q2 revenue up 35% to ₹1,547 cr; PAT ₹223 cr; BEV share of auto revenue hits 51%"
+    },
+    {
+      "tag": "AUTO",
+      "text": "Audi plans $4 bn Georgia plant, its first in the US, with ~200,000 units of annual capacity"
+    },
+    {
+      "tag": "EV",
+      "text": "JBM Auto delivers a record 578 e-buses in Q2; EV division revenue up 22% to ₹548 cr"
+    },
+    {
+      "tag": "A&D",
+      "text": "Aequs Q2 aerospace revenue up 44% to ₹351 cr; EBITDA margin compresses to 6%"
+    },
+    {
+      "tag": "MACRO",
+      "text": "Rupee falls 29 paise to 95.22/$ on elevated crude and FII outflows"
+    }
+  ],
+  "sectors": {
+    "ev": [
+      {
+        "headline": "Ather Energy posts its first quarterly net profit as Q2 revenue rises 63% to ₹1,464 crore",
+        "summary": "Ather Energy reported a consolidated Q2 FY27 profit of ₹1.26 crore, against a ₹154.07 crore loss a year earlier and a ₹51.09 crore loss in Q1. Revenue grew 62.9% YoY to ₹1,464.24 crore on volumes of 93,211 units (+42%), and EBITDA of ₹74.2 crore marked a second straight positive quarter. The board approved about ₹122 crore of capex, including ₹53 crore for a new battery line, with combined Hosur and AURIC capacity set to reach about 11.4 lakh units a year by Q2 FY28. The shares rose as much as 18.8% intraday.",
+        "whyItMatters": "A listed pure-play e-2W reaching net profitability gives the market a new reference point for valuing the segment, and it bears on how smaller EV players are priced in any fundraise or consolidation.",
+        "source": "Business Today",
+        "url": "https://businesstoday.in/markets/stocks/story/ather-energy-shares-zoom-15-as-q2-fy27-profit-turns-positive-rs-122-crore-capex-planned-563666-2026-10-26"
+      },
+      {
+        "headline": "JBM Auto delivers a record 578 e-buses in Q2; EV division revenue rises 22% to ₹548 crore",
+        "summary": "JBM Auto's Q2 FY27 consolidated revenue rose 21.1% YoY to ₹1,656.37 crore and net profit grew 12.5% to ₹58.76 crore. EBITDA rose only 3.4% to ₹201.35 crore, which points to lower margins. The EV division's revenue grew 21.8% to ₹548.33 crore on 578 e-bus deliveries, its highest in a single quarter. The company says it held about 24% of the Indian e-bus market in H1 and that its active fleet now exceeds 4,000 buses.",
+        "whyItMatters": "Margins are lagging volumes as e-bus deliveries scale, a key point for gross-cost-contract operators that need capital and for lenders weighing PM e-Bus Sewa-linked financing.",
+        "source": "EquityBulls",
+        "url": "https://www.equitybulls.com/news/377739/jbm-auto-limited-posts-strong-performance-in-q2-fy27-with-net-profit-surging-12"
+      },
+      {
+        "headline": "BYD's luxury brand Denza to launch in India on 13 November with two electric models",
+        "summary": "BYD has confirmed it will introduce Denza in India on 13 November, starting with the Z9 GT electric shooting brake and the D9 electric MPV, both placed above its current range. Autocar estimates the Z9 GT at ₹1.2–1.5 crore ex-showroom, with a 122.5 kWh battery and up to 1,500 kW charging, and the D9 at about ₹90 lakh. The article does not say whether the cars will be imported or assembled locally.",
+        "whyItMatters": "A Chinese OEM adding a premium EV brand tests India's import-duty and approval regime for Chinese capital, and adds competition for the European luxury makers' EV plans.",
+        "source": "Autocar Professional",
+        "url": "https://www.autocarpro.in/news/byds-luxury-brand-denza-to-debut-in-india-on-november-13-135455"
+      }
+    ],
+    "autos": [
+      {
+        "headline": "Sona BLW Q2 revenue up 35% to ₹1,547 crore; BEV share of auto revenue reaches a record 51%",
+        "summary": "Sona BLW Precision Forgings reported Q2 FY27 revenue of ₹1,547 crore (+35% YoY), EBITDA of ₹356 crore (+23%, a 23.0% margin) and PAT of ₹223 crore (+29%). Revenue from battery-electric programmes grew 129% YoY and made up 51% of automotive revenue. The company won about ₹3,600 crore of new business, leaving a net order book of ₹25,100 crore, of which EV and robotics programmes account for 65%.",
+        "whyItMatters": "EBITDA grew more slowly than revenue, so margins narrowed as the mix shifted, which matters for how the market values EV-driveline suppliers. The order book gives multi-year visibility for any further capital raising or acquisitions.",
+        "source": "EquityBulls",
+        "url": "https://www.equitybulls.com/news/377751/sona-blw-precision-forgings-ltd-announces-q2-fy27-results"
+      },
+      {
+        "headline": "Audi to build its first US plant, a $4 billion SUV factory in Georgia",
+        "summary": "Audi announced a $4 billion production site in Georgia, its first factory in the US. The plant is planned to build SUVs, with capacity of about 200,000 vehicles a year at full output and around 4,500 jobs. Groundbreaking is planned for next year, with completion in the early 2030s.",
+        "whyItMatters": "Another European OEM localising in the US shows tariff-driven reshoring is shifting where supplier capex goes, which Indian component exporters to the US will need to account for.",
+        "source": "The Drive",
+        "url": "https://www.thedrive.com/news/audi-announced-a-4-billion-georgia-mega-site-for-suvs-at-a-trump-rally-tds"
+      }
+    ],
+    "industrials": [
+      {
+        "headline": "Bajel Projects wins ₹1,500 crore Lakadia 765 kV transmission package, its largest order",
+        "summary": "Bajel Projects received letters of award worth a combined ₹1,500 crore from Lakadia A Power Transmission, an SPV now held by AnantGrid Projects One, in which Bajel owns 26% and NIIF 74%. The scope covers about 270 km of 765 kV double-circuit lines from Halvad to Vadodara plus substation works, part of a system to evacuate about 14 GW of renewable power in Gujarat. Separately, Bajel won a roughly ₹200 crore Tata Power order for 400 kV GIS substations at Dharavi and Ghatkopar in Mumbai, to be executed over 18 months.",
+        "whyItMatters": "This is a co-investment model in TBCB transmission: Bajel takes a minority stake in the SPV alongside NIIF, then wins the EPC work, which other mid-cap EPC firms could copy. The SPV structure is a natural asset for later monetisation through an InvIT.",
+        "source": "EquityBulls",
+        "url": "https://www.equitybulls.com/news/377765/bajel-projects-secures-its-highest-ever-transmission-order-worth-1-500-crore-for"
+      },
+      {
+        "headline": "Jyoti Structures wins ₹949 crore of PGCIL ±800 kV HVDC line packages in Rajasthan",
+        "summary": "Jyoti Structures received two notifications of award from Power Grid for the ±800 kV HVDC Bipole Barmer-II–South Kalamb transmission project, worth ₹474.85 crore and ₹474.50 crore (₹949.35 crore in total, excluding GST). The work is on a turnkey basis with a 38-month completion period. The company recently also won a ₹689.93 crore 765 kV line from GETCO.",
+        "whyItMatters": "Mid-tier tower EPC firms are winning HVDC packages, a sign that the renewable-evacuation pipeline is broadening. This supports order books but makes balance-sheet capacity and working capital the main constraint.",
+        "source": "Power Peak Digest",
+        "url": "https://powerpeakdigest.com/jyoti-structures-power-grid-hvdc-rajasthan/"
+      },
+      {
+        "headline": "TARIL to invest ₹1,250 crore in three Gujarat plants for transformer bushings and insulation",
+        "summary": "Transformers and Rectifiers (India) plans to invest ₹1,250 crore in three greenfield plants at its Chiyada complex in Gujarat. The plants will make bushings up to 800 kV, pressboard and insulation materials, and continuously transposed conductors. They will sit in a wholly owned subsidiary, target about ₹2,000 crore of annual revenue potential, and are expected to start commercial operations in Q1 FY28. TARIL's Q2 FY27 standalone revenue rose 66% YoY to ₹709 crore, at a 16.1% EBITDA margin.",
+        "whyItMatters": "Transformer makers are backward-integrating into bottleneck components that are now largely imported, which lifts capex intensity across the T&D supply chain and could create targets for consolidation.",
+        "source": "Power Peak Digest",
+        "url": "https://powerpeakdigest.com/taril-invests-1250-crore-gujarat-plants/"
+      }
+    ],
+    "aerospace-defence": [
+      {
+        "headline": "DAC grants AoN for about ₹2.12 lakh crore of procurement, with 82% from Indian industry",
+        "summary": "The Defence Acquisition Council, chaired by Defence Minister Rajnath Singh, granted Acceptance of Necessity on 26 October for proposals worth about ₹2.12 lakh crore. Roughly 82% is to be sourced from Indian industry. Army items include high-mobility vehicles, a self-propelled tracked gun system, VSHORADS, counter-drone systems, surveillance UAVs and long-range kamikaze drones. The Navy gets an active offboard decoy system and indigenous platforms, and the IAF special utility helicopters, air-defence systems and weather radars. AoN is the first step in procurement; contracts follow after supplier selection and negotiation.",
+        "whyItMatters": "A large domestic-heavy AoN tranche builds the medium-term order pipeline for defence PSUs and private suppliers of artillery, drones and air defence. That supports capacity-building capex and fundraising across the defence supply chain.",
+        "source": "Defence Star",
+        "url": "https://www.defencestar.in/defence-news/dac-approves-usd-22-32-billion-rs-2-12-lakh-crore-defence-procurement-indian-military/13184/"
+      },
+      {
+        "headline": "Aequs Q2 revenue rises 45% on aerospace; net loss widens to ₹52 crore as margins compress",
+        "summary": "Aequs reported Q2 FY27 revenue of ₹409.1 crore, up 45% YoY, with aerospace revenue up 44% to ₹351.4 crore. EBITDA fell 45% to ₹24.5 crore and the margin dropped to 6% from 16%, mainly because the consumer segment's EBITDA loss widened to ₹40.1 crore. The net loss was ₹52.2 crore, against ₹20.6 crore a year earlier. Management put the aerospace order book at $1,096 million, said consumer volumes ramped up more slowly than expected, and noted new Safran agreements, including a 15-year-plus A320 wheels contract.",
+        "whyItMatters": "Aerospace demand is strong, but the loss-making consumer business is pulling down group profitability for the recently listed company, which matters for valuation and for its funding needs.",
+        "source": "EquityBulls",
+        "url": "https://www.equitybulls.com/news/377743/aequs-limited-reports-financial-results-for-q2-and-h1-fy27-with-revenue-rising-4"
+      }
+    ]
+  },
+  "regulatory": [
+    {
+      "headline": "NITI Aayog framework asks states to check grid readiness before approving data centres",
+      "summary": "NITI Aayog's Frontier Tech Hub has released a Data Centre Evaluation Framework for states. It asks states to treat large data centres as grid-interactive loads and to validate power plans with DISCOMs and transmission utilities at site selection. Facilities above 20 MW would need automated demand-response and SLDC telemetry integration. The framework also encourages renewable-plus-storage supply and asks the Ministry of Power and CERC to publish model green-tariff and open-access principles.",
+      "whyItMatters": "Requiring grid readiness before approval brings forward substation, transmission and BESS demand around data-centre clusters, which helps T&D EPC firms and equipment makers.",
+      "source": "Power Peak Digest",
+      "url": "https://powerpeakdigest.com/niti-aayog-data-centre-power-grid-readiness/"
+    },
+    {
+      "headline": "Rupee falls for a third session to 95.22 per dollar as crude stays near $115",
+      "summary": "The rupee closed provisionally at 95.22 to the dollar on 26 October, down 29 paise on the day and 84 paise over three sessions. Dealers pointed to elevated crude, with Brent around $115 a barrel, a firmer dollar and foreign portfolio outflows. India's FX reserves fell $5.0 billion to $721.0 billion in the week to 16 October.",
+      "whyItMatters": "A weaker rupee raises the cost of imported components and cells for autos and EVs while helping exporters such as pipe, forging and aero-component makers. It also raises the rupee cost of foreign-currency borrowing.",
+      "source": "HDFC Sky (PTI)",
+      "url": "https://hdfcsky.com/news/rupee-falls-29-paise-to-close-at-95-22-against-us-dollar"
+    }
+  ]
+}
