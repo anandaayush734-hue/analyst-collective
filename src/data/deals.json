@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-10-27",
+    "sector": "industrials",
+    "type": "Govt contract",
+    "target": "Wabtec Corporation",
+    "acquirer": "Indian Railways (ICF Chennai)",
+    "value": "₹839 cr",
+    "status": "Signed",
+    "note": "Brakes, doors and gangways plus integration and support for 24-coach Vande Bharat Sleeper trains.",
+    "url": "https://theprint.in/india/railways-asks-us-based-wabtec-to-supply-critical-onboard-systems-for-24-coach-vande-bharat-sleeper/3083159/"
+  },
+  {
     "date": "2026-10-26",
     "sector": "industrials",
     "type": "Govt contract",

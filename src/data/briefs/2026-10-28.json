@@ -1,0 +1,177 @@
+{
+  "date": "2026-10-28",
+  "lead": {
+    "headline": "L&T books record ₹1.48 lakh cr of orders; Maruti profit falls 27% on costs as Bajaj rides exports",
+    "dek": "L&T posted a record Q2 order inflow, up 28%, and a 33% rise in profit, while Maruti Suzuki's net profit fell 27% despite record volumes as material costs climbed. Bajaj Auto's standalone profit grew 35% on 41% export growth and a tripling of EV volumes, and Mazagon Dock's profit halved after ₹413 crore of provisions."
+  },
+  "keyNumbers": [
+    {
+      "label": "L&T Q2 order inflow",
+      "value": "₹1.48 lakh cr",
+      "note": "+28% YoY; 63% international; order book ₹8.54 lakh cr"
+    },
+    {
+      "label": "Maruti Q2 net profit",
+      "value": "₹2,415 cr",
+      "note": "-27% YoY; net sales +26% to ₹50,616 cr"
+    },
+    {
+      "label": "Bajaj Auto exports",
+      "value": "7.79 lakh units",
+      "note": "Q2, +41% YoY; standalone PAT +35%"
+    },
+    {
+      "label": "Mazagon Dock provisions",
+      "value": "₹413 cr",
+      "note": "Q2 PAT down ~52% YoY; stock fell ~9–10%"
+    },
+    {
+      "label": "Boeing total backlog",
+      "value": "$745 bn",
+      "note": "Record; Q3 net loss narrows to $116 mn"
+    },
+    {
+      "label": "Mahindra EV output",
+      "value": "8,000/month",
+      "note": "At capacity; new capacity from Q4 FY27"
+    }
+  ],
+  "ticker": [
+    {
+      "tag": "IND",
+      "text": "L&T Q2 revenue +16% to ₹78,750 cr, PAT +33% to ₹5,202 cr; record order inflow of ₹1.48 lakh cr"
+    },
+    {
+      "tag": "AUTO",
+      "text": "Maruti Suzuki Q2 net profit falls 27% to ₹2,415 cr; material costs rise to 79.9% of sales"
+    },
+    {
+      "tag": "AUTO",
+      "text": "Bajaj Auto standalone Q2 PAT +35% to ₹3,354 cr; exports up 41%, EV volumes near 2 lakh"
+    },
+    {
+      "tag": "A&D",
+      "text": "Mazagon Dock Q2 profit roughly halves after ₹413 cr provisions; revenue down 24% YoY"
+    },
+    {
+      "tag": "A&D",
+      "text": "Boeing Q3 revenue +4% to $24.2 bn; backlog hits record $745 bn; 737-10 certified"
+    },
+    {
+      "tag": "EV",
+      "text": "Tata Motors and Amazon to deploy 3,000 electric trucks in India within three years"
+    },
+    {
+      "tag": "EV",
+      "text": "Mahindra's EV output hits 8,000-unit monthly ceiling; extra capacity due from Q4 FY27"
+    },
+    {
+      "tag": "IND",
+      "text": "Wabtec wins ₹839 cr of agreements for Vande Bharat Sleeper brakes, doors and gangways"
+    },
+    {
+      "tag": "AUTO",
+      "text": "Schaeffler AG may monetise a small part of its 74.13% stake in Schaeffler India, keeping at least two-thirds"
+    },
+    {
+      "tag": "REG",
+      "text": "Honda calls looming 1 January US tariff increase on Canadian autos 'catastrophic'"
+    }
+  ],
+  "sectors": {
+    "ev": [
+      {
+        "headline": "Tata Motors and Amazon to deploy 3,000 electric trucks across Amazon's India network",
+        "summary": "Tata Motors and Amazon announced a partnership to put 3,000 light- and medium-duty electric trucks, including the Tata Ultra E.7, into Amazon's Indian logistics network, with an Amazon executive saying all will be deployed within three years. The first trucks started running in Delhi during the festive season, and later phases target the roughly 2,800 km Delhi–Bengaluru–Chennai corridor on NH48. Amazon's carrier partners will own and operate the vehicles, Tata Motors will also provide charging, servicing and operational support, and charging is being set up with Yahhvi. Financial terms were not disclosed.",
+        "whyItMatters": "Because carrier partners own the trucks, the model needs fleet financing and charging capex as well as vehicles. That opens a lending and infrastructure angle as e-trucks scale beyond pilots.",
+        "source": "Autocar Professional",
+        "url": "https://www.autocarpro.in/news/tata-motors-amazon-partner-to-deploy-3000-electric-trucks-135493"
+      },
+      {
+        "headline": "Mahindra's EV output hits its 8,000-unit monthly ceiling as demand outruns supply",
+        "summary": "Mahindra Electric's MD said the company has reached its structural capacity of 8,000 EVs a month, with demand rising in Tier 3 and 4 towns. New capacity takes six to 12 months depending on the slowest component, and aluminium supply has been disrupted by the West Asia conflict. Additional capacity is due from Q4 FY27. He also estimated that Chinese rivals have about a 30% cost advantage from vertical integration, and pointed to exports as one way to offset the tapering of PLI incentives.",
+        "whyItMatters": "Supply, not demand, is now the binding constraint for a leading electric-SUV maker, which points to more capex and supplier capacity-building in aluminium, steel and copper parts and to stronger component-supplier order books.",
+        "source": "Autocar Professional",
+        "url": "https://www.autocarpro.in/news/mahindras-ev-output-hits-capacity-ceiling-as-demand-outruns-supply-mahindra-electric-md-135498"
+      },
+      {
+        "headline": "Hyundai India CEO flags PLI uncertainty and delayed cell localisation for its next EV",
+        "summary": "Hyundai Motor India CEO Tarun Garg said its upcoming compact electric SUV will first use Svolt cells from China before switching to locally made Exide cells, because cell localisation has taken longer than planned; battery packs are already localised. He questioned how EV pricing would be affected if the PLI scheme ends in March 2028. FADA data cited in the article put EVs at 8.45% of passenger-vehicle retail in September 2026, against 5.74% a year earlier, with e-PV retail nearly doubling to 36,108 units.",
+        "whyItMatters": "Delays in domestic cell supply and the possible end of PLI support are the two main variables for EV pricing and margins, and they feed directly into how cell-manufacturing projects and OEM EV programmes are valued.",
+        "source": "Autocar Professional",
+        "url": "https://www.autocarpro.in/news/india-south-korea-can-offer-competitive-alternative-to-china-in-evs-hyundai-india-ceo-135491"
+      }
+    ],
+    "autos": [
+      {
+        "headline": "Maruti Suzuki Q2 net profit falls 27% to ₹2,415 crore despite record volumes",
+        "summary": "Maruti Suzuki's Q2 FY27 net sales rose 26.1% YoY to ₹50,615.5 crore on volumes of 6,96,654 units (+26.5%), with domestic sales up 33.6% and exports down 2.1%. Net profit fell 26.9% to ₹2,414.9 crore and EBITDA fell 6.3% to ₹4,763.3 crore. Material costs rose to 79.9% of net sales from 75.7%, which the company tied to commodity prices linked to the West Asia conflict, alongside adverse forex and mark-to-market losses on surplus investments.",
+        "whyItMatters": "Record volumes did not translate into profit, showing how sharply commodity costs are squeezing PV margins. Pricing power and supplier cost pass-through will drive sector earnings estimates and valuations.",
+        "source": "Kotak Neo",
+        "url": "https://www.kotakneo.com/news/stocks/maruti-suzuki-q2-results-show-profit-fall-despite-revenue-growth/"
+      },
+      {
+        "headline": "Bajaj Auto standalone Q2 profit rises 35% on 41% export growth and a surge in EVs",
+        "summary": "Bajaj Auto's Q2 FY27 standalone revenue rose 34% YoY to ₹20,003 crore and net profit grew 35% to ₹3,354 crore; consolidated profit was ₹3,436 crore (+62%). Total volumes rose 20% to about 15.49 lakh units, but domestic sales grew only about 4% while exports rose 41% to 7,78,528 units. EV volumes, Chetak scooters plus electric three-wheelers, were close to 2 lakh units against about 62,000 a year earlier, and Chetak's quarterly revenue exceeded ₹2,000 crore.",
+        "whyItMatters": "Exports and EVs are driving growth while the domestic business is broadly flat, so the earnings mix is shifting toward currency and overseas demand. That shapes how the business is valued relative to domestic-focused two-wheeler peers.",
+        "source": "Lapaas Voice",
+        "url": "https://lapaasvoice.com/bajaj-auto-q2-fy27-results-consolidated-net-profit-rises-62-to-%E2%82%B93436-crore-on-exports-and-ev-sales"
+      },
+      {
+        "headline": "Schaeffler AG may monetise a small part of its 74% stake in Schaeffler India",
+        "summary": "Schaeffler India told the exchanges that its German promoter group, which holds 74.13% of the company, may consider monetising a small part of that stake. The group said it intends to stay the controlling shareholder with at least two-thirds of the shares. No size, timing or method of sale was disclosed.",
+        "whyItMatters": "Staying above two-thirds leaves room for roughly 7 percentage points of divestment, which points to a possible block or OFS supply event in a large auto-component stock. It is the latest example of MNC parents partially monetising Indian listed subsidiaries at current valuations.",
+        "source": "Autocar Professional",
+        "url": "https://www.autocarpro.in/news/schaeffler-group-explores-partial-stake-sale-in-schaeffler-india-135492"
+      }
+    ],
+    "industrials": [
+      {
+        "headline": "L&T posts record ₹1.48 lakh crore Q2 order inflow; profit rises 33% to ₹5,202 crore",
+        "summary": "Larsen & Toubro's Q2 FY27 consolidated revenue rose 16% YoY to ₹78,750 crore, 58% of it international, and PAT grew 33% to ₹5,202 crore. Order inflow was a record ₹1,47,665 crore (+28%), with international orders making up 63%, and the order book reached ₹8,53,514 crore. Energy-Conventional inflow more than doubled to ₹78,413 crore, but segment EBITDA margins narrowed in Infrastructure (5.7% from 6.2%) and Energy-Conventional (7.4% from 8.2%). Net working capital fell to 1.7% of revenue.",
+        "whyItMatters": "The record intake, led by Energy-Conventional and international orders, extends multi-year visibility for the EPC supply chain. Narrower project margins and the high share of international work are the points to watch on valuation.",
+        "source": "Power Peak Digest",
+        "url": "https://powerpeakdigest.com/lt-q2-fy27-record-order-inflow-profit-growth/"
+      },
+      {
+        "headline": "Wabtec wins ₹839 crore of Indian Railways agreements for Vande Bharat Sleeper systems",
+        "summary": "Wabtec said it secured agreements worth ₹839 crore (about $94 million) to supply brake systems, doors and gangways for the 24-coach Vande Bharat Sleeper trains being built at ICF Chennai. The scope also covers integration, testing, commissioning and long-term reliability support. ICF aims to freeze the sleeper design by 10 November 2026 and expects the prototype by May–June 2027.",
+        "whyItMatters": "Large subsystem contracts are going to global suppliers, which shows where value accrues in rolling stock and highlights the localisation opportunity for domestic component makers.",
+        "source": "ThePrint (PTI)",
+        "url": "https://theprint.in/india/railways-asks-us-based-wabtec-to-supply-critical-onboard-systems-for-24-coach-vande-bharat-sleeper/3083159/"
+      },
+      {
+        "headline": "Waaree Energies Q2 revenue up 24% to ₹7,518 crore; order book at ₹59,200 crore",
+        "summary": "Waaree Energies reported Q2 FY27 revenue of ₹7,517.7 crore (+23.9% YoY), operating EBITDA of ₹1,335.2 crore (17.8% margin) and PAT of ₹753.6 crore. The order book stands at about ₹59,200 crore, including 25.6 GW of modules. Of a total announced capex of ₹31,852 crore, ₹11,525 crore had been deployed by 30 September, covering cells, BESS, inverters, transformers and electrolysers. The board also approved acquiring a related-party data-centre company for a nominal ₹1 lakh.",
+        "whyItMatters": "Large capex across cells, storage and transformers is turning solar manufacturers into diversified power-equipment groups, which has implications for funding needs and peer comparisons.",
+        "source": "Power Peak Digest",
+        "url": "https://powerpeakdigest.com/waaree-energies-h1-fy27-revenue-growth/"
+      }
+    ],
+    "aerospace-defence": [
+      {
+        "headline": "Mazagon Dock Q2 profit roughly halves after ₹413 crore of provisions; shares fall ~9%",
+        "summary": "Mazagon Dock Shipbuilders' standalone Q2 FY27 revenue fell 23.9% YoY to ₹2,228 crore, and net profit fell about 52% to ₹340 crore; consolidated profit attributable to owners was ₹344 crore, down 54%. Provisions of ₹413 crore, against ₹30 crore in Q1, pushed the derived EBITDA margin to about 8% from about 24%; the filing does not say what the provisions relate to. The board declared a ₹5 interim dividend, and the stock fell as much as 10% to a 52-week low of ₹1,687.50.",
+        "whyItMatters": "Unexplained provisions and falling revenue at a key naval shipbuilder put the focus on contract margin risk and timing of new orders, which affects how the defence PSU group is valued.",
+        "source": "Business Upturn",
+        "url": "https://businessupturn.com/finance/stock-market/mazagon-dock-share-price-crashes-9-to-rs1-704-and-hits-52-week-low-after-q2-profit-halves-and-misses-estimate-by-two-thirds/"
+      },
+      {
+        "headline": "Boeing Q3 loss narrows to $116 million; backlog hits record $745 billion as 737-10 is certified",
+        "summary": "Boeing's Q3 2026 revenue rose 4% to $24.2 billion and its net loss narrowed to $116 million from $5.3 billion a year earlier. It delivered 161 commercial aircraft, 124 of them 737s, and generated free cash flow of $0.5 billion after DOJ settlement payments. Total backlog reached a record $745 billion, including over 6,300 commercial aircraft. The 737-10 was certified in October, the 737-7 received an amended type certificate, and first 777-9 delivery is still expected in 2027. Defense, Space & Security revenue rose 15% to $7.9 billion.",
+        "whyItMatters": "Certification of the 737-7 and 737-10 and steady production at 47 a month support higher build rates, which feed demand for Indian aero-structure and component suppliers and Boeing's India sourcing.",
+        "source": "AeroTime",
+        "url": "https://www.aerotime.aero/articles/boeing-q3-2026-results-record-backlog-737-7-and-737-10-certified-loss-narrows"
+      }
+    ]
+  },
+  "regulatory": [
+    {
+      "headline": "Honda calls the 1 January US tariff increase on Canadian autos 'catastrophic'",
+      "summary": "A senior American Honda executive told a Reuters conference that a pending 1 January increase in US tariffs on Canadian steel and auto imports would be catastrophic for the industry, while expressing cautious optimism it will be avoided. Current Section 232 duties are up to 50% on Canadian steel and 25% on autos, and the US and Canada are negotiating relief. The US has reportedly sought 50% US-specific content in North American-built vehicles, and USTR Jamieson Greer said Mexican and Canadian-assembled vehicles would likely still face some tariffs.",
+      "whyItMatters": "Tighter US rules of origin and higher North American tariffs could shift where OEMs put new capacity and how they source parts, which affects Indian component exporters with US and Canadian exposure.",
+      "source": "Yahoo Finance (Reuters)",
+      "url": "https://ca.finance.yahoo.com/news/higher-tariffs-canadian-imports-catastrophic-165356486.html"
+    }
+  ]
+}
